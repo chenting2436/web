@@ -1,0 +1,10 @@
+{
+  "schema": "skyview-boundary",
+  "schemaVersion": 1,
+  "emptyString": "",
+  "emptyArray": [],
+  "emptyObject": {},
+  "unicode": "中文 é 🙂",
+  "largeIntegerAsString": "9007199254740993",
+  "nullable": null
+}

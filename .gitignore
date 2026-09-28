@@ -1,0 +1,45 @@
+# Local secrets and environment overrides
+.env
+.env.*
+!.env.example
+!*.env.example
+.env.backend
+
+# Logs, local databases, binaries and generated archives
+*.log
+*.db
+*.db-*
+*.exe
+*.zip
+*.tmp
+*.tsbuildinfo
+
+# Local runtime state
+backend_go/data/*.db*
+backend_go/data/*.json
+backend_go/bin/
+backend_go/.gocache/
+backend_go/.gcache/
+backend_go/.gomodcache/
+backend_go/.gotmp/
+backend_python/.venv/
+**/__pycache__/
+**/.pytest_cache/
+**/*.pyc
+
+# Frontend dependency and build state
+web_react/node_modules/
+web_react/.next/
+web_react/.vinext/
+web_react/.wrangler/
+web_react/dist/
+
+# Local delivery/runtime output and historical source mirrors
+deliverables/
+runtime/
+_forgejo-stage-*/
+_forgejo-sync-*/
+SkyViewLab-Internal-push-worktree/
+.references/
+.vendor-*/
+jiangfeng-lab-website/

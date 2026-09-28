@@ -1,0 +1,246 @@
+name: skyviewlab-foundation
+
+services:
+  postgres:
+    image: ${POSTGRES_IMAGE:?set POSTGRES_IMAGE to an approved immutable digest}
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:?set POSTGRES_USER}
+      POSTGRES_PASSWORD_FILE: /run/secrets/postgres_admin_password
+      POSTGRES_DB: postgres
+      SKYVIEW_DB_MIGRATOR_USER: ${SKYVIEW_DB_MIGRATOR_USER:?set SKYVIEW_DB_MIGRATOR_USER}
+      SKYVIEW_DB_MIGRATOR_PASSWORD_FILE: /run/secrets/skyview_db_migrator_password
+      SKYVIEW_DB_RUNTIME_USER: ${SKYVIEW_DB_RUNTIME_USER:?set SKYVIEW_DB_RUNTIME_USER}
+      SKYVIEW_DB_RUNTIME_PASSWORD_FILE: /run/secrets/skyview_db_runtime_password
+      KEYCLOAK_DB_USER: ${KEYCLOAK_DB_USER:?set KEYCLOAK_DB_USER}
+      KEYCLOAK_DB_PASSWORD: ${KEYCLOAK_DB_PASSWORD:?set KEYCLOAK_DB_PASSWORD}
+      OPENFGA_DB_USER: ${OPENFGA_DB_USER:?set OPENFGA_DB_USER}
+      OPENFGA_DB_PASSWORD: ${OPENFGA_DB_PASSWORD:?set OPENFGA_DB_PASSWORD}
+      TEMPORAL_DB_USER: ${TEMPORAL_DB_USER:?set TEMPORAL_DB_USER}
+      TEMPORAL_DB_PASSWORD: ${TEMPORAL_DB_PASSWORD:?set TEMPORAL_DB_PASSWORD}
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+      - ./postgres/init-databases.sh:/docker-entrypoint-initdb.d/10-databases.sh:ro
+      - ./postgres:/opt/skyview/postgres:ro
+    secrets:
+      - postgres_admin_password
+      - skyview_db_migrator_password
+      - skyview_db_runtime_password
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $$POSTGRES_USER -d postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 12
+      start_period: 20s
+    networks: [data]
+    security_opt: [no-new-privileges:true]
+    stop_grace_period: 60s
+
+  # Run once after the migrator has applied every checked migration:
+  # From infra/: docker compose --env-file .env -f compose.foundation.yml --profile release run --rm skyview-permission-lockdown
+  skyview-permission-lockdown:
+    image: ${POSTGRES_IMAGE:?set POSTGRES_IMAGE to an approved immutable digest}
+    profiles: [release]
+    restart: "no"
+    entrypoint: ["/bin/sh", "/opt/skyview/postgres/lockdown-skyview-runtime.sh"]
+    environment:
+      PGHOST: postgres
+      PGPORT: "5432"
+      SKYVIEW_DB_NAME: skyviewlab
+      SKYVIEW_DB_MIGRATOR_USER: ${SKYVIEW_DB_MIGRATOR_USER:?set SKYVIEW_DB_MIGRATOR_USER}
+      SKYVIEW_DB_MIGRATOR_PASSWORD_FILE: /run/secrets/skyview_db_migrator_password
+      SKYVIEW_DB_RUNTIME_USER: ${SKYVIEW_DB_RUNTIME_USER:?set SKYVIEW_DB_RUNTIME_USER}
+      KEYCLOAK_DB_USER: ${KEYCLOAK_DB_USER:?set KEYCLOAK_DB_USER}
+      OPENFGA_DB_USER: ${OPENFGA_DB_USER:?set OPENFGA_DB_USER}
+      TEMPORAL_DB_USER: ${TEMPORAL_DB_USER:?set TEMPORAL_DB_USER}
+    volumes:
+      - ./postgres:/opt/skyview/postgres:ro
+    secrets:
+      - skyview_db_migrator_password
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks: [data]
+    security_opt: [no-new-privileges:true]
+
+  # Run immediately after lockdown; the process exits non-zero on any excess
+  # role, database, schema, table, sequence, or function privilege.
+  skyview-permission-verify:
+    image: ${POSTGRES_IMAGE:?set POSTGRES_IMAGE to an approved immutable digest}
+    profiles: [release]
+    restart: "no"
+    entrypoint: ["/bin/sh", "/opt/skyview/postgres/verify-skyview-privileges.sh"]
+    environment:
+      PGHOST: postgres
+      PGPORT: "5432"
+      POSTGRES_USER: ${POSTGRES_USER:?set POSTGRES_USER}
+      SKYVIEW_DB_NAME: skyviewlab
+      SKYVIEW_DB_MIGRATOR_USER: ${SKYVIEW_DB_MIGRATOR_USER:?set SKYVIEW_DB_MIGRATOR_USER}
+      SKYVIEW_DB_RUNTIME_USER: ${SKYVIEW_DB_RUNTIME_USER:?set SKYVIEW_DB_RUNTIME_USER}
+      SKYVIEW_DB_RUNTIME_PASSWORD_FILE: /run/secrets/skyview_db_runtime_password
+      KEYCLOAK_DB_USER: ${KEYCLOAK_DB_USER:?set KEYCLOAK_DB_USER}
+      OPENFGA_DB_USER: ${OPENFGA_DB_USER:?set OPENFGA_DB_USER}
+      TEMPORAL_DB_USER: ${TEMPORAL_DB_USER:?set TEMPORAL_DB_USER}
+    volumes:
+      - ./postgres:/opt/skyview/postgres:ro
+    secrets:
+      - skyview_db_runtime_password
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks: [data]
+    security_opt: [no-new-privileges:true]
+
+  keycloak:
+    image: ${KEYCLOAK_IMAGE:?set KEYCLOAK_IMAGE to an approved immutable digest}
+    restart: unless-stopped
+    command: ["start", "--import-realm"]
+    environment:
+      KC_DB: postgres
+      KC_DB_URL_HOST: postgres
+      KC_DB_URL_DATABASE: keycloak
+      KC_DB_USERNAME: ${KEYCLOAK_DB_USER:?set KEYCLOAK_DB_USER}
+      KC_DB_PASSWORD: ${KEYCLOAK_DB_PASSWORD:?set KEYCLOAK_DB_PASSWORD}
+      KC_BOOTSTRAP_ADMIN_USERNAME: ${KEYCLOAK_BOOTSTRAP_ADMIN_USERNAME:?set KEYCLOAK_BOOTSTRAP_ADMIN_USERNAME}
+      KC_BOOTSTRAP_ADMIN_PASSWORD: ${KEYCLOAK_BOOTSTRAP_ADMIN_PASSWORD:?set KEYCLOAK_BOOTSTRAP_ADMIN_PASSWORD}
+      KC_HOSTNAME: ${KEYCLOAK_PUBLIC_URL:?set KEYCLOAK_PUBLIC_URL}
+      KC_HOSTNAME_ADMIN: ${KEYCLOAK_ADMIN_URL:?set KEYCLOAK_ADMIN_URL}
+      KC_HTTP_ENABLED: "true"
+      KC_HEALTH_ENABLED: "true"
+      KC_METRICS_ENABLED: "true"
+      KC_PROXY_HEADERS: xforwarded
+      KC_PROXY_TRUSTED_ADDRESSES: ${KEYCLOAK_PROXY_TRUSTED_ADDRESSES:?set the reverse proxy IP or CIDR list}
+      KC_HOSTNAME_STRICT: "true"
+      KC_CACHE: ispn
+      SKYVIEWLAB_WEB_ORIGIN: ${SKYVIEWLAB_WEB_ORIGIN:?set SKYVIEWLAB_WEB_ORIGIN}
+      SKYVIEWLAB_OIDC_CLIENT_ID: ${OIDC_CLIENT_ID:?set OIDC_CLIENT_ID}
+      SKYVIEWLAB_OIDC_CLIENT_SECRET: ${OIDC_CLIENT_SECRET:?set OIDC_CLIENT_SECRET}
+      SKYVIEWLAB_OIDC_REDIRECT_URL: ${OIDC_REDIRECT_URL:?set OIDC_REDIRECT_URL}
+    volumes:
+      - ./keycloak/skyviewlab-realm.json:/opt/keycloak/data/import/skyviewlab-realm.json:ro
+    depends_on:
+      postgres:
+        condition: service_healthy
+    expose: ["8080", "9000"]
+    networks: [control, data]
+    security_opt: [no-new-privileges:true]
+    stop_grace_period: 45s
+
+  openfga-migrate:
+    image: ${OPENFGA_IMAGE:?set OPENFGA_IMAGE to an approved immutable digest}
+    command: ["migrate"]
+    environment:
+      OPENFGA_DATASTORE_ENGINE: postgres
+      OPENFGA_DATASTORE_URI: postgres://${OPENFGA_DB_USER:?set OPENFGA_DB_USER}:${OPENFGA_DB_PASSWORD:?set OPENFGA_DB_PASSWORD}@postgres:5432/openfga?sslmode=disable
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks: [data]
+    security_opt: [no-new-privileges:true]
+    restart: "no"
+
+  openfga:
+    image: ${OPENFGA_IMAGE:?set OPENFGA_IMAGE to an approved immutable digest}
+    restart: unless-stopped
+    command: ["run"]
+    environment:
+      OPENFGA_DATASTORE_ENGINE: postgres
+      OPENFGA_DATASTORE_URI: postgres://${OPENFGA_DB_USER:?set OPENFGA_DB_USER}:${OPENFGA_DB_PASSWORD:?set OPENFGA_DB_PASSWORD}@postgres:5432/openfga?sslmode=disable
+      OPENFGA_HTTP_ADDR: 0.0.0.0:8080
+      OPENFGA_GRPC_ADDR: 0.0.0.0:8081
+      OPENFGA_AUTHN_METHOD: preshared
+      OPENFGA_AUTHN_PRESHARED_KEYS: ${OPENFGA_PRESHARED_KEYS:?set at least one random OpenFGA key}
+      OPENFGA_PLAYGROUND_ENABLED: "false"
+      OPENFGA_HTTP_TLS_ENABLED: "true"
+      OPENFGA_HTTP_TLS_CERT: /run/secrets/openfga_tls.crt
+      OPENFGA_HTTP_TLS_KEY: /run/secrets/openfga_tls.key
+      OPENFGA_GRPC_TLS_ENABLED: "true"
+      OPENFGA_GRPC_TLS_CERT: /run/secrets/openfga_tls.crt
+      OPENFGA_GRPC_TLS_KEY: /run/secrets/openfga_tls.key
+      OPENFGA_LOG_FORMAT: json
+      OPENFGA_TRACE_ENABLED: "true"
+      OPENFGA_TRACE_OTLP_ENDPOINT: otel-collector:4317
+      OPENFGA_TRACE_OTLP_TLS_ENABLED: "false"
+    secrets:
+      - source: openfga_tls_cert
+        target: openfga_tls.crt
+      - source: openfga_tls_key
+        target: openfga_tls.key
+    depends_on:
+      openfga-migrate:
+        condition: service_completed_successfully
+    expose: ["8080", "8081"]
+    networks: [control, data]
+    security_opt: [no-new-privileges:true]
+    stop_grace_period: 30s
+
+  # Bootstrap-only placeholder. The auto-setup image/development dynamic config
+  # is not an approved production Temporal deployment.
+  temporal:
+    image: ${TEMPORAL_IMAGE:?set TEMPORAL_IMAGE to an approved immutable digest}
+    restart: unless-stopped
+    environment:
+      DB: postgres12
+      DB_PORT: 5432
+      POSTGRES_SEEDS: postgres
+      POSTGRES_USER: ${TEMPORAL_DB_USER:?set TEMPORAL_DB_USER}
+      POSTGRES_PWD: ${TEMPORAL_DB_PASSWORD:?set TEMPORAL_DB_PASSWORD}
+      DBNAME: temporal
+      VISIBILITY_DBNAME: temporal_visibility
+      DYNAMIC_CONFIG_FILE_PATH: config/dynamicconfig/development-sql.yaml
+      ENABLE_ES: "false"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    expose: ["7233"]
+    networks: [control, data]
+    security_opt: [no-new-privileges:true]
+    stop_grace_period: 60s
+
+  minio:
+    image: ${MINIO_IMAGE:?set MINIO_IMAGE to an approved immutable digest}
+    restart: unless-stopped
+    command: ["server", "/data", "--console-address", ":9001"]
+    environment:
+      MINIO_ROOT_USER: ${MINIO_ROOT_USER:?set MINIO_ROOT_USER}
+      MINIO_ROOT_PASSWORD: ${MINIO_ROOT_PASSWORD:?set MINIO_ROOT_PASSWORD}
+    volumes:
+      - object-data:/data
+    expose: ["9000", "9001"]
+    networks: [control, data]
+    security_opt: [no-new-privileges:true]
+    stop_grace_period: 60s
+
+  otel-collector:
+    image: ${OTEL_COLLECTOR_IMAGE:?set OTEL_COLLECTOR_IMAGE to an approved immutable digest}
+    restart: unless-stopped
+    command: ["--config=/etc/otelcol/config.yaml"]
+    volumes:
+      - ./otel/collector.yaml:/etc/otelcol/config.yaml:ro
+    expose: ["4317", "4318", "13133"]
+    networks: [control]
+    read_only: true
+    tmpfs: [/tmp]
+    security_opt: [no-new-privileges:true]
+
+networks:
+  control:
+    internal: true
+  data:
+    internal: true
+
+volumes:
+  postgres-data:
+  object-data:
+
+secrets:
+  postgres_admin_password:
+    file: ${POSTGRES_PASSWORD_FILE:?set POSTGRES_PASSWORD_FILE}
+  skyview_db_migrator_password:
+    file: ${SKYVIEW_DB_MIGRATOR_PASSWORD_FILE:?set SKYVIEW_DB_MIGRATOR_PASSWORD_FILE}
+  skyview_db_runtime_password:
+    file: ${SKYVIEW_DB_RUNTIME_PASSWORD_FILE:?set SKYVIEW_DB_RUNTIME_PASSWORD_FILE}
+  openfga_tls_cert:
+    file: ${OPENFGA_TLS_CERT_FILE:?set OPENFGA_TLS_CERT_FILE}
+  openfga_tls_key:
+    file: ${OPENFGA_TLS_KEY_FILE:?set OPENFGA_TLS_KEY_FILE}

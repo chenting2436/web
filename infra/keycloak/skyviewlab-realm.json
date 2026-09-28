@@ -1,0 +1,90 @@
+{
+  "realm": "skyviewlab",
+  "enabled": true,
+  "displayName": "SkyViewLab",
+  "sslRequired": "external",
+  "registrationAllowed": false,
+  "resetPasswordAllowed": true,
+  "rememberMe": false,
+  "verifyEmail": true,
+  "bruteForceProtected": true,
+  "permanentLockout": false,
+  "failureFactor": 5,
+  "waitIncrementSeconds": 60,
+  "maxFailureWaitSeconds": 900,
+  "eventsEnabled": true,
+  "adminEventsEnabled": true,
+  "adminEventsDetailsEnabled": true,
+  "roles": {
+    "realm": [
+      { "name": "platform-admin" },
+      { "name": "tenant-admin" },
+      { "name": "project-owner" },
+      { "name": "researcher" },
+      { "name": "teacher" },
+      { "name": "reviewer" },
+      { "name": "student" },
+      { "name": "viewer" }
+    ]
+  },
+  "clients": [
+    {
+      "clientId": "skyviewlab-api",
+      "name": "SkyViewLab API",
+      "enabled": true,
+      "protocol": "openid-connect",
+      "bearerOnly": true
+    },
+    {
+      "clientId": "${SKYVIEWLAB_OIDC_CLIENT_ID}",
+      "name": "SkyViewLab Go Control Plane",
+      "enabled": true,
+      "protocol": "openid-connect",
+      "publicClient": false,
+      "clientAuthenticatorType": "client-secret",
+      "secret": "${SKYVIEWLAB_OIDC_CLIENT_SECRET}",
+      "standardFlowEnabled": true,
+      "implicitFlowEnabled": false,
+      "directAccessGrantsEnabled": false,
+      "serviceAccountsEnabled": false,
+      "rootUrl": "${SKYVIEWLAB_WEB_ORIGIN}",
+      "baseUrl": "${SKYVIEWLAB_WEB_ORIGIN}",
+      "redirectUris": ["${SKYVIEWLAB_OIDC_REDIRECT_URL}"],
+      "webOrigins": ["${SKYVIEWLAB_WEB_ORIGIN}"],
+      "attributes": {
+        "pkce.code.challenge.method": "S256",
+        "post.logout.redirect.uris": "${SKYVIEWLAB_WEB_ORIGIN}"
+      },
+      "protocolMappers": [
+        {
+          "name": "skyviewlab-tenant",
+          "protocol": "openid-connect",
+          "protocolMapper": "oidc-usermodel-attribute-mapper",
+          "consentRequired": false,
+          "config": {
+            "user.attribute": "skyviewlab_tenant_id",
+            "claim.name": "tenant_id",
+            "jsonType.label": "String",
+            "id.token.claim": "true",
+            "access.token.claim": "true",
+            "userinfo.token.claim": "true"
+          }
+        },
+        {
+          "name": "skyviewlab-workspace",
+          "protocol": "openid-connect",
+          "protocolMapper": "oidc-usermodel-attribute-mapper",
+          "consentRequired": false,
+          "config": {
+            "user.attribute": "skyviewlab_workspace_id",
+            "claim.name": "workspace_id",
+            "jsonType.label": "String",
+            "id.token.claim": "true",
+            "access.token.claim": "true",
+            "userinfo.token.claim": "true"
+          }
+        }
+      ]
+    }
+  ]
+}

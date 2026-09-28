@@ -1,0 +1,79 @@
+model
+  schema 1.1
+
+type user
+
+type tenant
+  relations
+    define admin: [user]
+    define member: [user] or admin
+
+type workspace
+  relations
+    define tenant: [tenant]
+    define admin: admin from tenant
+    define member: [user]
+    define owner: [user]
+    define editor: [user] or owner
+    define viewer: [user] or editor or member
+    define can_manage: owner or admin from tenant
+    define can_edit: editor or admin from tenant
+    define can_view: viewer or admin from tenant
+
+type project
+  relations
+    define workspace: [workspace]
+    define admin: admin from workspace
+    define owner: [user]
+    define editor: [user] or owner or editor from workspace
+    # Workspace membership alone never grants access to every project. A user
+    # can view through project ownership/editorship, an explicit viewer tuple,
+    # a project reviewer tuple, or workspace/tenant management authority.
+    define viewer: [user] or editor
+    define reviewer: [user]
+    define can_manage: owner or can_manage from workspace
+    define can_edit: editor or can_edit from workspace
+    define can_review: reviewer or can_manage from workspace
+    define can_view: viewer or reviewer or can_manage
+
+type artifact
+  relations
+    define project: [project]
+    define owner: [user]
+    define can_write: owner or can_edit from project
+    define can_read: can_write or can_view from project
+
+type job
+  relations
+    define project: [project]
+    define submitter: [user]
+    # The SQL/RLS cancel boundary is submitter-or-tenant-admin. Project owners
+    # and workspace editors must not receive a permission the store will deny.
+    define can_cancel: submitter or admin from project
+    define can_view: submitter or can_view from project
+
+type course
+  relations
+    define workspace: [workspace]
+    define teacher: [user]
+    define assistant: [user]
+    define student: [user]
+    define can_manage: teacher or can_manage from workspace
+    define can_grade: teacher or assistant
+    define can_view: teacher or assistant or student or can_view from workspace
+
+type assignment
+  relations
+    define course: [course]
+    define can_manage: can_manage from course
+    define can_grade: can_grade from course
+    define can_view: can_view from course
+
+type submission
+  relations
+    define assignment: [assignment]
+    define student: [user]
+    define draft_editor: [user]
+    define can_edit: student and draft_editor
+    define can_grade: can_grade from assignment
+    define can_view: student or can_grade from assignment

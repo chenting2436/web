@@ -1,0 +1,478 @@
+openapi: 3.1.0
+info:
+  title: SkyViewLab production target API
+  version: 0.1.0-gate-a
+  description: >-
+    Gate A design contract for the React-to-Go boundary. It describes the
+    required production surface, not implemented status. The implemented
+    contract remains backend_go/api/openapi.yaml until each slice passes.
+servers:
+  - url: https://api.example.invalid
+    description: Non-routable placeholder replaced by deployment.
+security:
+  - sessionCookie: []
+tags:
+  - {name: identity}
+  - {name: organizations}
+  - {name: entitlements}
+  - {name: discussions}
+  - {name: assignments}
+  - {name: files}
+  - {name: projects}
+  - {name: jobs}
+  - {name: imports-exports}
+  - {name: workbench-domains}
+  - {name: audit}
+x-contract-status: design-only
+x-authority-boundary:
+  browser: React calls only the Go API.
+  go: Authoritative state, authorization, audit, orchestration and signed downloads.
+  python: Consumes controlled jobs and never exposes a browser business API.
+  external: Judge0, AI, Crossref, OpenAlex and NiFi are reached through Go adapters.
+x-workbench-trace:
+  T01: /api/v1/python-workspaces
+  T02: /api/v1/practice-sessions
+  T03: /api/v1/portfolio-projects
+  T04: /api/v1/refine-projects
+  T05: /api/v1/reports
+  T06: /api/v1/learning-profiles
+  T07: /api/v1/assessment-submissions
+  T08: /api/v1/project-submissions
+  R01: /api/v1/papers
+  R02: /api/v1/remote-sensing-projects
+  R03: /api/v1/seismic-projects
+  R04: /api/v1/patent-projects
+  R05: /api/v1/skills
+  R06: /api/v1/knowledge-bases
+  R07-R08: /api/v1/radar-collections
+  R09: /api/v1/workflows
+  E01: /api/v1/dataflows
+  E02: /api/v1/ambient-projects
+  E03: /api/v1/disclosures
+paths:
+  /api/v1/auth/me:
+    get:
+      tags: [identity]
+      operationId: getCurrentPrincipalTarget
+      responses:
+        '200': {$ref: '#/components/responses/Resource'}
+        '401': {$ref: '#/components/responses/Unauthorized'}
+  /api/v1/auth/logout:
+    post:
+      tags: [identity]
+      operationId: revokeCurrentSessionTarget
+      parameters:
+        - {$ref: '#/components/parameters/Origin'}
+        - {$ref: '#/components/parameters/IdempotencyKey'}
+      responses:
+        '204': {description: Session revoked.}
+        '401': {$ref: '#/components/responses/Unauthorized'}
+        '403': {$ref: '#/components/responses/Forbidden'}
+  /api/v1/sessions:
+    get:
+      tags: [identity]
+      operationId: listOwnSessionsTarget
+      responses:
+        '200': {$ref: '#/components/responses/Collection'}
+  /api/v1/organizations/{organizationId}/members:
+    get:
+      tags: [organizations]
+      operationId: listOrganizationMembersTarget
+      parameters:
+        - {$ref: '#/components/parameters/OrganizationId'}
+        - {$ref: '#/components/parameters/Cursor'}
+      responses:
+        '200': {$ref: '#/components/responses/Collection'}
+        '403': {$ref: '#/components/responses/Forbidden'}
+  /api/v1/courses/{courseId}/enrollments:
+    get:
+      tags: [organizations]
+      operationId: listCourseEnrollmentsTarget
+      parameters:
+        - {$ref: '#/components/parameters/CourseId'}
+        - {$ref: '#/components/parameters/Cursor'}
+      responses:
+        '200': {$ref: '#/components/responses/Collection'}
+    post:
+      tags: [organizations]
+      operationId: createCourseEnrollmentTarget
+      parameters:
+        - {$ref: '#/components/parameters/CourseId'}
+        - {$ref: '#/components/parameters/Origin'}
+        - {$ref: '#/components/parameters/IdempotencyKey'}
+      requestBody: {$ref: '#/components/requestBodies/Command'}
+      responses:
+        '201': {$ref: '#/components/responses/Resource'}
+        '409': {$ref: '#/components/responses/Conflict'}
+  /api/v1/entitlements:
+    get:
+      tags: [entitlements]
+      operationId: listEffectiveEntitlementsTarget
+      responses:
+        '200': {$ref: '#/components/responses/Collection'}
+  /api/v1/feature-grants:
+    post:
+      tags: [entitlements]
+      operationId: createFeatureGrantTarget
+      parameters:
+        - {$ref: '#/components/parameters/Origin'}
+        - {$ref: '#/components/parameters/IdempotencyKey'}
+      requestBody: {$ref: '#/components/requestBodies/Command'}
+      responses:
+        '201': {$ref: '#/components/responses/Resource'}
+        '403': {$ref: '#/components/responses/Forbidden'}
+  /api/v1/discussions:
+    get:
+      tags: [discussions]
+      operationId: listDiscussionsTarget
+      parameters:
+        - {$ref: '#/components/parameters/Cursor'}
+      responses:
+        '200': {$ref: '#/components/responses/Collection'}
+    post:
+      tags: [discussions]
+      operationId: createDiscussionTarget
+      parameters:
+        - {$ref: '#/components/parameters/Origin'}
+        - {$ref: '#/components/parameters/IdempotencyKey'}
+      requestBody: {$ref: '#/components/requestBodies/Command'}
+      responses:
+        '201': {$ref: '#/components/responses/Resource'}
+  /api/v1/discussions/{id}/messages:
+    post:
+      tags: [discussions]
+      operationId: replyToDiscussionTarget
+      parameters:
+        - {$ref: '#/components/parameters/ResourceId'}
+        - {$ref: '#/components/parameters/Origin'}
+        - {$ref: '#/components/parameters/IfMatch'}
+        - {$ref: '#/components/parameters/IdempotencyKey'}
+      requestBody: {$ref: '#/components/requestBodies/Command'}
+      responses:
+        '201': {$ref: '#/components/responses/Resource'}
+        '409': {$ref: '#/components/responses/Conflict'}
+  /api/v1/assignments:
+    get:
+      tags: [assignments]
+      operationId: listAssignmentsTarget
+      parameters:
+        - {$ref: '#/components/parameters/Cursor'}
+      responses:
+        '200': {$ref: '#/components/responses/Collection'}
+    post:
+      tags: [assignments]
+      operationId: createAssignmentTarget
+      parameters:
+        - {$ref: '#/components/parameters/Origin'}
+        - {$ref: '#/components/parameters/IdempotencyKey'}
+      requestBody: {$ref: '#/components/requestBodies/Command'}
+      responses:
+        '201': {$ref: '#/components/responses/Resource'}
+  /api/v1/assignments/{id}/submissions:
+    post:
+      tags: [assignments]
+      operationId: submitAssignmentTarget
+      parameters:
+        - {$ref: '#/components/parameters/ResourceId'}
+        - {$ref: '#/components/parameters/Origin'}
+        - {$ref: '#/components/parameters/IdempotencyKey'}
+      requestBody: {$ref: '#/components/requestBodies/Command'}
+      responses:
+        '202': {$ref: '#/components/responses/Resource'}
+        '409': {$ref: '#/components/responses/Conflict'}
+  /api/v1/submissions/{id}/grade:
+    post:
+      tags: [assignments]
+      operationId: publishGradeTarget
+      parameters:
+        - {$ref: '#/components/parameters/ResourceId'}
+        - {$ref: '#/components/parameters/Origin'}
+        - {$ref: '#/components/parameters/IfMatch'}
+        - {$ref: '#/components/parameters/IdempotencyKey'}
+      requestBody: {$ref: '#/components/requestBodies/Command'}
+      responses:
+        '200': {$ref: '#/components/responses/Resource'}
+        '403': {$ref: '#/components/responses/Forbidden'}
+        '409': {$ref: '#/components/responses/Conflict'}
+  /api/v1/upload-sessions:
+    post:
+      tags: [files]
+      operationId: createUploadSessionTarget
+      parameters:
+        - {$ref: '#/components/parameters/Origin'}
+        - {$ref: '#/components/parameters/IdempotencyKey'}
+      requestBody: {$ref: '#/components/requestBodies/Command'}
+      responses:
+        '201': {$ref: '#/components/responses/Resource'}
+        '413': {$ref: '#/components/responses/PayloadTooLarge'}
+  /api/v1/upload-sessions/{id}/complete:
+    post:
+      tags: [files]
+      operationId: completeUploadSessionTarget
+      parameters:
+        - {$ref: '#/components/parameters/ResourceId'}
+        - {$ref: '#/components/parameters/Origin'}
+        - {$ref: '#/components/parameters/IdempotencyKey'}
+      requestBody: {$ref: '#/components/requestBodies/Command'}
+      responses:
+        '202': {$ref: '#/components/responses/Resource'}
+        '409': {$ref: '#/components/responses/Conflict'}
+  /api/v1/files/{id}/download:
+    post:
+      tags: [files]
+      operationId: createAuthorizedDownloadTarget
+      parameters:
+        - {$ref: '#/components/parameters/ResourceId'}
+        - {$ref: '#/components/parameters/Origin'}
+        - {$ref: '#/components/parameters/IdempotencyKey'}
+      responses:
+        '200': {$ref: '#/components/responses/Resource'}
+        '403': {$ref: '#/components/responses/Forbidden'}
+  /api/v1/projects/{id}/versions:
+    get:
+      tags: [projects]
+      operationId: listProjectVersionsTarget
+      parameters:
+        - {$ref: '#/components/parameters/ResourceId'}
+        - {$ref: '#/components/parameters/Cursor'}
+      responses:
+        '200': {$ref: '#/components/responses/Collection'}
+    post:
+      tags: [projects]
+      operationId: createProjectVersionTarget
+      parameters:
+        - {$ref: '#/components/parameters/ResourceId'}
+        - {$ref: '#/components/parameters/Origin'}
+        - {$ref: '#/components/parameters/IfMatch'}
+        - {$ref: '#/components/parameters/IdempotencyKey'}
+      requestBody: {$ref: '#/components/requestBodies/Command'}
+      responses:
+        '201': {$ref: '#/components/responses/Resource'}
+        '409': {$ref: '#/components/responses/Conflict'}
+  /api/v1/jobs:
+    get:
+      tags: [jobs]
+      operationId: listJobsTarget
+      parameters:
+        - {$ref: '#/components/parameters/Cursor'}
+      responses:
+        '200': {$ref: '#/components/responses/Collection'}
+  /api/v1/jobs/{id}:
+    get:
+      tags: [jobs]
+      operationId: getJobTarget
+      parameters:
+        - {$ref: '#/components/parameters/ResourceId'}
+      responses:
+        '200': {$ref: '#/components/responses/Resource'}
+        '404': {$ref: '#/components/responses/NotFound'}
+    delete:
+      tags: [jobs]
+      operationId: cancelJobTarget
+      parameters:
+        - {$ref: '#/components/parameters/ResourceId'}
+        - {$ref: '#/components/parameters/Origin'}
+        - {$ref: '#/components/parameters/IdempotencyKey'}
+      responses:
+        '202': {$ref: '#/components/responses/Resource'}
+        '409': {$ref: '#/components/responses/Conflict'}
+  /api/v1/imports:
+    post:
+      tags: [imports-exports]
+      operationId: createImportTarget
+      parameters:
+        - {$ref: '#/components/parameters/Origin'}
+        - {$ref: '#/components/parameters/IdempotencyKey'}
+      requestBody: {$ref: '#/components/requestBodies/Command'}
+      responses:
+        '202': {$ref: '#/components/responses/Resource'}
+        '413': {$ref: '#/components/responses/PayloadTooLarge'}
+        '422': {$ref: '#/components/responses/Unprocessable'}
+  /api/v1/exports:
+    post:
+      tags: [imports-exports]
+      operationId: createExportTarget
+      parameters:
+        - {$ref: '#/components/parameters/Origin'}
+        - {$ref: '#/components/parameters/IdempotencyKey'}
+      requestBody: {$ref: '#/components/requestBodies/Command'}
+      responses:
+        '202': {$ref: '#/components/responses/Resource'}
+  /api/v1/python-workspaces:
+    $ref: '#/components/pathItems/CreateT01'
+  /api/v1/practice-sessions:
+    $ref: '#/components/pathItems/CreateT02'
+  /api/v1/portfolio-projects:
+    $ref: '#/components/pathItems/CreateT03'
+  /api/v1/refine-projects:
+    $ref: '#/components/pathItems/CreateT04'
+  /api/v1/reports:
+    $ref: '#/components/pathItems/CreateT05'
+  /api/v1/learning-profiles:
+    $ref: '#/components/pathItems/CreateT06'
+  /api/v1/assessment-submissions:
+    $ref: '#/components/pathItems/CreateT07'
+  /api/v1/project-submissions:
+    $ref: '#/components/pathItems/CreateT08'
+  /api/v1/papers:
+    $ref: '#/components/pathItems/CreateR01'
+  /api/v1/remote-sensing-projects:
+    $ref: '#/components/pathItems/CreateR02'
+  /api/v1/seismic-projects:
+    $ref: '#/components/pathItems/CreateR03'
+  /api/v1/patent-projects:
+    $ref: '#/components/pathItems/CreateR04'
+  /api/v1/skills:
+    $ref: '#/components/pathItems/CreateR05'
+  /api/v1/knowledge-bases:
+    $ref: '#/components/pathItems/CreateR06'
+  /api/v1/radar-collections:
+    $ref: '#/components/pathItems/CreateR07R08'
+  /api/v1/workflows:
+    $ref: '#/components/pathItems/CreateR09'
+  /api/v1/dataflows:
+    $ref: '#/components/pathItems/CreateE01'
+  /api/v1/ambient-projects:
+    $ref: '#/components/pathItems/CreateE02'
+  /api/v1/disclosures:
+    $ref: '#/components/pathItems/CreateE03'
+  /api/v1/audit-events:
+    get:
+      tags: [audit]
+      operationId: listAuthorizedAuditEventsTarget
+      parameters:
+        - {$ref: '#/components/parameters/Cursor'}
+      responses:
+        '200': {$ref: '#/components/responses/Collection'}
+        '403': {$ref: '#/components/responses/Forbidden'}
+components:
+  securitySchemes:
+    sessionCookie:
+      type: apiKey
+      in: cookie
+      name: skyviewlab_session
+  parameters:
+    ResourceId: {name: id, in: path, required: true, schema: {type: string, format: uuid}}
+    OrganizationId: {name: organizationId, in: path, required: true, schema: {type: string, format: uuid}}
+    CourseId: {name: courseId, in: path, required: true, schema: {type: string, format: uuid}}
+    Cursor: {name: cursor, in: query, required: false, schema: {type: string, maxLength: 512}}
+    Origin: {name: Origin, in: header, required: true, schema: {type: string, format: uri}}
+    IfMatch: {name: If-Match, in: header, required: true, schema: {type: string}}
+    IdempotencyKey: {name: Idempotency-Key, in: header, required: true, schema: {type: string, minLength: 16, maxLength: 128}}
+  requestBodies:
+    Command:
+      required: true
+      content:
+        application/json:
+          schema: {$ref: '#/components/schemas/Command'}
+  responses:
+    Resource:
+      description: Authorized resource envelope.
+      headers: {ETag: {schema: {type: string}}}
+      content: {application/json: {schema: {$ref: '#/components/schemas/ResourceEnvelope'}}}
+    Collection:
+      description: Authorized cursor-paginated collection.
+      content: {application/json: {schema: {$ref: '#/components/schemas/CollectionEnvelope'}}}
+    Unauthorized: {$ref: '#/components/responses/Error401'}
+    Forbidden: {$ref: '#/components/responses/Error403'}
+    NotFound: {$ref: '#/components/responses/Error404'}
+    Conflict: {$ref: '#/components/responses/Error409'}
+    PayloadTooLarge: {$ref: '#/components/responses/Error413'}
+    Unprocessable: {$ref: '#/components/responses/Error422'}
+    Error401: {description: Authentication required, content: {application/json: {schema: {$ref: '#/components/schemas/ErrorEnvelope'}}}}
+    Error403: {description: Authenticated but not authorized, content: {application/json: {schema: {$ref: '#/components/schemas/ErrorEnvelope'}}}}
+    Error404: {description: Resource absent or concealed, content: {application/json: {schema: {$ref: '#/components/schemas/ErrorEnvelope'}}}}
+    Error409: {description: Version or idempotency conflict, content: {application/json: {schema: {$ref: '#/components/schemas/ErrorEnvelope'}}}}
+    Error413: {description: Request exceeds policy, content: {application/json: {schema: {$ref: '#/components/schemas/ErrorEnvelope'}}}}
+    Error422: {description: Safe parser rejected content, content: {application/json: {schema: {$ref: '#/components/schemas/ErrorEnvelope'}}}}
+  pathItems:
+    CreateT01: {$ref: '#/components/pathItems/CreateDomainResource', x-trace-id: T01}
+    CreateT02: {$ref: '#/components/pathItems/CreateDomainResource', x-trace-id: T02}
+    CreateT03: {$ref: '#/components/pathItems/CreateDomainResource', x-trace-id: T03}
+    CreateT04: {$ref: '#/components/pathItems/CreateDomainResource', x-trace-id: T04}
+    CreateT05: {$ref: '#/components/pathItems/CreateDomainResource', x-trace-id: T05}
+    CreateT06: {$ref: '#/components/pathItems/CreateDomainResource', x-trace-id: T06}
+    CreateT07: {$ref: '#/components/pathItems/CreateDomainResource', x-trace-id: T07}
+    CreateT08: {$ref: '#/components/pathItems/CreateDomainResource', x-trace-id: T08}
+    CreateR01: {$ref: '#/components/pathItems/CreateDomainResource', x-trace-id: R01}
+    CreateR02: {$ref: '#/components/pathItems/CreateDomainResource', x-trace-id: R02}
+    CreateR03: {$ref: '#/components/pathItems/CreateDomainResource', x-trace-id: R03}
+    CreateR04: {$ref: '#/components/pathItems/CreateDomainResource', x-trace-id: R04}
+    CreateR05: {$ref: '#/components/pathItems/CreateDomainResource', x-trace-id: R05}
+    CreateR06: {$ref: '#/components/pathItems/CreateDomainResource', x-trace-id: R06}
+    CreateR07R08: {$ref: '#/components/pathItems/CreateDomainResource', x-trace-id: R07-R08}
+    CreateR09: {$ref: '#/components/pathItems/CreateDomainResource', x-trace-id: R09}
+    CreateE01: {$ref: '#/components/pathItems/CreateDomainResource', x-trace-id: E01}
+    CreateE02: {$ref: '#/components/pathItems/CreateDomainResource', x-trace-id: E02}
+    CreateE03: {$ref: '#/components/pathItems/CreateDomainResource', x-trace-id: E03}
+    CreateDomainResource:
+      post:
+        tags: [workbench-domains]
+        description: >-
+          Design template. A vertical slice must replace this generic body with a
+          domain schema and unique operationId before entering the implemented API.
+        parameters:
+          - {$ref: '#/components/parameters/Origin'}
+          - {$ref: '#/components/parameters/IdempotencyKey'}
+        requestBody: {$ref: '#/components/requestBodies/Command'}
+        responses:
+          '201': {$ref: '#/components/responses/Resource'}
+          '403': {$ref: '#/components/responses/Forbidden'}
+          '409': {$ref: '#/components/responses/Conflict'}
+  schemas:
+    Command:
+      type: object
+      additionalProperties: false
+      required: [schemaVersion, data]
+      properties:
+        schemaVersion: {type: string, pattern: '^[1-9][0-9]*$'}
+        data: {type: object, additionalProperties: true}
+    Resource:
+      type: object
+      additionalProperties: false
+      required: [id, tenantId, version, createdAt, updatedAt, data]
+      properties:
+        id: {type: string, format: uuid}
+        tenantId: {type: string, format: uuid}
+        organizationId: {type: [string, 'null'], format: uuid}
+        workspaceId: {type: [string, 'null'], format: uuid}
+        projectId: {type: [string, 'null'], format: uuid}
+        version: {type: integer, minimum: 1}
+        state: {type: string}
+        createdAt: {type: string, format: date-time}
+        updatedAt: {type: string, format: date-time}
+        data: {type: object, additionalProperties: true}
+    ResourceEnvelope:
+      type: object
+      additionalProperties: false
+      required: [data, requestId]
+      properties:
+        data: {$ref: '#/components/schemas/Resource'}
+        requestId: {type: string, format: uuid}
+    CollectionEnvelope:
+      type: object
+      additionalProperties: false
+      required: [data, requestId]
+      properties:
+        data:
+          type: object
+          additionalProperties: false
+          required: [items]
+          properties:
+            items: {type: array, items: {$ref: '#/components/schemas/Resource'}}
+            nextCursor: {type: [string, 'null']}
+        requestId: {type: string, format: uuid}
+    ErrorEnvelope:
+      type: object
+      additionalProperties: false
+      required: [error, requestId]
+      properties:
+        error:
+          type: object
+          additionalProperties: false
+          required: [code, message]
+          properties:
+            code: {type: string, pattern: '^[A-Z0-9_]+$'}
+            message: {type: string}
+            details: {type: object, additionalProperties: true}
+        requestId: {type: string, format: uuid}

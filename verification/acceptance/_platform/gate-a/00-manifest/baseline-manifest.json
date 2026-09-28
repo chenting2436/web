@@ -1,0 +1,79 @@
+{
+  "schema": "skyview-card-version-baseline",
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-08T02:03:32.4361792Z",
+  "source": {
+    "path": "D:\\code\\web\\SkyViewLab-Internal-push-worktree",
+    "commit": "8a754dcdb8ab97c7a90ca588693a17b21ee1f41b",
+    "clean": true,
+    "trackedFiles": 279
+  },
+  "counts": {
+    "htmlEntries": 32,
+    "formalEntries": 31,
+    "workbenches": 20,
+    "teachingWorkbenches": 8,
+    "researchWorkbenches": 9,
+    "engineeringWorkbenches": 3,
+    "engineeringPlaceholders": 9,
+    "storageRoots": 34,
+    "schemaOccurrences": 29
+  },
+  "legacyTests": {
+    "command": "node --test",
+    "exitCode": 0,
+    "tests": 109,
+    "passed": 109,
+    "failed": 0
+  },
+  "artifacts": [
+    {
+      "path": "01-legacy-baseline/tracked-files.sha256",
+      "sha256": "9a6bc7576a07b9918e09d0ea79f8044851e7d2748cda4f5c9379329d655e403b"
+    },
+    {
+      "path": "01-legacy-baseline/routes.json",
+      "sha256": "7e88a346e324f464f28598839bbd86c3beb01e17350d4f478005d176089c4850"
+    },
+    {
+      "path": "01-legacy-baseline/engineering-placeholders.json",
+      "sha256": "34e218ba0d124231994a122f9abe7dac559b6420dc1d3e6531bf8aadf33aa92b"
+    },
+    {
+      "path": "01-legacy-baseline/storage-roots.json",
+      "sha256": "6424af4addf2132758c769067072b64ac1342e797237e6a131ab24de02b86676"
+    },
+    {
+      "path": "01-legacy-baseline/schema-occurrences.json",
+      "sha256": "433f1fab59d32e57d36ed9516fc87e54ca2ec19f129ae71ce3c184d95ca1670b"
+    },
+    {
+      "path": "01-legacy-baseline/page-assets.json",
+      "sha256": "2baf6409cd9c3a4adfd1a45a6a15b09278694ee6b42112bcf556191ca45ba618"
+    },
+    {
+      "path": "01-legacy-baseline/test-files.json",
+      "sha256": "5f391149669eff0d00f8143dfc8ea220b1936b04642aebc66b550f367d07c54c"
+    },
+    {
+      "path": "01-legacy-baseline/approved-checklist-v1.md",
+      "sha256": "482aa1806a4f51784aa6d09f8a07292eb6d00e38955046079dd72548dd89ed6a"
+    },
+    {
+      "path": "01-legacy-baseline/FUNCTION_TRACEABILITY.md",
+      "sha256": "e7c7ecb51bd7a5fcc9f23a9b57f3041688160bc0a3d14fe9f12bec1a7ff5d9b1"
+    },
+    {
+      "path": "01-legacy-baseline/legacy-tests.tap",
+      "sha256": "0d109e281ce74c9a12293b12b192454faf795619dce92279e522a3b8e5acfa83"
+    },
+    {
+      "path": "01-legacy-baseline/legacy-test-summary.json",
+      "sha256": "f187bae5e1fe6e39755bf865e4e4ea0126aea4f1755fed178574aa846451c337"
+    },
+    {
+      "path": "12-supply-chain-license/source-documents.json",
+      "sha256": "f2a0fa5aed4b548b0d3bb9d05257f38dbd1333547abb3ba8cca80a50368ac651"
+    }
+  ]
+}

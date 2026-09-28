@@ -1,0 +1,8 @@
+# Python Basics
+Which keyword defines a function?
+def
+class
+yield
+import
+ANSWER: 1
+

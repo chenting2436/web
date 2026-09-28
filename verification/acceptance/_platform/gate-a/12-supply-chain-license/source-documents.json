@@ -1,0 +1,37 @@
+[
+  {
+    "path": "D:\\code\\web\\verification\\acceptance\\_platform\\gate-a\\01-legacy-baseline\\approved-checklist-v1.md",
+    "bytes": 67437,
+    "sha256": "482aa1806a4f51784aa6d09f8a07292eb6d00e38955046079dd72548dd89ed6a"
+  },
+  {
+    "path": "D:\\code\\web\\PRODUCTION_REBUILD_BLUEPRINT.md",
+    "bytes": 49352,
+    "sha256": "c1692cfc0ebfbb741bca47e9ffeb44189ec8b58b8001ca44ee9ee53dd81a4e82"
+  },
+  {
+    "path": "D:\\code\\web\\PRODUCTION_GAP_AUDIT.md",
+    "bytes": 17821,
+    "sha256": "3c661796a73ee0ee9bf67dfb4fe66c522e9f01024c9fec5f42ea0e2d902fa61a"
+  },
+  {
+    "path": "D:\\code\\web\\OSS_REFERENCE_REGISTER.md",
+    "bytes": 13773,
+    "sha256": "75e299c4774a030ada72c85b1ea65d271ab6d9f3eea7724ed7367d6c7ecea4d4"
+  },
+  {
+    "path": "D:\\code\\web\\MIGRATION_MATRIX.md",
+    "bytes": 4000,
+    "sha256": "35c50f1f7beb8e0f2605a6559abfea1494f3846cd6771080ad73a0ffc19f20ad"
+  },
+  {
+    "path": "D:\\softwaredata\\weixindata\\xwechat_files\\wxid_u841bd6qj0ou22_4467\\msg\\file\\2026-09\\BACKEND-REQUIREMENTS.md",
+    "bytes": 42613,
+    "sha256": "ec0045da5f087f7135f75afbb5feeebbaaf5c26987dfe29ddf557d61c2cc6423"
+  },
+  {
+    "path": "D:\\softwaredata\\weixindata\\xwechat_files\\wxid_u841bd6qj0ou22_4467\\msg\\file\\2026-09\\GITHUB-OPEN-SOURCE-MAPPING.md",
+    "bytes": 13823,
+    "sha256": "8fb42c085afed90ed1c4ba1b920962b8d5978d0d0c482e3ff86d3e505defd664"
+  }
+]

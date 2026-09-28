@@ -1,0 +1,334 @@
+{
+  "schemaVersion": 1,
+  "baselineCommit": "8a754dcdb8ab97c7a90ca588693a17b21ee1f41b",
+  "viewport": {
+    "width": 1440,
+    "height": 1000,
+    "deviceScaleFactor": 1
+  },
+  "captureUrlBase": "http://127.0.0.1:4181/",
+  "browser": "Microsoft Edge 152.0.4191.66",
+  "note": "A capture proves that pixels were recorded, not that asynchronous content or every interaction is correct.",
+  "captures": [
+    {
+      "id": "N01",
+      "oldPath": "index.html",
+      "reactPath": "/",
+      "file": "legacy-desktop-1440x1000/N01-index.png",
+      "bytes": 759879,
+      "sha256": "00a1e3982786e3639029662e767db6efeb704fb605a48c8622f78a7a1ef4864c",
+      "captureStatus": "captured",
+      "reviewStatus": "pending-product-review"
+    },
+    {
+      "id": "N02",
+      "oldPath": "pages/research.html",
+      "reactPath": "/research",
+      "file": "legacy-desktop-1440x1000/N02-pages-research.png",
+      "bytes": 887501,
+      "sha256": "a54cec8c617e69cf72ec27431639c1610a254cbb0838ac18d8e1fc49eb3b3d95",
+      "captureStatus": "captured",
+      "reviewStatus": "pending-product-review"
+    },
+    {
+      "id": "N03",
+      "oldPath": "pages/engineering.html",
+      "reactPath": "/engineering",
+      "file": "legacy-desktop-1440x1000/N03-pages-engineering.png",
+      "bytes": 890272,
+      "sha256": "3fdb80851891afe27990a1ed1e763e05c57d2fcf4835bc07bf1e6c05f02e8306",
+      "captureStatus": "captured",
+      "reviewStatus": "pending-product-review"
+    },
+    {
+      "id": "N04",
+      "oldPath": "pages/teaching.html",
+      "reactPath": "/teaching",
+      "file": "legacy-desktop-1440x1000/N04-pages-teaching.png",
+      "bytes": 1138535,
+      "sha256": "6ce2feb5f56edb3700054bfc42286f38c48527dcc0bd05deccc2c4143a6eeb10",
+      "captureStatus": "captured",
+      "reviewStatus": "pending-product-review"
+    },
+    {
+      "id": "N05",
+      "oldPath": "pages/team.html",
+      "reactPath": "/team",
+      "file": "legacy-desktop-1440x1000/N05-pages-team.png",
+      "bytes": 750105,
+      "sha256": "231775698fc1bc2d537fda3cffb3a1f00c3eb05f338c4cbc44563aee24945faa",
+      "captureStatus": "captured",
+      "reviewStatus": "pending-product-review"
+    },
+    {
+      "id": "N06",
+      "oldPath": "pages/login.html",
+      "reactPath": "/login",
+      "file": "legacy-desktop-1440x1000/N06-pages-login.png",
+      "bytes": 33962,
+      "sha256": "029c49c55bd7b0b4e96501f46c6e9f58dd0fc9962cb0d62c6fff785e0d4fb3dc",
+      "captureStatus": "captured",
+      "reviewStatus": "needs-review-possible-loading-or-auth-state"
+    },
+    {
+      "id": "N07",
+      "oldPath": "pages/profile.html",
+      "reactPath": "/profile",
+      "file": "legacy-desktop-1440x1000/N07-pages-profile.png",
+      "bytes": 598622,
+      "sha256": "5cf3da9927c752b1a3be22a93d19d2133859db0397f64ba71b39f7c5db8ebdf0",
+      "captureStatus": "captured",
+      "reviewStatus": "pending-product-review"
+    },
+    {
+      "id": "N08",
+      "oldPath": "pages/students.html",
+      "reactPath": "/students",
+      "file": "legacy-desktop-1440x1000/N08-pages-students.png",
+      "bytes": 60124,
+      "sha256": "c618e732bdc26020b8d33280ac16211cdf0022fca41442406127576ca92dd031",
+      "captureStatus": "captured",
+      "reviewStatus": "needs-review-possible-loading-or-auth-state"
+    },
+    {
+      "id": "N09",
+      "oldPath": "pages/paid-features.html",
+      "reactPath": "/paid-features",
+      "file": "legacy-desktop-1440x1000/N09-pages-paid-features.png",
+      "bytes": 37536,
+      "sha256": "f11883c316052a45a5cbcd6d1fa5916305e2e14e3e30acf89f67afcce715dae9",
+      "captureStatus": "captured",
+      "reviewStatus": "needs-review-possible-loading-or-auth-state"
+    },
+    {
+      "id": "N10",
+      "oldPath": "pages/comments.html",
+      "reactPath": "/comments",
+      "file": "legacy-desktop-1440x1000/N10-pages-comments.png",
+      "bytes": 44896,
+      "sha256": "e104fe6584e59492f8ccb840672ef5645e98a53cb14534eb0e6a267195bbe87f",
+      "captureStatus": "captured",
+      "reviewStatus": "needs-review-possible-loading-or-auth-state"
+    },
+    {
+      "id": "N11",
+      "oldPath": "pages/homework.html",
+      "reactPath": "/homework",
+      "file": "legacy-desktop-1440x1000/N11-pages-homework.png",
+      "bytes": 43076,
+      "sha256": "fcb12441b575f608e151c7a1e2dc2d98e6f9a44d9097f91d00a60a8b6d3db4f6",
+      "captureStatus": "captured",
+      "reviewStatus": "needs-review-possible-loading-or-auth-state"
+    },
+    {
+      "id": "T01",
+      "oldPath": "pages/python-lab.html",
+      "reactPath": "/python-lab",
+      "file": "legacy-desktop-1440x1000/T01-pages-python-lab.png",
+      "bytes": 78389,
+      "sha256": "36edc7310d109bb3794b8c9b3dfb22e98526c31747cd8c61298e842c69ea656d",
+      "captureStatus": "captured",
+      "reviewStatus": "needs-review-possible-loading-or-auth-state"
+    },
+    {
+      "id": "T02",
+      "oldPath": "pages/daily-practice.html",
+      "reactPath": "/daily-practice",
+      "file": "legacy-desktop-1440x1000/T02-pages-daily-practice.png",
+      "bytes": 913437,
+      "sha256": "624c15387c03bdcce5cdb366643cf7b1abf33c1b9f3313a33c83bbd5798cc2dc",
+      "captureStatus": "captured",
+      "reviewStatus": "pending-product-review"
+    },
+    {
+      "id": "T03",
+      "oldPath": "pages/project-workspace.html",
+      "reactPath": "/project-workspace",
+      "file": "legacy-desktop-1440x1000/T03-pages-project-workspace.png",
+      "bytes": 910417,
+      "sha256": "ecbe4b133f9aa51cac7ad17986ff7ab17e3eac67c3017bb94ffc36db51844223",
+      "captureStatus": "captured",
+      "reviewStatus": "pending-product-review"
+    },
+    {
+      "id": "T04",
+      "oldPath": "pages/data-lab.html",
+      "reactPath": "/data-lab",
+      "file": "legacy-desktop-1440x1000/T04-pages-data-lab.png",
+      "bytes": 35833,
+      "sha256": "c3ce9e5eb3ccab0333cc889a2420b3b33798ce73f4c658c10cb2b9bbea23946b",
+      "captureStatus": "captured",
+      "reviewStatus": "needs-review-possible-loading-or-auth-state"
+    },
+    {
+      "id": "T05",
+      "oldPath": "pages/ai-report.html",
+      "reactPath": "/ai-report",
+      "file": "legacy-desktop-1440x1000/T05-pages-ai-report.png",
+      "bytes": 45490,
+      "sha256": "dbe084520a006f44edff970a5ab519fe301e5343b4e4a75532568767e8e0c11b",
+      "captureStatus": "captured",
+      "reviewStatus": "needs-review-possible-loading-or-auth-state"
+    },
+    {
+      "id": "T06",
+      "oldPath": "pages/python-english.html",
+      "reactPath": "/python-english",
+      "file": "legacy-desktop-1440x1000/T06-pages-python-english.png",
+      "bytes": 44424,
+      "sha256": "e6c573591201775db3c682a7b05054a276723aa8244739d29632cfbcc39e9fd6",
+      "captureStatus": "captured",
+      "reviewStatus": "needs-review-possible-loading-or-auth-state"
+    },
+    {
+      "id": "T07",
+      "oldPath": "pages/ai-assessment.html",
+      "reactPath": "/ai-assessment",
+      "file": "legacy-desktop-1440x1000/T07-pages-ai-assessment.png",
+      "bytes": 39039,
+      "sha256": "9fc5725c6d17fce2e11c48e29b1cdd816a4c703abfe147dd2092fc974380e72f",
+      "captureStatus": "captured",
+      "reviewStatus": "needs-review-possible-loading-or-auth-state"
+    },
+    {
+      "id": "T08",
+      "oldPath": "pages/project-submission.html",
+      "reactPath": "/project-submission",
+      "file": "legacy-desktop-1440x1000/T08-pages-project-submission.png",
+      "bytes": 914417,
+      "sha256": "89ff02ec1761bf078e14a9e339fc20b0b5b88d6e0a4ed666212053f3daf30bbd",
+      "captureStatus": "captured",
+      "reviewStatus": "pending-product-review"
+    },
+    {
+      "id": "R01",
+      "oldPath": "pages/paper-writing.html",
+      "reactPath": "/paper-writing",
+      "file": "legacy-desktop-1440x1000/R01-pages-paper-writing.png",
+      "bytes": 45362,
+      "sha256": "b8235bf3a4480f0cecec24d2c6236b4f2ff2fd258798b27af7d3022d39ad8112",
+      "captureStatus": "captured",
+      "reviewStatus": "needs-review-possible-loading-or-auth-state"
+    },
+    {
+      "id": "R02",
+      "oldPath": "pages/disaster-remote-sensing.html",
+      "reactPath": "/disaster-remote-sensing",
+      "file": "legacy-desktop-1440x1000/R02-pages-disaster-remote-sensing.png",
+      "bytes": 136482,
+      "sha256": "235fb9997888c202c4a03c573b322b5b7875872a1560e6aa25647dcf48cb0c6b",
+      "captureStatus": "captured",
+      "reviewStatus": "pending-product-review"
+    },
+    {
+      "id": "R03",
+      "oldPath": "pages/seismic-physics.html",
+      "reactPath": "/seismic-physics",
+      "file": "legacy-desktop-1440x1000/R03-pages-seismic-physics.png",
+      "bytes": 944821,
+      "sha256": "2106710dfea9b7265b50741b85c928a62cba675fb7d1390cb9ce7822745fb5eb",
+      "captureStatus": "captured",
+      "reviewStatus": "pending-product-review"
+    },
+    {
+      "id": "R04",
+      "oldPath": "pages/patent-transfer.html",
+      "reactPath": "/patent-transfer",
+      "file": "legacy-desktop-1440x1000/R04-pages-patent-transfer.png",
+      "bytes": 916735,
+      "sha256": "705cd411c0d2d3def15340fd00d5554c3b7c1cb54c036944959942c01df54086",
+      "captureStatus": "captured",
+      "reviewStatus": "pending-product-review"
+    },
+    {
+      "id": "R05",
+      "oldPath": "pages/skill-evolution.html",
+      "reactPath": "/skill-evolution",
+      "file": "legacy-desktop-1440x1000/R05-pages-skill-evolution.png",
+      "bytes": 970062,
+      "sha256": "2d1ddf56d0657d02fca8eabd1e2e660edcef324bc402006c860f0550d187931b",
+      "captureStatus": "captured",
+      "reviewStatus": "pending-product-review"
+    },
+    {
+      "id": "R06",
+      "oldPath": "pages/knowledge-system.html",
+      "reactPath": "/knowledge-system",
+      "file": "legacy-desktop-1440x1000/R06-pages-knowledge-system.png",
+      "bytes": 927503,
+      "sha256": "27f4b2b23db109a3c5e5685bc622a7e8525a9a998585cbb40d9cd36b265e7d7c",
+      "captureStatus": "captured",
+      "reviewStatus": "pending-product-review"
+    },
+    {
+      "id": "R07",
+      "oldPath": "pages/research-radar.html",
+      "reactPath": "/research-radar",
+      "file": "legacy-desktop-1440x1000/R07-pages-research-radar.png",
+      "bytes": 924957,
+      "sha256": "fee96114e3e24f69defec6c4bb43b8ae5a090c010202312bff53d394a2086caa",
+      "captureStatus": "captured",
+      "reviewStatus": "pending-product-review"
+    },
+    {
+      "id": "R08",
+      "oldPath": "pages/mine-safety-radar.html",
+      "reactPath": "/mine-safety-radar",
+      "file": "legacy-desktop-1440x1000/R08-pages-mine-safety-radar.png",
+      "bytes": 911405,
+      "sha256": "a7a6ec843c9d5a4e928d76df8fe3c1f15e312bff1f1356564348f38f734f5272",
+      "captureStatus": "captured",
+      "reviewStatus": "pending-product-review"
+    },
+    {
+      "id": "R09",
+      "oldPath": "pages/research-automation.html",
+      "reactPath": "/research-automation",
+      "file": "legacy-desktop-1440x1000/R09-pages-research-automation.png",
+      "bytes": 916659,
+      "sha256": "9a2d3d7c6e282894ae25d4e19295f13163be64e84d20f6dbd768bd0b72164d4a",
+      "captureStatus": "captured",
+      "reviewStatus": "pending-product-review"
+    },
+    {
+      "id": "E01",
+      "oldPath": "pages/data-gateway.html",
+      "reactPath": "/data-gateway",
+      "file": "legacy-desktop-1440x1000/E01-pages-data-gateway.png",
+      "bytes": 118586,
+      "sha256": "4274007995ed9a69a59502f54ab088f865fa3df446edbb4c9173e2086087b9f1",
+      "captureStatus": "captured",
+      "reviewStatus": "pending-product-review"
+    },
+    {
+      "id": "E02",
+      "oldPath": "pages/ambient-noise-imaging.html",
+      "reactPath": "/ambient-noise-imaging",
+      "file": "legacy-desktop-1440x1000/E02-pages-ambient-noise-imaging.png",
+      "bytes": 952925,
+      "sha256": "68c7db1fa89ad4840f4bb982f997db625eb723b9181e02b3c6c11267c5e909b3",
+      "captureStatus": "captured",
+      "reviewStatus": "pending-product-review"
+    },
+    {
+      "id": "E03",
+      "oldPath": "pages/ai-patent-disclosure.html",
+      "reactPath": "/ai-patent-disclosure",
+      "file": "legacy-desktop-1440x1000/E03-pages-ai-patent-disclosure.png",
+      "bytes": 37444,
+      "sha256": "a7cab4270d0e5cd1898287e39a7a4646033469de8b4c126a1a13bbf26d64d2e7",
+      "captureStatus": "captured",
+      "reviewStatus": "needs-review-possible-loading-or-auth-state"
+    },
+    {
+      "id": "X01",
+      "oldPath": "pages/course-tools.html",
+      "reactPath": "/teaching",
+      "file": "legacy-desktop-1440x1000/X01-pages-course-tools.png",
+      "bytes": 921536,
+      "sha256": "6761e96a14554c357f6bb4f62889ad38449aace116816b4f943843b4dbd79843",
+      "captureStatus": "captured",
+      "reviewStatus": "pending-product-review"
+    }
+  ]
+}

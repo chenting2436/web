@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "purpose": "Archive extraction rejection fixtures; this manifest is safe metadata and is not itself an exploit archive.",
+  "entries": [
+    {"path": "../../outside.txt", "expected": "reject", "code": "ARCHIVE_PATH_TRAVERSAL"},
+    {"path": "/absolute/path.txt", "expected": "reject", "code": "ARCHIVE_ABSOLUTE_PATH"},
+    {"path": "C:\\outside.txt", "expected": "reject", "code": "ARCHIVE_DRIVE_PATH"},
+    {"path": "safe/link", "kind": "symlink", "expected": "reject", "code": "ARCHIVE_LINK_FORBIDDEN"},
+    {"path": "safe/data.bin", "compressedBytes": 32, "expandedBytes": 1073741824, "expected": "reject", "code": "ARCHIVE_EXPANSION_LIMIT"}
+  ]
+}

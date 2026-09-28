@@ -1,0 +1,3643 @@
+{
+  "schemaVersion": 1,
+  "baselineCommit": "8a754dcdb8ab97c7a90ca588693a17b21ee1f41b",
+  "note": "Static source inventory includes controls in HTML plus data-action tokens in referenced scripts. It is not a browser accessibility tree or interaction video.",
+  "routes": [
+    {
+      "id": "N01",
+      "oldPath": "index.html",
+      "reactPath": "/",
+      "title": "卡片版 - 首页",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "把时间留给真正的问题"
+        },
+        {
+          "level": "h2",
+          "text": "首页完成粉白简约消息中心升级"
+        },
+        {
+          "level": "h2",
+          "text": "账号、个人中心与学习记录入口持续完善"
+        },
+        {
+          "level": "h2",
+          "text": "科研、工程、教学页面入口保持独立清晰"
+        },
+        {
+          "level": "h2",
+          "text": "最新消息"
+        },
+        {
+          "level": "h3",
+          "text": "AI+矿山安全成果页完成结构整理"
+        },
+        {
+          "level": "h3",
+          "text": "工程与产业化页面补充应用场景"
+        },
+        {
+          "level": "h3",
+          "text": "教学页预留作业与学习记录入口"
+        },
+        {
+          "level": "h3",
+          "text": "团队主页调整招生信息表达方式"
+        },
+        {
+          "level": "h3",
+          "text": "公告"
+        },
+        {
+          "level": "h3",
+          "text": "站点统计"
+        },
+        {
+          "level": "h3",
+          "text": "更新历史"
+        },
+        {
+          "level": "h3",
+          "text": "月度日历"
+        }
+      ],
+      "staticControls": [],
+      "staticButtons": [
+        {
+          "text": "English",
+          "type": "button",
+          "data": []
+        },
+        {
+          "text": "‹",
+          "type": "button",
+          "data": []
+        },
+        {
+          "text": "›",
+          "type": "button",
+          "data": []
+        },
+        {
+          "text": "",
+          "type": "button",
+          "data": []
+        },
+        {
+          "text": "",
+          "type": "button",
+          "data": []
+        },
+        {
+          "text": "",
+          "type": "button",
+          "data": []
+        }
+      ],
+      "dataAttributes": [
+        "data-carousel=",
+        "data-month-calendar=",
+        "data-site-stats=",
+        "data-stat=${name}",
+        "data-stat=characters",
+        "data-stat=lastActivity",
+        "data-stat=news",
+        "data-stat=notices",
+        "data-stat=pages",
+        "data-stat=runDays"
+      ],
+      "actionTokens": [],
+      "keyboardShortcuts": [],
+      "referencedScripts": [
+        "assets/scripts/earth-clock-3d.js",
+        "assets/scripts/earth-clock-file-fallback.js",
+        "assets/scripts/language.js"
+      ]
+    },
+    {
+      "id": "N02",
+      "oldPath": "pages/research.html",
+      "reactPath": "/research",
+      "title": "卡片版 - 科研成果",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "科研成果"
+        },
+        {
+          "level": "h2",
+          "text": "科研能力地图"
+        },
+        {
+          "level": "h2",
+          "text": "研究方向"
+        },
+        {
+          "level": "h2",
+          "text": "科研阅读流"
+        },
+        {
+          "level": "h2",
+          "text": "AI+矿山安全雷达"
+        },
+        {
+          "level": "h3",
+          "text": "论文写作"
+        },
+        {
+          "level": "h3",
+          "text": "灾害遥感"
+        },
+        {
+          "level": "h3",
+          "text": "地震与物理"
+        },
+        {
+          "level": "h3",
+          "text": "专利转化"
+        },
+        {
+          "level": "h3",
+          "text": "Skill 进化"
+        },
+        {
+          "level": "h3",
+          "text": "研究自动化"
+        },
+        {
+          "level": "h3",
+          "text": "论文写作"
+        },
+        {
+          "level": "h3",
+          "text": "灾害遥感"
+        },
+        {
+          "level": "h3",
+          "text": "地震推理"
+        },
+        {
+          "level": "h3",
+          "text": "专利转化"
+        },
+        {
+          "level": "h3",
+          "text": "知识系统"
+        },
+        {
+          "level": "h3",
+          "text": "研究雷达"
+        },
+        {
+          "level": "h3",
+          "text": "AI+矿山安全研究雷达"
+        },
+        {
+          "level": "h3",
+          "text": "边坡遥感与 UAV 裂缝证据"
+        },
+        {
+          "level": "h3",
+          "text": "论文、代码、专利的转化链"
+        },
+        {
+          "level": "h3",
+          "text": "灾害遥感"
+        },
+        {
+          "level": "h3",
+          "text": "地球物理"
+        },
+        {
+          "level": "h3",
+          "text": "论文写作"
+        },
+        {
+          "level": "h3",
+          "text": "专利转化"
+        }
+      ],
+      "staticControls": [],
+      "staticButtons": [
+        {
+          "text": "English",
+          "type": "button",
+          "data": []
+        }
+      ],
+      "dataAttributes": [
+        "data-lab=",
+        "data-paid-feature=disasterRemoteSensing",
+        "data-paid-feature=geophysics",
+        "data-paid-feature=knowledgeSystem",
+        "data-paid-feature=mineSafetyRadar",
+        "data-paid-feature=paperWriting",
+        "data-paid-feature=patentTransfer",
+        "data-paid-feature=researchAutomation",
+        "data-paid-feature=researchRadar",
+        "data-paid-feature=researchTransferChain",
+        "data-paid-feature=seismicPhysics",
+        "data-paid-feature=seismicReasoning",
+        "data-paid-feature=skillEvolution",
+        "data-paid-feature=uavCrackEvidence",
+        "data-paid-modal-action=",
+        "data-paid-modal-cancel=",
+        "data-paid-modal-message="
+      ],
+      "actionTokens": [],
+      "keyboardShortcuts": [],
+      "referencedScripts": [
+        "assets/scripts/language.js",
+        "assets/scripts/paid-gate.js"
+      ]
+    },
+    {
+      "id": "N03",
+      "oldPath": "pages/engineering.html",
+      "reactPath": "/engineering",
+      "title": "卡片版 - 工程与产业化",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "工程与产业化"
+        },
+        {
+          "level": "h2",
+          "text": "产品能力"
+        },
+        {
+          "level": "h2",
+          "text": "工程应用"
+        },
+        {
+          "level": "h3",
+          "text": "数据网关"
+        },
+        {
+          "level": "h3",
+          "text": "预警平台"
+        },
+        {
+          "level": "h3",
+          "text": "融合控制台"
+        },
+        {
+          "level": "h3",
+          "text": "决策大屏"
+        },
+        {
+          "level": "h3",
+          "text": "稳定性系数测算"
+        },
+        {
+          "level": "h3",
+          "text": "综合预警研判"
+        },
+        {
+          "level": "h3",
+          "text": "微震裂隙可视化"
+        },
+        {
+          "level": "h3",
+          "text": "无人机裂缝巡检"
+        },
+        {
+          "level": "h3",
+          "text": "点云瘦身与瓦片轻量化"
+        },
+        {
+          "level": "h3",
+          "text": "面波背景噪声成像"
+        },
+        {
+          "level": "h3",
+          "text": "位移时间序列预测"
+        },
+        {
+          "level": "h3",
+          "text": "AI+专利交底书工作台"
+        }
+      ],
+      "staticControls": [],
+      "staticButtons": [
+        {
+          "text": "English",
+          "type": "button",
+          "data": []
+        }
+      ],
+      "dataAttributes": [
+        "data-gateway=",
+        "data-lab=",
+        "data-paid-modal-action=",
+        "data-paid-modal-cancel=",
+        "data-paid-modal-message="
+      ],
+      "actionTokens": [],
+      "keyboardShortcuts": [],
+      "referencedScripts": [
+        "assets/scripts/language.js",
+        "assets/scripts/paid-gate.js"
+      ]
+    },
+    {
+      "id": "N04",
+      "oldPath": "pages/teaching.html",
+      "reactPath": "/teaching",
+      "title": "卡片版 - 教学",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "课程教学"
+        },
+        {
+          "level": "h2",
+          "text": "在线实验室"
+        },
+        {
+          "level": "h2",
+          "text": "课程教学"
+        },
+        {
+          "level": "h3",
+          "text": "Python 编译器"
+        },
+        {
+          "level": "h3",
+          "text": "日常做题"
+        },
+        {
+          "level": "h3",
+          "text": "在线项目开发"
+        },
+        {
+          "level": "h3",
+          "text": "数据处理"
+        },
+        {
+          "level": "h3",
+          "text": "AI辅助解释与报告"
+        },
+        {
+          "level": "h3",
+          "text": "Python 英文授课"
+        },
+        {
+          "level": "h3",
+          "text": "AI 测试与提交"
+        },
+        {
+          "level": "h3",
+          "text": "项目提交"
+        }
+      ],
+      "staticControls": [],
+      "staticButtons": [
+        {
+          "text": "English",
+          "type": "button",
+          "data": []
+        }
+      ],
+      "dataAttributes": [
+        "data-lab=",
+        "data-paid-feature=aiReport",
+        "data-paid-feature=aiTestSubmit",
+        "data-paid-feature=dailyPractice",
+        "data-paid-feature=dataProcessing",
+        "data-paid-feature=onlineProjectDev",
+        "data-paid-feature=projectSubmission",
+        "data-paid-feature=pythonCompiler",
+        "data-paid-feature=pythonEnglishCourse",
+        "data-paid-modal-action=",
+        "data-paid-modal-cancel=",
+        "data-paid-modal-message="
+      ],
+      "actionTokens": [],
+      "keyboardShortcuts": [],
+      "referencedScripts": [
+        "assets/scripts/language.js",
+        "assets/scripts/paid-gate.js"
+      ]
+    },
+    {
+      "id": "N05",
+      "oldPath": "pages/team.html",
+      "reactPath": "/team",
+      "title": "卡片版 - 团队主页",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "团队主页"
+        },
+        {
+          "level": "h2",
+          "text": "导师专区"
+        },
+        {
+          "level": "h2",
+          "text": "学生名单"
+        },
+        {
+          "level": "h2",
+          "text": "招生信息"
+        },
+        {
+          "level": "h3",
+          "text": "导师专区"
+        },
+        {
+          "level": "h3",
+          "text": "项目成果"
+        },
+        {
+          "level": "h3",
+          "text": "论文发表"
+        },
+        {
+          "level": "h3",
+          "text": "联系方式"
+        },
+        {
+          "level": "h3",
+          "text": "学校官网"
+        },
+        {
+          "level": "h3",
+          "text": "学生 A"
+        },
+        {
+          "level": "h3",
+          "text": "学生 B"
+        },
+        {
+          "level": "h3",
+          "text": "学生 C"
+        },
+        {
+          "level": "h3",
+          "text": "学生 D"
+        },
+        {
+          "level": "h3",
+          "text": "学生 E"
+        },
+        {
+          "level": "h3",
+          "text": "学生 F"
+        },
+        {
+          "level": "h3",
+          "text": "招生信息"
+        },
+        {
+          "level": "h3",
+          "text": "招生要求"
+        },
+        {
+          "level": "h3",
+          "text": "培养与支持"
+        }
+      ],
+      "staticControls": [],
+      "staticButtons": [
+        {
+          "text": "English",
+          "type": "button",
+          "data": []
+        }
+      ],
+      "dataAttributes": [],
+      "actionTokens": [],
+      "keyboardShortcuts": [],
+      "referencedScripts": [
+        "assets/scripts/language.js"
+      ]
+    },
+    {
+      "id": "N06",
+      "oldPath": "pages/login.html",
+      "reactPath": "/login",
+      "title": "卡片版 - 注册登录",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "注册登录"
+        }
+      ],
+      "staticControls": [
+        {
+          "element": "input",
+          "id": null,
+          "name": "studentId",
+          "type": null,
+          "placeholder": "请输入学号",
+          "required": true,
+          "data": []
+        },
+        {
+          "element": "input",
+          "id": null,
+          "name": "password",
+          "type": "password",
+          "placeholder": "请输入密码",
+          "required": true,
+          "data": []
+        },
+        {
+          "element": "input",
+          "id": null,
+          "name": "studentId",
+          "type": null,
+          "placeholder": "例如 20260001",
+          "required": true,
+          "data": []
+        },
+        {
+          "element": "input",
+          "id": null,
+          "name": "name",
+          "type": null,
+          "placeholder": "请输入姓名",
+          "required": true,
+          "data": []
+        },
+        {
+          "element": "input",
+          "id": null,
+          "name": "password",
+          "type": "password",
+          "placeholder": "至少 6 位",
+          "required": true,
+          "data": []
+        },
+        {
+          "element": "input",
+          "id": null,
+          "name": "confirmPassword",
+          "type": "password",
+          "placeholder": "再次输入密码",
+          "required": true,
+          "data": []
+        },
+        {
+          "element": "input",
+          "id": null,
+          "name": "email",
+          "type": "email",
+          "placeholder": "请输入邮箱",
+          "required": true,
+          "data": []
+        },
+        {
+          "element": "input",
+          "id": null,
+          "name": "emailCode",
+          "type": null,
+          "placeholder": "6 位验证码",
+          "required": true,
+          "data": []
+        }
+      ],
+      "staticButtons": [
+        {
+          "text": "English",
+          "type": "button",
+          "data": []
+        },
+        {
+          "text": "登录",
+          "type": "button",
+          "data": [
+            "data-auth-tab=login"
+          ]
+        },
+        {
+          "text": "注册",
+          "type": "button",
+          "data": [
+            "data-auth-tab=register"
+          ]
+        },
+        {
+          "text": "登录",
+          "type": "submit",
+          "data": []
+        },
+        {
+          "text": "获取验证码",
+          "type": "button",
+          "data": []
+        },
+        {
+          "text": "注册并登录",
+          "type": "submit",
+          "data": []
+        }
+      ],
+      "dataAttributes": [
+        "data-auth-tab=",
+        "data-auth-tab=login",
+        "data-auth-tab=register",
+        "data-lab="
+      ],
+      "actionTokens": [],
+      "keyboardShortcuts": [],
+      "referencedScripts": [
+        "assets/scripts/auth.js",
+        "assets/scripts/language.js"
+      ]
+    },
+    {
+      "id": "N07",
+      "oldPath": "pages/profile.html",
+      "reactPath": "/profile",
+      "title": "卡片版 - 个人中心",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "个人中心"
+        },
+        {
+          "level": "h2",
+          "text": "请先登录"
+        },
+        {
+          "level": "h2",
+          "text": "姓名"
+        }
+      ],
+      "staticControls": [],
+      "staticButtons": [
+        {
+          "text": "English",
+          "type": "button",
+          "data": []
+        },
+        {
+          "text": "退出登录",
+          "type": "button",
+          "data": []
+        }
+      ],
+      "dataAttributes": [
+        "data-auth-tab=",
+        "data-lab="
+      ],
+      "actionTokens": [],
+      "keyboardShortcuts": [],
+      "referencedScripts": [
+        "assets/scripts/auth.js",
+        "assets/scripts/language.js"
+      ]
+    },
+    {
+      "id": "N08",
+      "oldPath": "pages/students.html",
+      "reactPath": "/students",
+      "title": "卡片版 - 学生管理",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "学生管理"
+        },
+        {
+          "level": "h3",
+          "text": "注册学生"
+        },
+        {
+          "level": "h3",
+          "text": "开通情况"
+        },
+        {
+          "level": "h3",
+          "text": "学习档案"
+        }
+      ],
+      "staticControls": [],
+      "staticButtons": [
+        {
+          "text": "English",
+          "type": "button",
+          "data": []
+        }
+      ],
+      "dataAttributes": [],
+      "actionTokens": [],
+      "keyboardShortcuts": [],
+      "referencedScripts": [
+        "assets/scripts/language.js",
+        "assets/scripts/student-management.js"
+      ]
+    },
+    {
+      "id": "N09",
+      "oldPath": "pages/paid-features.html",
+      "reactPath": "/paid-features",
+      "title": "卡片版 - 付费功能管理",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "付费功能管理"
+        }
+      ],
+      "staticControls": [],
+      "staticButtons": [
+        {
+          "text": "English",
+          "type": "button",
+          "data": []
+        }
+      ],
+      "dataAttributes": [
+        "data-lab=",
+        "data-paid-toggle=",
+        "data-paid-toggle=${feature.id}"
+      ],
+      "actionTokens": [],
+      "keyboardShortcuts": [],
+      "referencedScripts": [
+        "assets/scripts/language.js",
+        "assets/scripts/paid-management.js"
+      ]
+    },
+    {
+      "id": "N10",
+      "oldPath": "pages/comments.html",
+      "reactPath": "/comments",
+      "title": "SkyViewLab - 评论与回复",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "评论与回复"
+        }
+      ],
+      "staticControls": [],
+      "staticButtons": [
+        {
+          "text": "English",
+          "type": "button",
+          "data": []
+        }
+      ],
+      "dataAttributes": [
+        "data-comment-filter=",
+        "data-comment-filter=channel",
+        "data-comment-filter=query",
+        "data-comment-filter=sort",
+        "data-comment-filter=status",
+        "data-comments-app=",
+        "data-dialog-close=",
+        "data-mark-read=",
+        "data-new-thread=",
+        "data-quote-author=",
+        "data-quote-author=${escapeHtml(reply.authorName)}",
+        "data-reply-form=",
+        "data-thread-delete=",
+        "data-thread-dialog=",
+        "data-thread-form=",
+        "data-thread-id=",
+        "data-thread-id=${escapeHtml(thread.id)}",
+        "data-thread-pin=",
+        "data-thread-priority=",
+        "data-thread-reopen=",
+        "data-thread-resolve="
+      ],
+      "actionTokens": [],
+      "keyboardShortcuts": [],
+      "referencedScripts": [
+        "assets/scripts/comments-workbench.js",
+        "assets/scripts/language.js"
+      ]
+    },
+    {
+      "id": "N11",
+      "oldPath": "pages/homework.html",
+      "reactPath": "/homework",
+      "title": "SkyViewLab - 作业管理",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "作业管理"
+        }
+      ],
+      "staticControls": [],
+      "staticButtons": [
+        {
+          "text": "English",
+          "type": "button",
+          "data": []
+        }
+      ],
+      "dataAttributes": [
+        "data-assignment-dialog-title=",
+        "data-assignment-dialog=",
+        "data-assignment-form=",
+        "data-assignment-id=",
+        "data-assignment-id=${escapeHtml(assignment.id)}",
+        "data-close-assignment=",
+        "data-delete-assignment=",
+        "data-dialog-close=",
+        "data-edit-assignment=",
+        "data-existing-resources=",
+        "data-grade-form=",
+        "data-homework-app=",
+        "data-homework-filter=",
+        "data-homework-filter=course",
+        "data-homework-filter=query",
+        "data-homework-filter=status",
+        "data-new-assignment=",
+        "data-publish-assignment=",
+        "data-reopen-assignment=",
+        "data-request-revision=",
+        "data-save-draft=",
+        "data-selected-files=",
+        "data-submission-form=",
+        "data-submission-id=",
+        "data-submission-id=${escapeHtml(submission.id)}"
+      ],
+      "actionTokens": [],
+      "keyboardShortcuts": [],
+      "referencedScripts": [
+        "assets/scripts/homework-workbench.js",
+        "assets/scripts/language.js"
+      ]
+    },
+    {
+      "id": "T01",
+      "oldPath": "pages/python-lab.html",
+      "reactPath": "/python-lab",
+      "title": "卡片版 - Python 编译器",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Python 编译器"
+        }
+      ],
+      "staticControls": [
+        {
+          "element": "input",
+          "id": null,
+          "name": null,
+          "type": "search",
+          "placeholder": "查找代码",
+          "required": false,
+          "data": [
+            "data-editor-find="
+          ]
+        },
+        {
+          "element": "input",
+          "id": null,
+          "name": null,
+          "type": "text",
+          "placeholder": "替换为",
+          "required": false,
+          "data": [
+            "data-editor-replace="
+          ]
+        },
+        {
+          "element": "input",
+          "id": null,
+          "name": null,
+          "type": "file",
+          "placeholder": null,
+          "required": false,
+          "data": [
+            "data-import-workspace="
+          ]
+        },
+        {
+          "element": "input",
+          "id": null,
+          "name": null,
+          "type": "text",
+          "placeholder": "python main.py / COURSE=PythonLab python main.py --mode practice / pip install numpy / help",
+          "required": false,
+          "data": [
+            "data-terminal-input="
+          ]
+        },
+        {
+          "element": "select",
+          "id": null,
+          "name": null,
+          "type": null,
+          "placeholder": null,
+          "required": false,
+          "data": [
+            "data-example-template="
+          ]
+        },
+        {
+          "element": "textarea",
+          "id": null,
+          "name": null,
+          "type": null,
+          "placeholder": null,
+          "required": false,
+          "data": [
+            "data-code-editor="
+          ]
+        }
+      ],
+      "staticButtons": [
+        {
+          "text": "English",
+          "type": "button",
+          "data": []
+        },
+        {
+          "text": "载入示例",
+          "type": "button",
+          "data": [
+            "data-load-example="
+          ]
+        },
+        {
+          "text": "保存",
+          "type": "button",
+          "data": [
+            "data-save-active="
+          ]
+        },
+        {
+          "text": "运行当前文件",
+          "type": "button",
+          "data": [
+            "data-run-code="
+          ]
+        },
+        {
+          "text": "停止",
+          "type": "button",
+          "data": [
+            "data-stop-code="
+          ]
+        },
+        {
+          "text": "重置运行时",
+          "type": "button",
+          "data": [
+            "data-reset-runtime="
+          ]
+        },
+        {
+          "text": "全部替换",
+          "type": "button",
+          "data": [
+            "data-replace-all="
+          ]
+        },
+        {
+          "text": "PY",
+          "type": "button",
+          "data": [
+            "data-sidebar-panel-button=files"
+          ]
+        },
+        {
+          "text": ">",
+          "type": "button",
+          "data": [
+            "data-focus-terminal="
+          ]
+        },
+        {
+          "text": "PKG",
+          "type": "button",
+          "data": [
+            "data-sidebar-panel-button=packages"
+          ]
+        },
+        {
+          "text": "新建文件",
+          "type": "button",
+          "data": [
+            "data-new-file="
+          ]
+        },
+        {
+          "text": "新建文件夹",
+          "type": "button",
+          "data": [
+            "data-new-folder="
+          ]
+        },
+        {
+          "text": "导出",
+          "type": "button",
+          "data": [
+            "data-export-workspace="
+          ]
+        },
+        {
+          "text": "清空",
+          "type": "button",
+          "data": [
+            "data-clear-output="
+          ]
+        }
+      ],
+      "dataAttributes": [
+        "data-clear-output=",
+        "data-close-file=",
+        "data-close-file=${path}",
+        "data-code-editor=",
+        "data-delete-path=${node.path}",
+        "data-editor-find=",
+        "data-editor-replace=",
+        "data-editor-tabs=",
+        "data-example-template=",
+        "data-export-workspace=",
+        "data-file-tree=",
+        "data-focus-terminal=",
+        "data-import-workspace=",
+        "data-installed-packages=",
+        "data-lab=",
+        "data-line-numbers=",
+        "data-load-example=",
+        "data-new-file-in=${node.path}",
+        "data-new-file=",
+        "data-new-folder=",
+        "data-open-file=",
+        "data-output=",
+        "data-paid-modal-action=",
+        "data-paid-modal-cancel=",
+        "data-paid-modal-message=",
+        "data-paid-page=pythonCompiler",
+        "data-python-lab=",
+        "data-rename-path=${node.path}",
+        "data-replace-all=",
+        "data-reset-runtime=",
+        "data-resizer=sidebar",
+        "data-resizer=terminal",
+        "data-run-code=",
+        "data-runtime-detail=",
+        "data-runtime-status=",
+        "data-save-active=",
+        "data-sidebar-panel-button=",
+        "data-sidebar-panel-button=files",
+        "data-sidebar-panel-button=packages",
+        "data-sidebar-panel=",
+        "data-sidebar-panel=files",
+        "data-sidebar-panel=packages",
+        "data-stop-code=",
+        "data-terminal-form=",
+        "data-terminal-input="
+      ],
+      "actionTokens": [],
+      "keyboardShortcuts": [
+        "Ctrl+Enter",
+        "Ctrl+S"
+      ],
+      "referencedScripts": [
+        "assets/scripts/course-storage.js",
+        "assets/scripts/language.js",
+        "assets/scripts/paid-gate.js",
+        "assets/scripts/python-lab.js"
+      ]
+    },
+    {
+      "id": "T02",
+      "oldPath": "pages/daily-practice.html",
+      "reactPath": "/daily-practice",
+      "title": "日常做题 - SkyViewLab",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "日常做题"
+        }
+      ],
+      "staticControls": [],
+      "staticButtons": [
+        {
+          "text": "English",
+          "type": "button",
+          "data": []
+        }
+      ],
+      "dataAttributes": [
+        "data-apply-submission-template=",
+        "data-build-package=",
+        "data-check-answer=",
+        "data-cleaning=",
+        "data-clear-exam-result=",
+        "data-correlation=",
+        "data-course-tool-root=",
+        "data-course-tool=daily-practice",
+        "data-delete-milestone=",
+        "data-delete-project=",
+        "data-delete-task=",
+        "data-duplicate=",
+        "data-edit-task=",
+        "data-exam-count=",
+        "data-exam-duration=",
+        "data-exam-timer=",
+        "data-export-project=",
+        "data-export-review=",
+        "data-finish-exam=",
+        "data-generated-=",
+        "data-import-project=",
+        "data-kanban-column=",
+        "data-kanban-column=${status}",
+        "data-lab=",
+        "data-milestone-form=",
+        "data-milestone-id=",
+        "data-milestone-id=${escapeHtml(item.id)}",
+        "data-missing=",
+        "data-move-task=",
+        "data-move-task=back",
+        "data-move-task=next",
+        "data-new-project=",
+        "data-next-question=",
+        "data-outlier=",
+        "data-paid-modal-action=",
+        "data-paid-modal-cancel=",
+        "data-paid-modal-message=",
+        "data-practice-category=",
+        "data-practice-difficulty=",
+        "data-practice-feedback=",
+        "data-practice-mode=",
+        "data-practice-mode=${id}",
+        "data-practice-search=",
+        "data-project-cycle=",
+        "data-project-deadline=",
+        "data-project-members=",
+        "data-project-notes=",
+        "data-project-objective=",
+        "data-project-switch=",
+        "data-project-title=",
+        "data-project-view=",
+        "data-project-view=${id}",
+        "data-quality=",
+        "data-question-id=",
+        "data-question-id=${item.id}",
+        "data-readiness=",
+        "data-remove-file=",
+        "data-remove-file=${index}",
+        "data-reset-practice=",
+        "data-reset-project=",
+        "data-reset-submission=",
+        "data-review-field=",
+        "data-review-field=${id}",
+        "data-review-field=comments",
+        "data-review-field=status",
+        "data-review-score=",
+        "data-save-project=",
+        "data-save-review=",
+        "data-save-submission=",
+        "data-scaling=",
+        "data-split=",
+        "data-start-exam=",
+        "data-submission-check=",
+        "data-submission-check=${id}",
+        "data-submission-drop=",
+        "data-submission-field=",
+        "data-submission-field=changelog",
+        "data-submission-field=course",
+        "data-submission-field=license",
+        "data-submission-field=repository",
+        "data-submission-field=summary",
+        "data-submission-field=team",
+        "data-submission-field=title",
+        "data-submission-field=version",
+        "data-submission-file-list=",
+        "data-submission-files=",
+        "data-submission-folder=",
+        "data-submission-message=",
+        "data-submission-template=",
+        "data-submission-total=",
+        "data-submission-validation=",
+        "data-task-form=",
+        "data-task-id=",
+        "data-task-id=${escapeHtml(task.id)}",
+        "data-toggle-favorite=",
+        "data-toggle-milestone=",
+        "data-tool-app=",
+        "data-tool-footer=",
+        "data-tool-kicker=",
+        "data-tool-nav=",
+        "data-tool-state-copy=",
+        "data-tool-state-label=",
+        "data-tool-state=",
+        "data-tool-summary=",
+        "data-tool-title="
+      ],
+      "actionTokens": [],
+      "keyboardShortcuts": [],
+      "referencedScripts": [
+        "assets/scripts/course-storage.js",
+        "assets/scripts/course-tool-gate.js",
+        "assets/scripts/course-tools.js",
+        "assets/scripts/language.js",
+        "assets/scripts/paid-gate.js"
+      ]
+    },
+    {
+      "id": "T03",
+      "oldPath": "pages/project-workspace.html",
+      "reactPath": "/project-workspace",
+      "title": "在线项目开发 - SkyViewLab",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "在线项目开发"
+        }
+      ],
+      "staticControls": [],
+      "staticButtons": [
+        {
+          "text": "English",
+          "type": "button",
+          "data": []
+        }
+      ],
+      "dataAttributes": [
+        "data-apply-submission-template=",
+        "data-build-package=",
+        "data-check-answer=",
+        "data-cleaning=",
+        "data-clear-exam-result=",
+        "data-correlation=",
+        "data-course-tool-root=",
+        "data-course-tool=project-workspace",
+        "data-delete-milestone=",
+        "data-delete-project=",
+        "data-delete-task=",
+        "data-duplicate=",
+        "data-edit-task=",
+        "data-exam-count=",
+        "data-exam-duration=",
+        "data-exam-timer=",
+        "data-export-project=",
+        "data-export-review=",
+        "data-finish-exam=",
+        "data-generated-=",
+        "data-import-project=",
+        "data-kanban-column=",
+        "data-kanban-column=${status}",
+        "data-lab=",
+        "data-milestone-form=",
+        "data-milestone-id=",
+        "data-milestone-id=${escapeHtml(item.id)}",
+        "data-missing=",
+        "data-move-task=",
+        "data-move-task=back",
+        "data-move-task=next",
+        "data-new-project=",
+        "data-next-question=",
+        "data-outlier=",
+        "data-paid-modal-action=",
+        "data-paid-modal-cancel=",
+        "data-paid-modal-message=",
+        "data-practice-category=",
+        "data-practice-difficulty=",
+        "data-practice-feedback=",
+        "data-practice-mode=",
+        "data-practice-mode=${id}",
+        "data-practice-search=",
+        "data-project-cycle=",
+        "data-project-deadline=",
+        "data-project-members=",
+        "data-project-notes=",
+        "data-project-objective=",
+        "data-project-switch=",
+        "data-project-title=",
+        "data-project-view=",
+        "data-project-view=${id}",
+        "data-quality=",
+        "data-question-id=",
+        "data-question-id=${item.id}",
+        "data-readiness=",
+        "data-remove-file=",
+        "data-remove-file=${index}",
+        "data-reset-practice=",
+        "data-reset-project=",
+        "data-reset-submission=",
+        "data-review-field=",
+        "data-review-field=${id}",
+        "data-review-field=comments",
+        "data-review-field=status",
+        "data-review-score=",
+        "data-save-project=",
+        "data-save-review=",
+        "data-save-submission=",
+        "data-scaling=",
+        "data-split=",
+        "data-start-exam=",
+        "data-submission-check=",
+        "data-submission-check=${id}",
+        "data-submission-drop=",
+        "data-submission-field=",
+        "data-submission-field=changelog",
+        "data-submission-field=course",
+        "data-submission-field=license",
+        "data-submission-field=repository",
+        "data-submission-field=summary",
+        "data-submission-field=team",
+        "data-submission-field=title",
+        "data-submission-field=version",
+        "data-submission-file-list=",
+        "data-submission-files=",
+        "data-submission-folder=",
+        "data-submission-message=",
+        "data-submission-template=",
+        "data-submission-total=",
+        "data-submission-validation=",
+        "data-task-form=",
+        "data-task-id=",
+        "data-task-id=${escapeHtml(task.id)}",
+        "data-toggle-favorite=",
+        "data-toggle-milestone=",
+        "data-tool-app=",
+        "data-tool-footer=",
+        "data-tool-kicker=",
+        "data-tool-nav=",
+        "data-tool-state-copy=",
+        "data-tool-state-label=",
+        "data-tool-state=",
+        "data-tool-summary=",
+        "data-tool-title="
+      ],
+      "actionTokens": [],
+      "keyboardShortcuts": [],
+      "referencedScripts": [
+        "assets/scripts/course-storage.js",
+        "assets/scripts/course-tool-gate.js",
+        "assets/scripts/course-tools.js",
+        "assets/scripts/language.js",
+        "assets/scripts/paid-gate.js"
+      ]
+    },
+    {
+      "id": "T04",
+      "oldPath": "pages/data-lab.html",
+      "reactPath": "/data-lab",
+      "title": "数据清洗工作台 - SkyViewLab",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "数据清洗工作台"
+        }
+      ],
+      "staticControls": [],
+      "staticButtons": [
+        {
+          "text": "English",
+          "type": "button",
+          "data": []
+        }
+      ],
+      "dataAttributes": [
+        "data-add-filter=",
+        "data-aggregate-form=",
+        "data-cancel-import=",
+        "data-cell-form=",
+        "data-clear-query=",
+        "data-clear-sort=",
+        "data-close-dialog=",
+        "data-column-action=",
+        "data-column-action=add-dialog",
+        "data-column-action=collapse",
+        "data-column-action=deduplicate",
+        "data-column-action=fill-dialog",
+        "data-column-action=lower",
+        "data-column-action=normalize-missing",
+        "data-column-action=range-facet",
+        "data-column-action=remove-dialog",
+        "data-column-action=rename-dialog",
+        "data-column-action=replace-dialog",
+        "data-column-action=sort-asc",
+        "data-column-action=sort-desc",
+        "data-column-action=sort-permanent",
+        "data-column-action=split-dialog",
+        "data-column-action=text-facet",
+        "data-column-action=title",
+        "data-column-action=transform-dialog",
+        "data-column-action=trim",
+        "data-column-action=upper",
+        "data-column-form=add",
+        "data-column-form=fill",
+        "data-column-form=remove",
+        "data-column-form=rename",
+        "data-column-form=replace",
+        "data-column-form=split",
+        "data-column-form=transform",
+        "data-column-menu=",
+        "data-column-menu=${esc(field)}",
+        "data-course-tool=data-lab",
+        "data-create-project=",
+        "data-data-refine-app=",
+        "data-data-refine-root=",
+        "data-deduplicate-all=",
+        "data-delete-project=",
+        "data-delete-project=${esc(project.id)}",
+        "data-edit-cell=",
+        "data-edit-cell=${index}",
+        "data-edit-column=${esc(field)}",
+        "data-edit-project-name=",
+        "data-export-aggregate=",
+        "data-export-form=",
+        "data-export-operations=",
+        "data-export-project=",
+        "data-facet-choice=",
+        "data-facet-choice=${index}",
+        "data-filter-column=",
+        "data-filter-invert=",
+        "data-filter-mode=",
+        "data-filter-query=",
+        "data-global-query=",
+        "data-history-step=",
+        "data-history-step=${index + 1}",
+        "data-history-step=0",
+        "data-home-tab=",
+        "data-home-tab=create",
+        "data-home-tab=import",
+        "data-home-tab=open",
+        "data-import-data=",
+        "data-import-operations=",
+        "data-import-option=",
+        "data-import-option=dynamicTyping",
+        "data-import-option=headerRow",
+        "data-import-option=projectName",
+        "data-import-option=skipRows",
+        "data-import-project=",
+        "data-import-sheet=",
+        "data-inline-operation=",
+        "data-left-tab=",
+        "data-left-tab=aggregate",
+        "data-left-tab=facet",
+        "data-left-tab=history",
+        "data-left-tab=profile",
+        "data-load-data-demo=",
+        "data-open-export=",
+        "data-open-project=",
+        "data-open-project=${esc(project.id)}",
+        "data-or-message=",
+        "data-page-size=",
+        "data-page=",
+        "data-page=first",
+        "data-page=last",
+        "data-page=next",
+        "data-page=prev",
+        "data-panel=",
+        "data-pilot-display-info=",
+        "data-pilot-field-reference=",
+        "data-pilot-field=",
+        "data-pilot-grand-total=",
+        "data-pilot-group-member=",
+        "data-pilot-group=",
+        "data-pilot-groups=",
+        "data-pilot-layout-info=",
+        "data-pilot-level=",
+        "data-pilot-member=",
+        "data-pilot-members=",
+        "data-pilot-sort-info=",
+        "data-pilot-subtotal=",
+        "data-pilot-subtotals=",
+        "data-pilot-table=",
+        "data-pilot-tables=",
+        "data-profile-column=",
+        "data-profile-jump=",
+        "data-profile-jump=${esc(item.field)}",
+        "data-project-form=",
+        "data-project-home=",
+        "data-project=",
+        "data-range-max=",
+        "data-range-max=${index}",
+        "data-range-min=",
+        "data-range-min=${index}",
+        "data-redo=",
+        "data-refine-engine=",
+        "data-refine-pro=",
+        "data-remove-empty-rows=",
+        "data-remove-facet=",
+        "data-remove-facet=${index}",
+        "data-remove-filter=",
+        "data-remove-filter=${index}",
+        "data-scroll=",
+        "data-style-name=",
+        "data-style-name='+n[r]+'",
+        "data-style-name=N37",
+        "data-t=",
+        "data-table=",
+        "data-undo=",
+        "data-v=",
+        "data-view=",
+        "data-z="
+      ],
+      "actionTokens": [],
+      "keyboardShortcuts": [],
+      "referencedScripts": [
+        "assets/scripts/course-storage.js",
+        "assets/scripts/data-refine-engine.js",
+        "assets/scripts/data-refine-pro.js",
+        "assets/scripts/language.js",
+        "vendor/jszip/jszip.min.js",
+        "vendor/papaparse/papaparse.min.js",
+        "vendor/sheetjs/xlsx.full.min.js"
+      ]
+    },
+    {
+      "id": "T05",
+      "oldPath": "pages/ai-report.html",
+      "reactPath": "/ai-report",
+      "title": "AI 辅助解释与报告工作台 - SkyViewLab",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "AI 辅助解释与报告"
+        }
+      ],
+      "staticControls": [],
+      "staticButtons": [
+        {
+          "text": "English",
+          "type": "button",
+          "data": []
+        }
+      ],
+      "dataAttributes": [
+        "data-action=",
+        "data-action=${action}",
+        "data-action=delete-project",
+        "data-action=new-project",
+        "data-action=toggle-prompt",
+        "data-chat-stream=",
+        "data-compare-version=",
+        "data-config-field=audience",
+        "data-config-field=instruction",
+        "data-config-field=length",
+        "data-config-field=objective",
+        "data-dropzone=",
+        "data-file-input=",
+        "data-form=chat",
+        "data-form=fetch-url",
+        "data-form=paste-material",
+        "data-format=${id}",
+        "data-id=${active.id}",
+        "data-local-model=",
+        "data-local-model=${x.id}",
+        "data-material-field=locator",
+        "data-material-field=name",
+        "data-material-field=sourceUrl",
+        "data-material-id=",
+        "data-material-id=${item.id}",
+        "data-material-text=",
+        "data-pilot-display-info=",
+        "data-pilot-field-reference=",
+        "data-pilot-field=",
+        "data-pilot-grand-total=",
+        "data-pilot-group-member=",
+        "data-pilot-group=",
+        "data-pilot-groups=",
+        "data-pilot-layout-info=",
+        "data-pilot-level=",
+        "data-pilot-member=",
+        "data-pilot-members=",
+        "data-pilot-sort-info=",
+        "data-pilot-subtotal=",
+        "data-pilot-subtotals=",
+        "data-pilot-table=",
+        "data-pilot-tables=",
+        "data-project-field=course",
+        "data-project-id=",
+        "data-project-id=${item.id}",
+        "data-project-title=",
+        "data-report-editor=",
+        "data-report-type=",
+        "data-report-type=${id}",
+        "data-runtime-mode=",
+        "data-runtime-mode=local",
+        "data-runtime-mode=remote",
+        "data-sections=",
+        "data-select-material=${item.id}",
+        "data-session-key=",
+        "data-setting=endpoint",
+        "data-setting=maxTokens",
+        "data-setting=remoteModel",
+        "data-setting=temperature",
+        "data-setting=theme",
+        "data-setting=topP",
+        "data-style-name=",
+        "data-style-name='+n[r]+'",
+        "data-style-name=N37",
+        "data-t=",
+        "data-v=",
+        "data-version-id=",
+        "data-version-id=${x.id}",
+        "data-view=",
+        "data-view=${id}",
+        "data-view=dashboard",
+        "data-webllm-report-app=",
+        "data-z="
+      ],
+      "actionTokens": [
+        "${action}",
+        "${id}",
+        "dashboard",
+        "delete-project",
+        "new-project",
+        "toggle-prompt"
+      ],
+      "keyboardShortcuts": [
+        "Shift+Enter"
+      ],
+      "referencedScripts": [
+        "assets/scripts/course-storage.js",
+        "assets/scripts/language.js",
+        "assets/scripts/webllm-report-app.js",
+        "assets/scripts/webllm-report-engine.js",
+        "vendor/jszip/jszip.min.js",
+        "vendor/mammoth/mammoth.browser.min.js",
+        "vendor/sheetjs/xlsx.full.min.js"
+      ]
+    },
+    {
+      "id": "T06",
+      "oldPath": "pages/python-english.html",
+      "reactPath": "/python-english",
+      "title": "Python English Learning Center - SkyViewLab",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Python 英文授课"
+        }
+      ],
+      "staticControls": [],
+      "staticButtons": [
+        {
+          "text": "English",
+          "type": "button",
+          "data": []
+        }
+      ],
+      "dataAttributes": [
+        "data-1=",
+        "data-2=",
+        "data-3=",
+        "data-4=",
+        "data-5=",
+        "data-6=",
+        "data-7=",
+        "data-8=",
+        "data-correct=false",
+        "data-correct=true",
+        "data-errors=",
+        "data-exam-id=${escapeHtml(exam.id)}",
+        "data-exam-id=${escapeHtml(nextExam.id)}",
+        "data-exam-id=${escapeHtml(result.exam.id)}",
+        "data-ez-action=",
+        "data-ez-action=answer-exam",
+        "data-ez-action=answer-vocab-quiz",
+        "data-ez-action=check-typing",
+        "data-ez-action=close-result",
+        "data-ez-action=delete-custom-exam",
+        "data-ez-action=delete-custom-set",
+        "data-ez-action=exam-jump",
+        "data-ez-action=exam-next",
+        "data-ez-action=flip-card",
+        "data-ez-action=leave-session",
+        "data-ez-action=mark-reference",
+        "data-ez-action=open-reference",
+        "data-ez-action=pronunciation-rate",
+        "data-ez-action=record-pronunciation",
+        "data-ez-action=reveal-word",
+        "data-ez-action=speak-word",
+        "data-ez-action=start-exam",
+        "data-ez-action=start-mode",
+        "data-ez-action=toggle-sound",
+        "data-ez-action=toggle-theme",
+        "data-ez-action=toggle-vibration",
+        "data-ez-action=vocab-next",
+        "data-ez-action=vocab-rate",
+        "data-ez-import=",
+        "data-ez-import=exam",
+        "data-ez-import=vocabulary",
+        "data-ez-nav=",
+        "data-ez-nav=${id}",
+        "data-ez-nav=references",
+        "data-ez-search=",
+        "data-ez-search=${event.target.dataset.ezSearch}",
+        "data-ez-search=exams",
+        "data-ez-search=references",
+        "data-ez-search=vocabulary",
+        "data-ez-timer=",
+        "data-ez-transcript=",
+        "data-ez-typing-answer=",
+        "data-ez-view=",
+        "data-index=${index}",
+        "data-mode=${escapeHtml(result.mode)}",
+        "data-mode=${mode}",
+        "data-mode=learn",
+        "data-option=${index}",
+        "data-option=${Number(event.key) - 1}",
+        "data-rating=known",
+        "data-rating=review",
+        "data-reference-id=${item.id}",
+        "data-reference-id=${selected.id}",
+        "data-score=${result.percent}%",
+        "data-set-id=${escapeHtml(nextSet.id)}",
+        "data-set-id=${escapeHtml(result.set.id)}",
+        "data-set-id=${escapeHtml(set.id)}",
+        "data-twoez-python-app=",
+        "data-word=${escapeHtml(word.word)}"
+      ],
+      "actionTokens": [
+        "${escapeHtml(result.mode)}",
+        "${mode}",
+        "learn"
+      ],
+      "keyboardShortcuts": [],
+      "referencedScripts": [
+        "assets/scripts/course-storage.js",
+        "assets/scripts/language.js",
+        "assets/scripts/twoez-python-app.js",
+        "assets/scripts/twoez-python-content.js",
+        "assets/scripts/twoez-python-engine.js"
+      ]
+    },
+    {
+      "id": "T07",
+      "oldPath": "pages/ai-assessment.html",
+      "reactPath": "/ai-assessment",
+      "title": "AI 测试与提交 · Judge0 工作台 - SkyViewLab",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "AI 测试与提交"
+        }
+      ],
+      "staticControls": [],
+      "staticButtons": [
+        {
+          "text": "English",
+          "type": "button",
+          "data": []
+        }
+      ],
+      "dataAttributes": [
+        "data-ai-review-output=",
+        "data-ai-review=",
+        "data-bottom-status=",
+        "data-check-service=",
+        "data-clear-console=",
+        "data-clear-history=",
+        "data-close-settings=",
+        "data-close-task-modal=",
+        "data-code=",
+        "data-code=${me}",
+        "data-col-index=",
+        "data-command-args=",
+        "data-command=",
+        "data-compiler-options=",
+        "data-console-output=",
+        "data-console-tab=",
+        "data-console-tab=compile",
+        "data-console-tab=stderr",
+        "data-console-tab=stdout",
+        "data-disabled=",
+        "data-download-code=",
+        "data-editor-host=",
+        "data-editor-language=",
+        "data-editor-lines=",
+        "data-editor-position=",
+        "data-export-catalog=",
+        "data-export-history=",
+        "data-export-task=",
+        "data-fallback-editor=",
+        "data-file-menu=",
+        "data-file-popover=",
+        "data-href=",
+        "data-icon-label-count=",
+        "data-icon-label-index=",
+        "data-import-task=",
+        "data-index=",
+        "data-inspector-body=",
+        "data-inspector-tab=",
+        "data-inspector-tab=history",
+        "data-inspector-tab=problem",
+        "data-inspector-tab=results",
+        "data-judge0-assessment-app=",
+        "data-keybinding-context=",
+        "data-lang=",
+        "data-language=",
+        "data-last-element=",
+        "data-mode-id=",
+        "data-mprt=",
+        "data-name=",
+        "data-new-task=",
+        "data-open-settings=",
+        "data-parity=",
+        "data-parity=odd]:not(.focused):not(.selected):not(:hover)",
+        "data-parity=odd].focused:not(.selected):not(:hover)",
+        "data-reopen-submission=",
+        "data-reopen-submission=${index}",
+        "data-reset-code=",
+        "data-result-badge=",
+        "data-run=",
+        "data-save-settings=",
+        "data-save-task-json=",
+        "data-secret=",
+        "data-secret=aiKey",
+        "data-secret=authToken",
+        "data-secret=extraToken",
+        "data-service-dot=",
+        "data-service-evidence=",
+        "data-service-label=",
+        "data-setting=",
+        "data-setting=aiEndpoint",
+        "data-setting=aiModel",
+        "data-setting=authHeader",
+        "data-setting=endpoint",
+        "data-setting=extraHeader",
+        "data-setting=maxPolls",
+        "data-setting=pollInterval",
+        "data-settings-modal=",
+        "data-source-filename=",
+        "data-stdin=",
+        "data-sticky-is-folding-icon=",
+        "data-sticky-is-line-number=",
+        "data-sticky-is-line=",
+        "data-sticky-line-index=",
+        "data-structure=",
+        "data-submit=",
+        "data-task-category=",
+        "data-task-count=",
+        "data-task-difficulty=",
+        "data-task-file=",
+        "data-task-id=",
+        "data-task-id=${escapeHtml(task.id)}",
+        "data-task-json=",
+        "data-task-list=",
+        "data-task-manager=",
+        "data-task-modal=",
+        "data-task-query=",
+        "data-task-schema-message=",
+        "data-toast=",
+        "data-tt-policy-suffix=",
+        "data-unverified=",
+        "data-uri=",
+        "data-use-sample=",
+        "data-use-sample=${escapeHtml(item.id)}",
+        "data-work-status="
+      ],
+      "actionTokens": [],
+      "keyboardShortcuts": [
+        "Alt+F1",
+        "Ctrl+Alt",
+        "Ctrl+Enter",
+        "Ctrl+Option",
+        "Ctrl+S",
+        "Ctrl+Space"
+      ],
+      "referencedScripts": [
+        "assets/scripts/course-storage.js",
+        "assets/scripts/judge0-assessment-app.js",
+        "assets/scripts/judge0-assessment-catalog.js",
+        "assets/scripts/judge0-assessment-engine.js",
+        "assets/scripts/language.js",
+        "vendor/monaco-editor-0.44.0/min/vs/editor/editor.main.js",
+        "vendor/monaco-editor-0.44.0/min/vs/editor/editor.main.nls.js",
+        "vendor/monaco-editor-0.44.0/min/vs/loader.js"
+      ]
+    },
+    {
+      "id": "T08",
+      "oldPath": "pages/project-submission.html",
+      "reactPath": "/project-submission",
+      "title": "项目提交 - SkyViewLab",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "项目提交"
+        }
+      ],
+      "staticControls": [],
+      "staticButtons": [
+        {
+          "text": "English",
+          "type": "button",
+          "data": []
+        }
+      ],
+      "dataAttributes": [
+        "data-apply-submission-template=",
+        "data-build-package=",
+        "data-check-answer=",
+        "data-cleaning=",
+        "data-clear-exam-result=",
+        "data-correlation=",
+        "data-course-tool-root=",
+        "data-course-tool=project-submission",
+        "data-delete-milestone=",
+        "data-delete-project=",
+        "data-delete-task=",
+        "data-duplicate=",
+        "data-edit-task=",
+        "data-exam-count=",
+        "data-exam-duration=",
+        "data-exam-timer=",
+        "data-export-project=",
+        "data-export-review=",
+        "data-finish-exam=",
+        "data-generated-=",
+        "data-import-project=",
+        "data-kanban-column=",
+        "data-kanban-column=${status}",
+        "data-lab=",
+        "data-milestone-form=",
+        "data-milestone-id=",
+        "data-milestone-id=${escapeHtml(item.id)}",
+        "data-missing=",
+        "data-move-task=",
+        "data-move-task=back",
+        "data-move-task=next",
+        "data-new-project=",
+        "data-next-question=",
+        "data-outlier=",
+        "data-paid-modal-action=",
+        "data-paid-modal-cancel=",
+        "data-paid-modal-message=",
+        "data-practice-category=",
+        "data-practice-difficulty=",
+        "data-practice-feedback=",
+        "data-practice-mode=",
+        "data-practice-mode=${id}",
+        "data-practice-search=",
+        "data-project-cycle=",
+        "data-project-deadline=",
+        "data-project-members=",
+        "data-project-notes=",
+        "data-project-objective=",
+        "data-project-switch=",
+        "data-project-title=",
+        "data-project-view=",
+        "data-project-view=${id}",
+        "data-quality=",
+        "data-question-id=",
+        "data-question-id=${item.id}",
+        "data-readiness=",
+        "data-remove-file=",
+        "data-remove-file=${index}",
+        "data-reset-practice=",
+        "data-reset-project=",
+        "data-reset-submission=",
+        "data-review-field=",
+        "data-review-field=${id}",
+        "data-review-field=comments",
+        "data-review-field=status",
+        "data-review-score=",
+        "data-save-project=",
+        "data-save-review=",
+        "data-save-submission=",
+        "data-scaling=",
+        "data-split=",
+        "data-start-exam=",
+        "data-submission-check=",
+        "data-submission-check=${id}",
+        "data-submission-drop=",
+        "data-submission-field=",
+        "data-submission-field=changelog",
+        "data-submission-field=course",
+        "data-submission-field=license",
+        "data-submission-field=repository",
+        "data-submission-field=summary",
+        "data-submission-field=team",
+        "data-submission-field=title",
+        "data-submission-field=version",
+        "data-submission-file-list=",
+        "data-submission-files=",
+        "data-submission-folder=",
+        "data-submission-message=",
+        "data-submission-template=",
+        "data-submission-total=",
+        "data-submission-validation=",
+        "data-task-form=",
+        "data-task-id=",
+        "data-task-id=${escapeHtml(task.id)}",
+        "data-toggle-favorite=",
+        "data-toggle-milestone=",
+        "data-tool-app=",
+        "data-tool-footer=",
+        "data-tool-kicker=",
+        "data-tool-nav=",
+        "data-tool-state-copy=",
+        "data-tool-state-label=",
+        "data-tool-state=",
+        "data-tool-summary=",
+        "data-tool-title="
+      ],
+      "actionTokens": [],
+      "keyboardShortcuts": [],
+      "referencedScripts": [
+        "assets/scripts/course-storage.js",
+        "assets/scripts/course-tool-gate.js",
+        "assets/scripts/course-tools.js",
+        "assets/scripts/language.js",
+        "assets/scripts/paid-gate.js",
+        "vendor/jszip/jszip.min.js"
+      ]
+    },
+    {
+      "id": "R01",
+      "oldPath": "pages/paper-writing.html",
+      "reactPath": "/paper-writing",
+      "title": "ARS 论文研究与写作工作台 - SkyViewLab",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "论文研究与写作工作台"
+        }
+      ],
+      "staticControls": [],
+      "staticButtons": [
+        {
+          "text": "English",
+          "type": "button",
+          "data": []
+        }
+      ],
+      "dataAttributes": [
+        "data-action=",
+        "data-action=${action}",
+        "data-action=delete-project",
+        "data-action=new-project",
+        "data-action=restore-snapshot",
+        "data-array=assets",
+        "data-array=claims",
+        "data-array=experiments",
+        "data-array=references",
+        "data-array=revisionItems",
+        "data-ars-paper-app=",
+        "data-checkpoint-note=",
+        "data-config-field=${key}",
+        "data-config-field=citationStyle",
+        "data-config-field=language",
+        "data-config-field=paperType",
+        "data-disclosure-used=",
+        "data-evidence-tab=",
+        "data-evidence-tab=${id}",
+        "data-field=${key}",
+        "data-field=codeVersion",
+        "data-field=coverLetter",
+        "data-field=dataVersion",
+        "data-field=evidence",
+        "data-field=experimentIds",
+        "data-field=humanVerification",
+        "data-field=label",
+        "data-field=locator",
+        "data-field=name",
+        "data-field=purpose",
+        "data-field=referenceKeys",
+        "data-field=response",
+        "data-field=result",
+        "data-field=sectionId",
+        "data-field=source",
+        "data-field=status",
+        "data-field=text",
+        "data-field=title",
+        "data-field=tools",
+        "data-field=type",
+        "data-field=uncertainty",
+        "data-field=verification",
+        "data-field=verified",
+        "data-form=crossref",
+        "data-form=manual-reference",
+        "data-format=${id}",
+        "data-id=${c.id}",
+        "data-id=${r.id}",
+        "data-id=${section.id}",
+        "data-id=${x.id}",
+        "data-index=${i}",
+        "data-list-value=",
+        "data-mode=",
+        "data-mode=${id}",
+        "data-outline-purpose=",
+        "data-phase=${phase}",
+        "data-project-id=",
+        "data-project-id=${h(item.id)}",
+        "data-project-title=",
+        "data-review-report=",
+        "data-review-report=${i}",
+        "data-scope=${scope}",
+        "data-scope=disclosure",
+        "data-scope=finalization",
+        "data-section-content=",
+        "data-section-id=",
+        "data-section-id=${s.id}",
+        "data-section-name=",
+        "data-session-key=",
+        "data-setting=model",
+        "data-setting=modelEndpoint",
+        "data-setting=theme",
+        "data-stage-view=",
+        "data-stage-view=${stage.id}",
+        "data-stage=${stageId}",
+        "data-stage=finalize",
+        "data-stage=process",
+        "data-stage=research",
+        "data-stage=write",
+        "data-view=",
+        "data-view=${id}",
+        "data-view=dashboard"
+      ],
+      "actionTokens": [
+        "${action}",
+        "${id}",
+        "dashboard",
+        "delete-project",
+        "new-project",
+        "restore-snapshot"
+      ],
+      "keyboardShortcuts": [],
+      "referencedScripts": [
+        "assets/scripts/ars-paper-app.js",
+        "assets/scripts/ars-paper-engine.js",
+        "assets/scripts/course-storage.js",
+        "assets/scripts/language.js",
+        "vendor/jszip/jszip.min.js"
+      ]
+    },
+    {
+      "id": "R02",
+      "oldPath": "pages/disaster-remote-sensing.html",
+      "reactPath": "/disaster-remote-sensing",
+      "title": "灾害遥感损毁评估工作台 - SkyViewLab",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "灾害遥感损毁评估工作台"
+        }
+      ],
+      "staticControls": [],
+      "staticButtons": [
+        {
+          "text": "English",
+          "type": "button",
+          "data": []
+        }
+      ],
+      "dataAttributes": [
+        "data-band-preset=",
+        "data-band-preset=landsat",
+        "data-band-preset=rgb",
+        "data-band-preset=sentinel2",
+        "data-band=",
+        "data-band=${key}",
+        "data-check-model=",
+        "data-clear-validation=",
+        "data-delete-evidence=",
+        "data-delete-evidence=${esc(item.id)}",
+        "data-delete-validation=",
+        "data-delete-validation=${esc(sample.id)}",
+        "data-evidence-form=",
+        "data-export-validation=",
+        "data-export=",
+        "data-export=mask-png",
+        "data-export=mask-tiff",
+        "data-export=package",
+        "data-export=regions-csv",
+        "data-export=regions-geojson",
+        "data-export=report-html",
+        "data-export=report-md",
+        "data-export=zones-csv",
+        "data-import-validation=",
+        "data-lab=",
+        "data-load-benchmark=",
+        "data-model-endpoint=",
+        "data-paid-modal-action=",
+        "data-paid-modal-cancel=",
+        "data-paid-modal-message=",
+        "data-pixel-inspector=",
+        "data-project=",
+        "data-project=afterDate",
+        "data-project=analyst",
+        "data-project=beforeDate",
+        "data-project=commander",
+        "data-project=hazard",
+        "data-project=incidentId",
+        "data-project=incidentStatus",
+        "data-project=location",
+        "data-project=name",
+        "data-project=notes",
+        "data-research-app=",
+        "data-research-footer=",
+        "data-research-kicker=",
+        "data-research-summary=",
+        "data-research-title=",
+        "data-research-tool-root=",
+        "data-research-tool=remote-sensing",
+        "data-resq-view=",
+        "data-resq-view=${key}",
+        "data-resq-view=change",
+        "data-resq-workspace=",
+        "data-rs-canvas=",
+        "data-rs-canvas=after",
+        "data-rs-canvas=before",
+        "data-rs-canvas=mask",
+        "data-rs-canvas=score",
+        "data-rs-file=",
+        "data-rs-file=${slot}",
+        "data-rs-histogram=",
+        "data-rs-status=",
+        "data-run-analysis=",
+        "data-setting=",
+        "data-setting=manualThreshold",
+        "data-setting=method",
+        "data-setting=minPatchPixels",
+        "data-setting=morphology",
+        "data-setting=morphologyRadius",
+        "data-setting=offsetX",
+        "data-setting=offsetY",
+        "data-setting=overlayOpacity",
+        "data-setting=percentile",
+        "data-setting=radiometricNormalization",
+        "data-setting=singleBand",
+        "data-setting=thresholdStrategy",
+        "data-t1-readout=",
+        "data-t2-readout=",
+        "data-validation-mode=",
+        "data-validation-mode=changed",
+        "data-validation-mode=inspect",
+        "data-validation-mode=unchanged",
+        "data-view=${state.activeView}"
+      ],
+      "actionTokens": [
+        "${state.activeView}",
+        "mask-png",
+        "mask-tiff",
+        "package",
+        "regions-csv",
+        "regions-geojson",
+        "report-html",
+        "report-md",
+        "zones-csv"
+      ],
+      "keyboardShortcuts": [],
+      "referencedScripts": [
+        "assets/scripts/course-storage.js",
+        "assets/scripts/language.js",
+        "assets/scripts/paid-gate.js",
+        "assets/scripts/remote-sensing-engine.js",
+        "assets/scripts/remote-sensing-pro.js",
+        "vendor/geotiff/geotiff.js",
+        "vendor/jszip/jszip.min.js"
+      ]
+    },
+    {
+      "id": "R03",
+      "oldPath": "pages/seismic-physics.html",
+      "reactPath": "/seismic-physics",
+      "title": "地震与物理分析工作台 - SkyViewLab",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "地震与物理分析工作台"
+        }
+      ],
+      "staticControls": [],
+      "staticButtons": [
+        {
+          "text": "English",
+          "type": "button",
+          "data": []
+        }
+      ],
+      "dataAttributes": [
+        "data-aic-pick=",
+        "data-clear-reference=",
+        "data-delete-evidence=",
+        "data-delete-evidence=${esc(item.id)}",
+        "data-delete-pick=",
+        "data-delete-pick=${esc(pick.id)}",
+        "data-delete-reference=",
+        "data-delete-reference=${esc(pick.id)}",
+        "data-event-decision=",
+        "data-event-decision=${id}",
+        "data-event-window=",
+        "data-event-window=${index}",
+        "data-evidence-form=",
+        "data-export-reference=",
+        "data-export=",
+        "data-export=events-csv",
+        "data-export=package",
+        "data-export=picks-csv",
+        "data-export=processed-csv",
+        "data-export=psd-csv",
+        "data-export=report-html",
+        "data-export=report-md",
+        "data-lab=",
+        "data-load-seis-benchmark=",
+        "data-manual-phase=",
+        "data-manual-phase=inspect",
+        "data-manual-phase=P",
+        "data-manual-phase=S",
+        "data-manual-phase=X",
+        "data-paid-modal-action=",
+        "data-paid-modal-cancel=",
+        "data-paid-modal-message=",
+        "data-physics=",
+        "data-physics=${key}",
+        "data-physics=waveType",
+        "data-project=",
+        "data-project=analyst",
+        "data-project=eventNotes",
+        "data-project=name",
+        "data-project=stationNotes",
+        "data-reference-file=",
+        "data-reference-form=",
+        "data-research-app=",
+        "data-research-footer=",
+        "data-research-kicker=",
+        "data-research-summary=",
+        "data-research-title=",
+        "data-research-tool-root=",
+        "data-research-tool=seismic-physics",
+        "data-reset-view=",
+        "data-run-seis=",
+        "data-seis-canvas=particle",
+        "data-seis-canvas=psd",
+        "data-seis-canvas=spectrogram",
+        "data-seis-canvas=trigger",
+        "data-seis-canvas=waveform",
+        "data-seis-file=",
+        "data-seis-inspector=",
+        "data-seis-status=",
+        "data-select-trace=",
+        "data-select-trace=${esc(trace.id)}",
+        "data-setting=",
+        "data-setting=aicEnd",
+        "data-setting=aicPhase",
+        "data-setting=aicStart",
+        "data-setting=deadTime",
+        "data-setting=detrend",
+        "data-setting=displayEnd",
+        "data-setting=displayStart",
+        "data-setting=fallbackSampleRate",
+        "data-setting=filterMode",
+        "data-setting=filterOrder",
+        "data-setting=highCut",
+        "data-setting=lowCut",
+        "data-setting=ltaSeconds",
+        "data-setting=minDuration",
+        "data-setting=noiseEnd",
+        "data-setting=noiseStart",
+        "data-setting=notchEnabled",
+        "data-setting=notchFrequency",
+        "data-setting=notchQ",
+        "data-setting=outputUnit",
+        "data-setting=sensitivity",
+        "data-setting=signalEnd",
+        "data-setting=signalStart",
+        "data-setting=staMethod",
+        "data-setting=staSeconds",
+        "data-setting=taperPercent",
+        "data-setting=triggerOff",
+        "data-setting=triggerOn",
+        "data-setting=validationTolerance",
+        "data-setting=zeroPhase",
+        "data-use-pick=",
+        "data-use-pick=${esc(pick.id)}"
+      ],
+      "actionTokens": [
+        "events-csv",
+        "package",
+        "picks-csv",
+        "processed-csv",
+        "psd-csv",
+        "report-html",
+        "report-md"
+      ],
+      "keyboardShortcuts": [],
+      "referencedScripts": [
+        "assets/scripts/course-storage.js",
+        "assets/scripts/language.js",
+        "assets/scripts/paid-gate.js",
+        "assets/scripts/seismic-physics-engine.js",
+        "assets/scripts/seismic-physics-pro.js",
+        "vendor/jszip/jszip.min.js"
+      ]
+    },
+    {
+      "id": "R04",
+      "oldPath": "pages/patent-transfer.html",
+      "reactPath": "/patent-transfer",
+      "title": "专利转化工作台 - SkyViewLab",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "专利转化工作台"
+        }
+      ],
+      "staticControls": [],
+      "staticButtons": [
+        {
+          "text": "English",
+          "type": "button",
+          "data": []
+        }
+      ],
+      "dataAttributes": [
+        "data-action=",
+        "data-action=clear-patents",
+        "data-action=copy-epo-query",
+        "data-action=copy-generic-query",
+        "data-action=delete-claim",
+        "data-action=delete-deadline",
+        "data-action=delete-evidence",
+        "data-action=delete-feature",
+        "data-action=delete-fto",
+        "data-action=delete-patent",
+        "data-action=delete-search-round",
+        "data-action=delete-trl-evidence",
+        "data-action=delete-version",
+        "data-action=download-template",
+        "data-action=export-claims-csv",
+        "data-action=export-disclosure",
+        "data-action=export-fto-csv",
+        "data-action=export-html",
+        "data-action=export-json",
+        "data-action=export-matrix-csv",
+        "data-action=export-patents-csv",
+        "data-action=export-zip",
+        "data-action=generate-claim",
+        "data-action=load-demo-patents",
+        "data-action=renumber-claims",
+        "data-action=restore-version",
+        "data-action=run-local-search",
+        "data-action=select-patent",
+        "data-action=snapshot",
+        "data-action=start-real",
+        "data-action=toggle-evidence",
+        "data-bind=${esc(path)}",
+        "data-bind=claims.${index}.notes",
+        "data-bind=claims.${index}.text",
+        "data-bind=features.${index}.category",
+        "data-bind=features.${index}.effect",
+        "data-bind=features.${index}.essential",
+        "data-bind=features.${index}.name",
+        "data-bind=features.${index}.support",
+        "data-bind=filters.classification",
+        "data-bind=filters.jurisdiction",
+        "data-bind=filters.query",
+        "data-bind=filters.status",
+        "data-bind=governance.${key}",
+        "data-bind=transfer.trl",
+        "data-claim-id=${esc(claim.id)}",
+        "data-claim-support=${esc(claim.id)}",
+        "data-deadline-done=${esc(item.id)}",
+        "data-evidence-file=",
+        "data-feature-id=${esc(item.id)}",
+        "data-form=claim",
+        "data-form=deadline",
+        "data-form=evidence",
+        "data-form=feature",
+        "data-form=fto",
+        "data-form=patent",
+        "data-form=search-round",
+        "data-form=trl-evidence",
+        "data-id=${esc(claim.id)}",
+        "data-id=${esc(item.id)}",
+        "data-id=${esc(version.id)}",
+        "data-import-patents=",
+        "data-import-project=",
+        "data-index=${index}",
+        "data-lab=",
+        "data-matrix-location=${esc(key)}",
+        "data-matrix-note=${esc(key)}",
+        "data-matrix-value=${esc(key)}",
+        "data-paid-modal-action=",
+        "data-paid-modal-cancel=",
+        "data-paid-modal-message=",
+        "data-patent-app=",
+        "data-patent-editor=",
+        "data-patent-field=${key}",
+        "data-patent-status=",
+        "data-research-tool-root=",
+        "data-research-tool=patent-transfer",
+        "data-tab=",
+        "data-tab=${id}",
+        "data-tab=claims",
+        "data-tab=disclosure",
+        "data-tab=search",
+        "data-tab=transfer"
+      ],
+      "actionTokens": [
+        "${id}",
+        "claims",
+        "clear-patents",
+        "copy-epo-query",
+        "copy-generic-query",
+        "delete-claim",
+        "delete-deadline",
+        "delete-evidence",
+        "delete-feature",
+        "delete-fto",
+        "delete-patent",
+        "delete-search-round",
+        "delete-trl-evidence",
+        "delete-version",
+        "disclosure",
+        "download-template",
+        "export-claims-csv",
+        "export-disclosure",
+        "export-fto-csv",
+        "export-html",
+        "export-json",
+        "export-matrix-csv",
+        "export-patents-csv",
+        "export-zip",
+        "generate-claim",
+        "load-demo-patents",
+        "renumber-claims",
+        "restore-version",
+        "run-local-search",
+        "search",
+        "select-patent",
+        "snapshot",
+        "start-real",
+        "toggle-evidence",
+        "transfer"
+      ],
+      "keyboardShortcuts": [],
+      "referencedScripts": [
+        "assets/scripts/course-storage.js",
+        "assets/scripts/language.js",
+        "assets/scripts/paid-gate.js",
+        "assets/scripts/patent-transfer-engine.js",
+        "assets/scripts/patent-transfer-pro.js",
+        "vendor/jszip/jszip.min.js"
+      ]
+    },
+    {
+      "id": "R05",
+      "oldPath": "pages/skill-evolution.html",
+      "reactPath": "/skill-evolution",
+      "title": "Skill 进化工作台 - SkyViewLab",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Skill 进化工作台"
+        }
+      ],
+      "staticControls": [],
+      "staticButtons": [
+        {
+          "text": "English",
+          "type": "button",
+          "data": []
+        }
+      ],
+      "dataAttributes": [
+        "data-action=",
+        "data-action=add-assertion",
+        "data-action=add-file",
+        "data-action=add-step",
+        "data-action=add-test",
+        "data-action=clear-runs",
+        "data-action=clone-skill",
+        "data-action=clone-step",
+        "data-action=clone-test",
+        "data-action=dataset-export",
+        "data-action=dataset-import",
+        "data-action=delete-assertion",
+        "data-action=delete-file",
+        "data-action=delete-skill",
+        "data-action=delete-step",
+        "data-action=delete-test",
+        "data-action=export-package",
+        "data-action=export-registry",
+        "data-action=import-open",
+        "data-action=load-run",
+        "data-action=move-step",
+        "data-action=new-skill",
+        "data-action=open-skill",
+        "data-action=publish",
+        "data-action=quick-run",
+        "data-action=rename-file",
+        "data-action=rollback",
+        "data-action=run-suite",
+        "data-action=run-test",
+        "data-action=select-file",
+        "data-action=select-release",
+        "data-action=select-release-compare",
+        "data-action=select-skill",
+        "data-action=tab",
+        "data-assert-bind=path",
+        "data-assert-bind=type",
+        "data-assert-bind=value",
+        "data-assert-id=${esc(assertion.id)}",
+        "data-direction=-1",
+        "data-direction=1",
+        "data-file-content=${esc(selected.id)}",
+        "data-id=${esc(assertion.id)}",
+        "data-id=${esc(file.id)}",
+        "data-id=${esc(item.id)}",
+        "data-id=${esc(selected.id)}",
+        "data-id=${esc(step.id)}",
+        "data-id=${esc(test.id)}",
+        "data-id=${id}",
+        "data-import-dataset=",
+        "data-import-package=",
+        "data-lab=",
+        "data-paid-modal-action=",
+        "data-paid-modal-cancel=",
+        "data-paid-modal-message=",
+        "data-release-channel=",
+        "data-release-level=",
+        "data-research-tool-root=",
+        "data-research-tool=skill-evolution",
+        "data-skill-bind=${esc(path)}",
+        "data-skill-pro-app=",
+        "data-skill-status=",
+        "data-step-bind=config",
+        "data-step-bind=instruction",
+        "data-step-bind=name",
+        "data-step-bind=onError",
+        "data-step-bind=retries",
+        "data-step-bind=timeoutMs",
+        "data-step-bind=type",
+        "data-step-deps=${esc(step.id)}",
+        "data-step-id=${esc(step.id)}",
+        "data-step-toggle=${esc(step.id)}",
+        "data-test-bind=input",
+        "data-test-bind=name",
+        "data-test-id=${esc(test.id)}",
+        "data-test-tags=${esc(test.id)}"
+      ],
+      "actionTokens": [
+        "add-assertion",
+        "add-file",
+        "add-step",
+        "add-test",
+        "clear-runs",
+        "clone-skill",
+        "clone-step",
+        "clone-test",
+        "dataset-export",
+        "dataset-import",
+        "delete-assertion",
+        "delete-file",
+        "delete-skill",
+        "delete-step",
+        "delete-test",
+        "export-package",
+        "export-registry",
+        "import-open",
+        "load-run",
+        "move-step",
+        "new-skill",
+        "open-skill",
+        "publish",
+        "quick-run",
+        "rename-file",
+        "rollback",
+        "run-suite",
+        "run-test",
+        "select-file",
+        "select-release",
+        "select-release-compare",
+        "select-skill",
+        "tab"
+      ],
+      "keyboardShortcuts": [],
+      "referencedScripts": [
+        "assets/scripts/course-storage.js",
+        "assets/scripts/language.js",
+        "assets/scripts/paid-gate.js",
+        "assets/scripts/skill-evolution-engine.js",
+        "assets/scripts/skill-evolution-pro.js",
+        "vendor/jszip/jszip.min.js"
+      ]
+    },
+    {
+      "id": "R06",
+      "oldPath": "pages/knowledge-system.html",
+      "reactPath": "/knowledge-system",
+      "title": "个人知识系统 - SkyViewLab",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "个人知识系统"
+        }
+      ],
+      "staticControls": [],
+      "staticButtons": [
+        {
+          "text": "English",
+          "type": "button",
+          "data": []
+        }
+      ],
+      "dataAttributes": [
+        "data-action=",
+        "data-action=add-benchmark",
+        "data-action=ask-from-search",
+        "data-action=clear-answer",
+        "data-action=copy-citation",
+        "data-action=delete-benchmark",
+        "data-action=delete-document",
+        "data-action=delete-workspace",
+        "data-action=download-original",
+        "data-action=export-answer",
+        "data-action=export-workspace",
+        "data-action=go-graph",
+        "data-action=go-ingest",
+        "data-action=go-quality",
+        "data-action=import-backup-open",
+        "data-action=new-workspace",
+        "data-action=open-document",
+        "data-action=open-result",
+        "data-action=reindex-document",
+        "data-action=request-persistence",
+        "data-action=run-benchmark-query",
+        "data-action=run-qa",
+        "data-action=run-search",
+        "data-action=save-chunk",
+        "data-action=save-note",
+        "data-action=save-query",
+        "data-action=search-concept",
+        "data-action=select-chunk",
+        "data-action=select-conversation",
+        "data-action=select-document",
+        "data-action=select-workspace",
+        "data-action=tab",
+        "data-backup-file=",
+        "data-benchmark-document=",
+        "data-benchmark-query=",
+        "data-chunk-editor=${CSS.escape(id)}",
+        "data-chunk-editor=${esc(selectedChunk.id)}",
+        "data-doc-bind=authors",
+        "data-doc-bind=category",
+        "data-doc-bind=license",
+        "data-doc-bind=source",
+        "data-doc-bind=tags",
+        "data-doc-bind=year",
+        "data-document-id=${esc(citation.documentId)}",
+        "data-document-id=${esc(result.documentId)}",
+        "data-dropzone=",
+        "data-filter=documentQuery",
+        "data-filter=documentTag",
+        "data-filter=documentType",
+        "data-graph-query=",
+        "data-id=${esc(chunk.id)}",
+        "data-id=${esc(citation.chunkId)}",
+        "data-id=${esc(document.id)}",
+        "data-id=${esc(item.documentId)}",
+        "data-id=${esc(item.id)}",
+        "data-id=${esc(result.id)}",
+        "data-id=${esc(selectedChunk.id)}",
+        "data-id=${id}",
+        "data-index=${index}",
+        "data-knowledge-app=",
+        "data-knowledge-files=",
+        "data-knowledge-status=",
+        "data-lab=",
+        "data-note-content=",
+        "data-note-tags=",
+        "data-note-title=",
+        "data-paid-modal-action=",
+        "data-paid-modal-cancel=",
+        "data-paid-modal-message=",
+        "data-qa-query=",
+        "data-research-tool=knowledge-system",
+        "data-search-document=",
+        "data-search-query=",
+        "data-search-tag=",
+        "data-ui-bind=ingestCategory",
+        "data-ui-bind=ingestLicense",
+        "data-ui-bind=ingestSource",
+        "data-ui-bind=ingestTags",
+        "data-value=${esc(`${edge.source} ${edge.target}`)}",
+        "data-value=${esc(item.query)}",
+        "data-value=${esc(node.name)}",
+        "data-workspace-bind=description",
+        "data-workspace-bind=name",
+        "data-workspace-setting=bm25Weight",
+        "data-workspace-setting=chunkOverlap",
+        "data-workspace-setting=chunkSize",
+        "data-workspace-setting=maxAnswerSentences",
+        "data-workspace-setting=threshold",
+        "data-workspace-setting=topK"
+      ],
+      "actionTokens": [
+        "add-benchmark",
+        "ask-from-search",
+        "clear-answer",
+        "copy-citation",
+        "delete-benchmark",
+        "delete-document",
+        "delete-workspace",
+        "download-original",
+        "export-answer",
+        "export-workspace",
+        "go-graph",
+        "go-ingest",
+        "go-quality",
+        "import-backup-open",
+        "new-workspace",
+        "open-document",
+        "open-result",
+        "reindex-document",
+        "request-persistence",
+        "run-benchmark-query",
+        "run-qa",
+        "run-search",
+        "save-chunk",
+        "save-note",
+        "save-query",
+        "search-concept",
+        "select-chunk",
+        "select-conversation",
+        "select-document",
+        "select-workspace",
+        "tab"
+      ],
+      "keyboardShortcuts": [],
+      "referencedScripts": [
+        "assets/scripts/course-storage.js",
+        "assets/scripts/knowledge-system-db.js",
+        "assets/scripts/knowledge-system-engine.js",
+        "assets/scripts/knowledge-system-parser.js",
+        "assets/scripts/knowledge-system-pro.js",
+        "assets/scripts/language.js",
+        "assets/scripts/paid-gate.js",
+        "vendor/jszip/jszip.min.js",
+        "vendor/mammoth/mammoth.browser.min.js",
+        "vendor/minisearch/minisearch.js",
+        "vendor/papaparse/papaparse.min.js"
+      ]
+    },
+    {
+      "id": "R07",
+      "oldPath": "pages/research-radar.html",
+      "reactPath": "/research-radar",
+      "title": "研究雷达 - SkyViewLab",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "研究雷达"
+        }
+      ],
+      "staticControls": [],
+      "staticButtons": [
+        {
+          "text": "English",
+          "type": "button",
+          "data": []
+        }
+      ],
+      "dataAttributes": [
+        "data-action=",
+        "data-action=collection",
+        "data-action=copy-doi",
+        "data-action=dedupe-library",
+        "data-action=delete-alert",
+        "data-action=edit-evidence",
+        "data-action=edit-library",
+        "data-action=export-alert",
+        "data-action=export-knowledge",
+        "data-action=export-library-csv",
+        "data-action=export-selected-bib",
+        "data-action=export-state",
+        "data-action=load-demo",
+        "data-action=new-collection",
+        "data-action=quick-search",
+        "data-action=remove-library",
+        "data-action=reset-radar",
+        "data-action=run-alert",
+        "data-action=save-as-alert",
+        "data-action=save-record",
+        "data-action=save-selected",
+        "data-action=select-record",
+        "data-action=select-transfer",
+        "data-action=select-visible",
+        "data-action=send-paper",
+        "data-action=send-patent",
+        "data-action=tab",
+        "data-action=test-sources",
+        "data-action=transfer-record",
+        "data-action=use-alert",
+        "data-alert-form=",
+        "data-id=${esc(alert.id)}",
+        "data-id=${esc(collection.id)}",
+        "data-id=${esc(record.id)}",
+        "data-id=${id}",
+        "data-id=all",
+        "data-id=discover",
+        "data-import-bibliography=",
+        "data-import-state=",
+        "data-lab=",
+        "data-library-field=collectionId",
+        "data-library-field=priority",
+        "data-library-field=screening",
+        "data-library-filter=query",
+        "data-library-filter=status",
+        "data-library-id=",
+        "data-library-id=${esc(record.id)}",
+        "data-openalex-key=",
+        "data-paid-modal-action=",
+        "data-paid-modal-cancel=",
+        "data-paid-modal-message=",
+        "data-query-form=",
+        "data-radar-app=",
+        "data-radar-graph=",
+        "data-radar-mode=general",
+        "data-radar-status=",
+        "data-radar-trend=",
+        "data-record-id=${esc(record.id)}",
+        "data-result-filter=open",
+        "data-result-filter=provider",
+        "data-result-filter=query",
+        "data-result-filter=score",
+        "data-result-filter=year",
+        "data-setting=crossref",
+        "data-setting=limit",
+        "data-setting=minMineScore",
+        "data-setting=openalex",
+        "data-setting=timeoutMs"
+      ],
+      "actionTokens": [
+        "collection",
+        "copy-doi",
+        "dedupe-library",
+        "delete-alert",
+        "edit-evidence",
+        "edit-library",
+        "export-alert",
+        "export-knowledge",
+        "export-library-csv",
+        "export-selected-bib",
+        "export-state",
+        "load-demo",
+        "new-collection",
+        "quick-search",
+        "remove-library",
+        "reset-radar",
+        "run-alert",
+        "save-as-alert",
+        "save-record",
+        "save-selected",
+        "select-record",
+        "select-transfer",
+        "select-visible",
+        "send-paper",
+        "send-patent",
+        "tab",
+        "test-sources",
+        "transfer-record",
+        "use-alert"
+      ],
+      "keyboardShortcuts": [],
+      "referencedScripts": [
+        "assets/scripts/course-storage.js",
+        "assets/scripts/language.js",
+        "assets/scripts/paid-gate.js",
+        "assets/scripts/research-radar-engine.js",
+        "assets/scripts/research-radar-pro.js"
+      ]
+    },
+    {
+      "id": "R08",
+      "oldPath": "pages/mine-safety-radar.html",
+      "reactPath": "/mine-safety-radar",
+      "title": "AI+矿山安全研究雷达 - SkyViewLab",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "AI+矿山安全研究雷达"
+        }
+      ],
+      "staticControls": [],
+      "staticButtons": [
+        {
+          "text": "English",
+          "type": "button",
+          "data": []
+        }
+      ],
+      "dataAttributes": [
+        "data-action=",
+        "data-action=collection",
+        "data-action=copy-doi",
+        "data-action=dedupe-library",
+        "data-action=delete-alert",
+        "data-action=edit-evidence",
+        "data-action=edit-library",
+        "data-action=export-alert",
+        "data-action=export-knowledge",
+        "data-action=export-library-csv",
+        "data-action=export-selected-bib",
+        "data-action=export-state",
+        "data-action=load-demo",
+        "data-action=new-collection",
+        "data-action=quick-search",
+        "data-action=remove-library",
+        "data-action=reset-radar",
+        "data-action=run-alert",
+        "data-action=save-as-alert",
+        "data-action=save-record",
+        "data-action=save-selected",
+        "data-action=select-record",
+        "data-action=select-transfer",
+        "data-action=select-visible",
+        "data-action=send-paper",
+        "data-action=send-patent",
+        "data-action=tab",
+        "data-action=test-sources",
+        "data-action=transfer-record",
+        "data-action=use-alert",
+        "data-alert-form=",
+        "data-id=${esc(alert.id)}",
+        "data-id=${esc(collection.id)}",
+        "data-id=${esc(record.id)}",
+        "data-id=${id}",
+        "data-id=all",
+        "data-id=discover",
+        "data-import-bibliography=",
+        "data-import-state=",
+        "data-lab=",
+        "data-library-field=collectionId",
+        "data-library-field=priority",
+        "data-library-field=screening",
+        "data-library-filter=query",
+        "data-library-filter=status",
+        "data-library-id=",
+        "data-library-id=${esc(record.id)}",
+        "data-openalex-key=",
+        "data-paid-modal-action=",
+        "data-paid-modal-cancel=",
+        "data-paid-modal-message=",
+        "data-query-form=",
+        "data-radar-app=",
+        "data-radar-graph=",
+        "data-radar-mode=mine",
+        "data-radar-status=",
+        "data-radar-trend=",
+        "data-record-id=${esc(record.id)}",
+        "data-result-filter=open",
+        "data-result-filter=provider",
+        "data-result-filter=query",
+        "data-result-filter=score",
+        "data-result-filter=year",
+        "data-setting=crossref",
+        "data-setting=limit",
+        "data-setting=minMineScore",
+        "data-setting=openalex",
+        "data-setting=timeoutMs"
+      ],
+      "actionTokens": [
+        "collection",
+        "copy-doi",
+        "dedupe-library",
+        "delete-alert",
+        "edit-evidence",
+        "edit-library",
+        "export-alert",
+        "export-knowledge",
+        "export-library-csv",
+        "export-selected-bib",
+        "export-state",
+        "load-demo",
+        "new-collection",
+        "quick-search",
+        "remove-library",
+        "reset-radar",
+        "run-alert",
+        "save-as-alert",
+        "save-record",
+        "save-selected",
+        "select-record",
+        "select-transfer",
+        "select-visible",
+        "send-paper",
+        "send-patent",
+        "tab",
+        "test-sources",
+        "transfer-record",
+        "use-alert"
+      ],
+      "keyboardShortcuts": [],
+      "referencedScripts": [
+        "assets/scripts/course-storage.js",
+        "assets/scripts/language.js",
+        "assets/scripts/paid-gate.js",
+        "assets/scripts/research-radar-engine.js",
+        "assets/scripts/research-radar-pro.js"
+      ]
+    },
+    {
+      "id": "R09",
+      "oldPath": "pages/research-automation.html",
+      "reactPath": "/research-automation",
+      "title": "研究自动化 - SkyViewLab",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "研究自动化"
+        }
+      ],
+      "staticControls": [],
+      "staticButtons": [
+        {
+          "text": "English",
+          "type": "button",
+          "data": []
+        }
+      ],
+      "dataAttributes": [
+        "data-after-name=",
+        "data-annotation-id=",
+        "data-annotation-id=${esc(item.id)}",
+        "data-before-name=",
+        "data-claim-form=",
+        "data-claim-id=",
+        "data-claim-id=${esc(item.id)}",
+        "data-claim-text=",
+        "data-clear-events=",
+        "data-copy-patent-query=",
+        "data-delete-annotation=",
+        "data-delete-claim=",
+        "data-delete-evidence=",
+        "data-delete-measurement=",
+        "data-delete-node=",
+        "data-delete-pick=",
+        "data-delete-prior=",
+        "data-delete-step=",
+        "data-delete-test=",
+        "data-delete-variable=",
+        "data-delete-workflow=",
+        "data-download-change=",
+        "data-edit-node=",
+        "data-estimate-distance=",
+        "data-evidence-form=",
+        "data-evidence-id=",
+        "data-evidence-id=${esc(item.id)}",
+        "data-export-events=",
+        "data-export-patent=",
+        "data-export-patent=json",
+        "data-export-patent=md",
+        "data-export-remote=",
+        "data-export-remote=json",
+        "data-export-remote=md",
+        "data-export-skill=",
+        "data-export-workflow=",
+        "data-import-skill=",
+        "data-import-workflow=",
+        "data-lab=",
+        "data-matrix-key=",
+        "data-matrix-key=${esc(key)}",
+        "data-measurement-id=",
+        "data-measurement-id=${esc(item.id)}",
+        "data-move-step=",
+        "data-move-step=down",
+        "data-move-step=up",
+        "data-new-skill=",
+        "data-node-form=",
+        "data-node-id=",
+        "data-node-id=${esc(node.id)}",
+        "data-opacity-output=",
+        "data-paid-modal-action=",
+        "data-paid-modal-cancel=",
+        "data-paid-modal-message=",
+        "data-patent-check=",
+        "data-patent-check=${key}",
+        "data-patent-features=",
+        "data-patent-meta=",
+        "data-patent-meta=advantages",
+        "data-patent-meta=applicant",
+        "data-patent-meta=field",
+        "data-patent-meta=implementation",
+        "data-patent-meta=inventors",
+        "data-patent-meta=problem",
+        "data-patent-meta=solution",
+        "data-patent-meta=title",
+        "data-patent-query=",
+        "data-patent-snapshot=",
+        "data-patent-trl=",
+        "data-physics-p=",
+        "data-physics-result=",
+        "data-physics-s=",
+        "data-physics-vp=",
+        "data-physics-vs=",
+        "data-pick-id=",
+        "data-pick-id=${esc(pick.id)}",
+        "data-prior-form=",
+        "data-prior-id=",
+        "data-prior-id=${esc(item.id)}",
+        "data-publish-skill=",
+        "data-remote-analysis-stats=",
+        "data-remote-canvas=",
+        "data-remote-canvas=after",
+        "data-remote-canvas=before",
+        "data-remote-canvas=difference",
+        "data-remote-file=",
+        "data-remote-file=after",
+        "data-remote-file=before",
+        "data-remote-mode=",
+        "data-remote-opacity=",
+        "data-remote-project=",
+        "data-remote-scale=",
+        "data-remote-threshold=",
+        "data-research-app=",
+        "data-research-footer=",
+        "data-research-kicker=",
+        "data-research-summary=",
+        "data-research-title=",
+        "data-research-tool-root=",
+        "data-research-tool=research-automation",
+        "data-reset-remote=",
+        "data-run-all-tests=",
+        "data-run-change=",
+        "data-run-test=",
+        "data-run-workflow=",
+        "data-seismic-apply=",
+        "data-seismic-detect=",
+        "data-seismic-file=",
+        "data-seismic-sample=",
+        "data-seismic-setting=",
+        "data-seismic-setting=lta",
+        "data-seismic-setting=sampleRate",
+        "data-seismic-setting=smooth",
+        "data-seismic-setting=sta",
+        "data-seismic-setting=threshold",
+        "data-seismic-source=",
+        "data-skill-contract=",
+        "data-skill-contract=inputs",
+        "data-skill-contract=outputs",
+        "data-skill-field=",
+        "data-skill-field=category",
+        "data-skill-field=description",
+        "data-skill-field=name",
+        "data-skill-field=status",
+        "data-skill-field=version",
+        "data-skill-id=",
+        "data-skill-id=${esc(item.id)}",
+        "data-skill-metric=",
+        "data-skill-metric=${key}",
+        "data-spectrum-canvas=",
+        "data-step-form=",
+        "data-step-id=",
+        "data-step-id=${esc(step.id)}",
+        "data-test-form=",
+        "data-test-id=",
+        "data-test-id=${esc(testCase.id)}",
+        "data-threshold-output=",
+        "data-toggle-evidence=",
+        "data-toggle-node=",
+        "data-trl-evidence=",
+        "data-trl-output=",
+        "data-variable-form=",
+        "data-variable-id=",
+        "data-variable-id=${esc(item.id)}",
+        "data-waveform-canvas=",
+        "data-workflow-field=",
+        "data-workflow-field=description",
+        "data-workflow-field=name",
+        "data-workflow-field=retries",
+        "data-workflow-field=schedule",
+        "data-workflow-id=",
+        "data-workflow-id=${esc(item.id)}",
+        "data-workflow-template=",
+        "data-workflow-template=experiment",
+        "data-workflow-template=literature",
+        "data-workflow-template=remote"
+      ],
+      "actionTokens": [],
+      "keyboardShortcuts": [],
+      "referencedScripts": [
+        "assets/scripts/course-storage.js",
+        "assets/scripts/language.js",
+        "assets/scripts/paid-gate.js",
+        "assets/scripts/research-tools.js"
+      ]
+    },
+    {
+      "id": "E01",
+      "oldPath": "pages/data-gateway.html",
+      "reactPath": "/data-gateway",
+      "title": "数据网关 · DataFlow - SkyViewLab",
+      "headings": [],
+      "staticControls": [],
+      "staticButtons": [
+        {
+          "text": "English",
+          "type": "button",
+          "data": []
+        }
+      ],
+      "dataAttributes": [
+        "data-action=",
+        "data-action=${action}",
+        "data-action=about",
+        "data-action=access-policies",
+        "data-action=actual-size",
+        "data-action=add-parameter",
+        "data-action=add-policy",
+        "data-action=add-service",
+        "data-action=cancel-connect",
+        "data-action=close-modal",
+        "data-action=configure-connection",
+        "data-action=confirm-add-processor",
+        "data-action=controller-services",
+        "data-action=drop-queue",
+        "data-action=export-flow",
+        "data-action=export-provenance",
+        "data-action=fit-flow",
+        "data-action=flow-configuration",
+        "data-action=parameter-context",
+        "data-action=provenance",
+        "data-action=replay-event",
+        "data-action=run-flow",
+        "data-action=run-history",
+        "data-action=save-connection",
+        "data-action=save-flow-config",
+        "data-action=save-processor-config",
+        "data-action=zoom-in",
+        "data-action=zoom-out",
+        "data-add-kind=",
+        "data-add-kind=${kind}",
+        "data-canvas-search=",
+        "data-catalog-group=",
+        "data-catalog-group=${group}",
+        "data-catalog-search=",
+        "data-catalog-type=",
+        "data-catalog-type=${item.type}",
+        "data-config-tab=",
+        "data-config-tab=${name}",
+        "data-connection-canvas=",
+        "data-connection-id=${connectionId}",
+        "data-context-name=",
+        "data-engineering-tool=data-gateway",
+        "data-event-detail=",
+        "data-event-detail=${event.id}",
+        "data-flow-canvas=",
+        "data-flow-import=",
+        "data-form=connection",
+        "data-form=flow-config",
+        "data-form=parameter",
+        "data-form=policy",
+        "data-form=processor-config",
+        "data-form=service",
+        "data-gateway-app=",
+        "data-gateway-data-file=",
+        "data-gateway-engine=",
+        "data-gateway-pro=",
+        "data-group=${item.id}",
+        "data-inspect-flowfile=",
+        "data-inspect-flowfile=${file.uuid}",
+        "data-jump=",
+        "data-jump=${item.id}",
+        "data-label=",
+        "data-label=${item.id}",
+        "data-minimap=",
+        "data-node-layer=",
+        "data-node=",
+        "data-node=${item.id}",
+        "data-overlay=",
+        "data-port=${item.id}",
+        "data-provenance-=",
+        "data-provenance-search=",
+        "data-provenance-type=",
+        "data-provenance=",
+        "data-queue=",
+        "data-queue=${connection.id}",
+        "data-remove-parameter=",
+        "data-remove-parameter=${index}",
+        "data-remove-policy=",
+        "data-remove-policy=${policy.id}",
+        "data-remove-service=",
+        "data-remove-service=${service.id}",
+        "data-status-message=",
+        "data-toggle-service=",
+        "data-toggle-service=${service.id}"
+      ],
+      "actionTokens": [
+        "${action}",
+        "about",
+        "access-policies",
+        "actual-size",
+        "add-parameter",
+        "add-policy",
+        "add-service",
+        "cancel-connect",
+        "close-modal",
+        "configure-connection",
+        "confirm-add-processor",
+        "controller-services",
+        "drop-queue",
+        "export-flow",
+        "export-provenance",
+        "fit-flow",
+        "flow-configuration",
+        "parameter-context",
+        "provenance",
+        "replay-event",
+        "run-flow",
+        "run-history",
+        "save-connection",
+        "save-flow-config",
+        "save-processor-config",
+        "zoom-in",
+        "zoom-out"
+      ],
+      "keyboardShortcuts": [],
+      "referencedScripts": [
+        "assets/scripts/course-storage.js",
+        "assets/scripts/data-gateway-engine.js",
+        "assets/scripts/data-gateway-pro.js",
+        "assets/scripts/language.js"
+      ]
+    },
+    {
+      "id": "E02",
+      "oldPath": "pages/ambient-noise-imaging.html",
+      "reactPath": "/ambient-noise-imaging",
+      "title": "面波背景噪声成像 - SkyViewLab",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "面波背景噪声成像"
+        }
+      ],
+      "staticControls": [],
+      "staticButtons": [
+        {
+          "text": "English",
+          "type": "button",
+          "data": []
+        }
+      ],
+      "dataAttributes": [
+        "data-action=",
+        "data-action=apply-preprocess",
+        "data-action=export-dispersion",
+        "data-action=export-methods",
+        "data-action=export-project",
+        "data-action=export-results",
+        "data-action=export-stations",
+        "data-action=reset",
+        "data-action=run-all",
+        "data-action=run-checkerboard",
+        "data-action=run-correlation",
+        "data-action=run-dispersion",
+        "data-action=run-tomography",
+        "data-ambient-noise-app=",
+        "data-check-recovered=",
+        "data-check-target=",
+        "data-correlation-canvas=",
+        "data-dispersion-canvas=",
+        "data-eng-status=",
+        "data-engineering-tool=ambient-noise-imaging",
+        "data-methods-text=",
+        "data-option=",
+        "data-option=${name}",
+        "data-pair=",
+        "data-pair=${entry.pairId}",
+        "data-pair=${pair.id}",
+        "data-preprocess-canvas=",
+        "data-ray-map=",
+        "data-spectrum-canvas=",
+        "data-station-map=",
+        "data-station=",
+        "data-station=${station.id}",
+        "data-tab=",
+        "data-tab=${id}",
+        "data-tomo-option=",
+        "data-tomo-option=${name}",
+        "data-tomography-canvas=",
+        "data-trace-canvas=",
+        "data-waveform-file="
+      ],
+      "actionTokens": [
+        "${id}",
+        "apply-preprocess",
+        "export-dispersion",
+        "export-methods",
+        "export-project",
+        "export-results",
+        "export-stations",
+        "reset",
+        "run-all",
+        "run-checkerboard",
+        "run-correlation",
+        "run-dispersion",
+        "run-tomography"
+      ],
+      "keyboardShortcuts": [],
+      "referencedScripts": [
+        "assets/scripts/ambient-noise-engine.js",
+        "assets/scripts/ambient-noise-pro.js",
+        "assets/scripts/course-storage.js",
+        "assets/scripts/language.js"
+      ]
+    },
+    {
+      "id": "E03",
+      "oldPath": "pages/ai-patent-disclosure.html",
+      "reactPath": "/ai-patent-disclosure",
+      "title": "AI 专利交底书工作台 - SkyViewLab",
+      "headings": [],
+      "staticControls": [],
+      "staticButtons": [
+        {
+          "text": "项目列表",
+          "type": "button",
+          "data": [
+            "data-action=project-list"
+          ]
+        },
+        {
+          "text": "模型设置",
+          "type": "button",
+          "data": [
+            "data-action=settings"
+          ]
+        },
+        {
+          "text": "新建项目",
+          "type": "button",
+          "data": [
+            "data-action=new-project"
+          ]
+        }
+      ],
+      "dataAttributes": [
+        "data-action=",
+        "data-action=analyze-concept",
+        "data-action=back-concept",
+        "data-action=close-modal",
+        "data-action=export-docx",
+        "data-action=export-markdown",
+        "data-action=export-project",
+        "data-action=generate-all",
+        "data-action=generate-chapter",
+        "data-action=new-project",
+        "data-action=project-list",
+        "data-action=save-chapter",
+        "data-action=save-concept",
+        "data-action=settings",
+        "data-action=test-service",
+        "data-action=toggle-preview",
+        "data-action=versions",
+        "data-create-project-form=",
+        "data-delete-project=",
+        "data-delete-project=${esc(item.id)}",
+        "data-open-project=",
+        "data-open-project=${esc(item.id)}",
+        "data-patent-assistant-app=",
+        "data-project-id=${esc(item.id)}",
+        "data-restore-version=",
+        "data-restore-version=${index}",
+        "data-select-chapter=",
+        "data-select-chapter=${entry.key}",
+        "data-service-state=",
+        "data-settings-form="
+      ],
+      "actionTokens": [
+        "analyze-concept",
+        "back-concept",
+        "close-modal",
+        "export-docx",
+        "export-markdown",
+        "export-project",
+        "generate-all",
+        "generate-chapter",
+        "new-project",
+        "project-list",
+        "save-chapter",
+        "save-concept",
+        "settings",
+        "test-service",
+        "toggle-preview",
+        "versions"
+      ],
+      "keyboardShortcuts": [],
+      "referencedScripts": [
+        "assets/scripts/course-storage.js",
+        "assets/scripts/patent-assistant-app.js",
+        "assets/scripts/patent-assistant-engine.js",
+        "vendor/jszip/jszip.min.js"
+      ]
+    },
+    {
+      "id": "X01",
+      "oldPath": "pages/course-tools.html",
+      "reactPath": "/teaching",
+      "title": "正在进入课程工具 - SkyViewLab",
+      "headings": [],
+      "staticControls": [],
+      "staticButtons": [],
+      "dataAttributes": [
+        "data-lab="
+      ],
+      "actionTokens": [],
+      "keyboardShortcuts": [],
+      "referencedScripts": []
+    }
+  ]
+}

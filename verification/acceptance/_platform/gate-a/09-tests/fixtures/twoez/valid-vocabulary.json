@@ -1,0 +1,7 @@
+{
+  "name": "Python Basics",
+  "words": [
+    {"term": "iterable", "translation": "可迭代对象", "example": "A list is iterable."},
+    {"term": "exception", "translation": "异常", "example": "Catch a specific exception."}
+  ]
+}

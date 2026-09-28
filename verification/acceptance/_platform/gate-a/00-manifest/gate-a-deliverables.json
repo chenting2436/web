@@ -1,0 +1,381 @@
+{
+  "schema": "skyview-gate-a-deliverables",
+  "schemaVersion": 1,
+  "status": "conditional-no-go",
+  "generatedOn": "2026-09-08",
+  "baselineCommit": "8a754dcdb8ab97c7a90ca588693a17b21ee1f41b",
+  "note": "Hashes prove evidence integrity, not product or legal approval.",
+  "artifactCount": 74,
+  "artifacts": [
+    {
+      "path": "verification/acceptance/_platform/gate-a/02-requirements/ARCHITECTURE_REVIEW.md",
+      "bytes": 1732,
+      "sha256": "45e30891b222216bf85641b38ee5971671741ed0c6b9afb5050bee9fac273c07"
+    },
+    {
+      "path": "verification/acceptance/_platform/gate-a/02-requirements/DECISION_STATUS.md",
+      "bytes": 3118,
+      "sha256": "5b487f3d39d905c4252d03c33a1c1d7bb780e70ed17a7ba352d5ed72faad1e1f"
+    },
+    {
+      "path": "verification/acceptance/_platform/gate-a/03-api-and-data/FIELD_GROUP_TRACEABILITY.md",
+      "bytes": 8836,
+      "sha256": "3838328a2db862934394dffc45fe0ee36219e99fc96aa2647658ce737d164b09"
+    },
+    {
+      "path": "verification/acceptance/_platform/gate-a/03-api-and-data/TARGET_DOMAIN_MODEL.md",
+      "bytes": 9150,
+      "sha256": "516692facb3ddbb0e5c30b1bc1f931b9d0930123dedcb4e3fd05a1987e614898"
+    },
+    {
+      "path": "verification/acceptance/_platform/gate-a/03-api-and-data/target-openapi.yaml",
+      "bytes": 19604,
+      "sha256": "be8ac0b62dbe517009dd637cf5766353be3e639d88d8cde30fcde9f71e0fab4c"
+    },
+    {
+      "path": "verification/acceptance/_platform/gate-a/04-permissions/PERMISSION_MATRIX.md",
+      "bytes": 6548,
+      "sha256": "d8f5958c7b61eccfa88ad50c9853061350f5ee22df81c03bf406ce40a3fcaebb"
+    },
+    {
+      "path": "verification/acceptance/_platform/gate-a/05-audit-and-provenance/DOMAIN_EVENT_CATALOG.md",
+      "bytes": 5072,
+      "sha256": "30d332bc207291796e53d7f17c6721117e9950bce4269a81a9a5bad09dace454"
+    },
+    {
+      "path": "verification/acceptance/_platform/gate-a/07-runtime-and-science/GOLDEN_DATASET_REGISTER.md",
+      "bytes": 3131,
+      "sha256": "3e520b04f084023b0fb8b75e1f6d15c60e188e4b8885a48a8fa697b4875937cb"
+    },
+    {
+      "path": "verification/acceptance/_platform/gate-a/07-runtime-and-science/golden/legacy-compatibility-expectations.json",
+      "bytes": 2179,
+      "sha256": "4f5e3379f00a9e7cfa9486b6b2a764f7a8853414049e5c294c0cf96bc836d630"
+    },
+    {
+      "path": "verification/acceptance/_platform/gate-a/09-tests/fixtures/bibtex/boundary.bib",
+      "bytes": 150,
+      "sha256": "3476358d43f93aca23d5c296428e464a7f828b10f43b6c2c959632052ec0efb6"
+    },
+    {
+      "path": "verification/acceptance/_platform/gate-a/09-tests/fixtures/bibtex/malicious-command.bib",
+      "bytes": 126,
+      "sha256": "23b522c7ba231a3e1d8dba198b31eb53108e9e13ad61a1b3cd2bfcd439692313"
+    },
+    {
+      "path": "verification/acceptance/_platform/gate-a/09-tests/fixtures/bibtex/valid.bib",
+      "bytes": 149,
+      "sha256": "9aba58ee2d52d940bb6fc09136664f2ab25aff9fb17a0b0c1f7f2505c79c6e3c"
+    },
+    {
+      "path": "verification/acceptance/_platform/gate-a/09-tests/fixtures/csv/boundary.csv",
+      "bytes": 136,
+      "sha256": "aba529c561a6d9ce3d879410206f931c7fde959c33fb1af987eec778b57aa24d"
+    },
+    {
+      "path": "verification/acceptance/_platform/gate-a/09-tests/fixtures/csv/malicious-formula.csv",
+      "bytes": 104,
+      "sha256": "754f434a1fed16e8e86b812d569af80e44d2f51c579fbfdbc37e8c8ec7406a7a"
+    },
+    {
+      "path": "verification/acceptance/_platform/gate-a/09-tests/fixtures/csv/valid.csv",
+      "bytes": 141,
+      "sha256": "39c20dbdd04d7e7cce9a59a91c6040abd207c249bbaf86100743569066de939b"
+    },
+    {
+      "path": "verification/acceptance/_platform/gate-a/09-tests/fixtures/json/boundary-unicode.json",
+      "bytes": 216,
+      "sha256": "069ec3ac90ab471e2c93b2c4af9bc752168ee40fa8470e6949ca2049a05d4f39"
+    },
+    {
+      "path": "verification/acceptance/_platform/gate-a/09-tests/fixtures/json/malicious-prototype-key.json",
+      "bytes": 236,
+      "sha256": "0307704247f8768f67429ba87496e4d624c2b36f304bf58ec83b3b375ec10ca4"
+    },
+    {
+      "path": "verification/acceptance/_platform/gate-a/09-tests/fixtures/json/valid-workflow.json",
+      "bytes": 346,
+      "sha256": "2c989bf7e60336ba6decc6d50c5b961cc135bc9e89cee06035a803130a58891b"
+    },
+    {
+      "path": "verification/acceptance/_platform/gate-a/09-tests/fixtures/security/archive-entry-manifest.json",
+      "bytes": 677,
+      "sha256": "918e962087cd69ca8a023ecbdd0066aea1b48e0efa500a573583fa26c3fe0254"
+    },
+    {
+      "path": "verification/acceptance/_platform/gate-a/09-tests/fixtures/twoez/valid-exam.txt",
+      "bytes": 84,
+      "sha256": "0381ae22ac8b5f41fb78c5a91a0433f45a945efe37a29fc350c461a0e2ad5f6a"
+    },
+    {
+      "path": "verification/acceptance/_platform/gate-a/09-tests/fixtures/twoez/valid-vocabulary.json",
+      "bytes": 235,
+      "sha256": "f3e1a482f3d0930617f9c1554c57b6d6f034da64e23b31a70ba034f44a32587a"
+    },
+    {
+      "path": "verification/acceptance/_platform/gate-a/09-tests/fixtures/xml/boundary.xml",
+      "bytes": 115,
+      "sha256": "9e9b696ad7029a88878127d05d4e581bab31509b61f971539cbf9bde689a0917"
+    },
+    {
+      "path": "verification/acceptance/_platform/gate-a/09-tests/fixtures/xml/malicious-xxe.xml",
+      "bytes": 147,
+      "sha256": "ca7cca7e63d15bfa9b5104860ddfe15f8feaa78cd6cf6c75c33812aee39cf223"
+    },
+    {
+      "path": "verification/acceptance/_platform/gate-a/09-tests/fixtures/xml/valid.xml",
+      "bytes": 140,
+      "sha256": "35d4a6500c634365dbb06d509b54d9d18eb22fff40c054d78d9b1f0f3dedd61e"
+    },
+    {
+      "path": "verification/acceptance/_platform/gate-a/09-tests/FORMAT_FIXTURE_REGISTER.md",
+      "bytes": 3969,
+      "sha256": "98ac3db1bdc9e40e62bd912d91ac6f96698a78c7aa75a9ae28771642e292c4c8"
+    },
+    {
+      "path": "verification/acceptance/_platform/gate-a/10-visual-a11y/legacy-desktop-1440x1000/E01-pages-data-gateway.png",
+      "bytes": 118586,
+      "sha256": "4274007995ed9a69a59502f54ab088f865fa3df446edbb4c9173e2086087b9f1"
+    },
+    {
+      "path": "verification/acceptance/_platform/gate-a/10-visual-a11y/legacy-desktop-1440x1000/E02-pages-ambient-noise-imaging.png",
+      "bytes": 952925,
+      "sha256": "68c7db1fa89ad4840f4bb982f997db625eb723b9181e02b3c6c11267c5e909b3"
+    },
+    {
+      "path": "verification/acceptance/_platform/gate-a/10-visual-a11y/legacy-desktop-1440x1000/E03-pages-ai-patent-disclosure.png",
+      "bytes": 37444,
+      "sha256": "a7cab4270d0e5cd1898287e39a7a4646033469de8b4c126a1a13bbf26d64d2e7"
+    },
+    {
+      "path": "verification/acceptance/_platform/gate-a/10-visual-a11y/legacy-desktop-1440x1000/N01-index.png",
+      "bytes": 759879,
+      "sha256": "00a1e3982786e3639029662e767db6efeb704fb605a48c8622f78a7a1ef4864c"
+    },
+    {
+      "path": "verification/acceptance/_platform/gate-a/10-visual-a11y/legacy-desktop-1440x1000/N02-pages-research.png",
+      "bytes": 887501,
+      "sha256": "a54cec8c617e69cf72ec27431639c1610a254cbb0838ac18d8e1fc49eb3b3d95"
+    },
+    {
+      "path": "verification/acceptance/_platform/gate-a/10-visual-a11y/legacy-desktop-1440x1000/N03-pages-engineering.png",
+      "bytes": 890272,
+      "sha256": "3fdb80851891afe27990a1ed1e763e05c57d2fcf4835bc07bf1e6c05f02e8306"
+    },
+    {
+      "path": "verification/acceptance/_platform/gate-a/10-visual-a11y/legacy-desktop-1440x1000/N04-pages-teaching.png",
+      "bytes": 1138535,
+      "sha256": "6ce2feb5f56edb3700054bfc42286f38c48527dcc0bd05deccc2c4143a6eeb10"
+    },
+    {
+      "path": "verification/acceptance/_platform/gate-a/10-visual-a11y/legacy-desktop-1440x1000/N05-pages-team.png",
+      "bytes": 750105,
+      "sha256": "231775698fc1bc2d537fda3cffb3a1f00c3eb05f338c4cbc44563aee24945faa"
+    },
+    {
+      "path": "verification/acceptance/_platform/gate-a/10-visual-a11y/legacy-desktop-1440x1000/N06-pages-login.png",
+      "bytes": 33962,
+      "sha256": "029c49c55bd7b0b4e96501f46c6e9f58dd0fc9962cb0d62c6fff785e0d4fb3dc"
+    },
+    {
+      "path": "verification/acceptance/_platform/gate-a/10-visual-a11y/legacy-desktop-1440x1000/N07-pages-profile.png",
+      "bytes": 598622,
+      "sha256": "5cf3da9927c752b1a3be22a93d19d2133859db0397f64ba71b39f7c5db8ebdf0"
+    },
+    {
+      "path": "verification/acceptance/_platform/gate-a/10-visual-a11y/legacy-desktop-1440x1000/N08-pages-students.png",
+      "bytes": 60124,
+      "sha256": "c618e732bdc26020b8d33280ac16211cdf0022fca41442406127576ca92dd031"
+    },
+    {
+      "path": "verification/acceptance/_platform/gate-a/10-visual-a11y/legacy-desktop-1440x1000/N09-pages-paid-features.png",
+      "bytes": 37536,
+      "sha256": "f11883c316052a45a5cbcd6d1fa5916305e2e14e3e30acf89f67afcce715dae9"
+    },
+    {
+      "path": "verification/acceptance/_platform/gate-a/10-visual-a11y/legacy-desktop-1440x1000/N10-pages-comments.png",
+      "bytes": 44896,
+      "sha256": "e104fe6584e59492f8ccb840672ef5645e98a53cb14534eb0e6a267195bbe87f"
+    },
+    {
+      "path": "verification/acceptance/_platform/gate-a/10-visual-a11y/legacy-desktop-1440x1000/N11-pages-homework.png",
+      "bytes": 43076,
+      "sha256": "fcb12441b575f608e151c7a1e2dc2d98e6f9a44d9097f91d00a60a8b6d3db4f6"
+    },
+    {
+      "path": "verification/acceptance/_platform/gate-a/10-visual-a11y/legacy-desktop-1440x1000/R01-pages-paper-writing.png",
+      "bytes": 45362,
+      "sha256": "b8235bf3a4480f0cecec24d2c6236b4f2ff2fd258798b27af7d3022d39ad8112"
+    },
+    {
+      "path": "verification/acceptance/_platform/gate-a/10-visual-a11y/legacy-desktop-1440x1000/R02-pages-disaster-remote-sensing.png",
+      "bytes": 136482,
+      "sha256": "235fb9997888c202c4a03c573b322b5b7875872a1560e6aa25647dcf48cb0c6b"
+    },
+    {
+      "path": "verification/acceptance/_platform/gate-a/10-visual-a11y/legacy-desktop-1440x1000/R03-pages-seismic-physics.png",
+      "bytes": 944821,
+      "sha256": "2106710dfea9b7265b50741b85c928a62cba675fb7d1390cb9ce7822745fb5eb"
+    },
+    {
+      "path": "verification/acceptance/_platform/gate-a/10-visual-a11y/legacy-desktop-1440x1000/R04-pages-patent-transfer.png",
+      "bytes": 916735,
+      "sha256": "705cd411c0d2d3def15340fd00d5554c3b7c1cb54c036944959942c01df54086"
+    },
+    {
+      "path": "verification/acceptance/_platform/gate-a/10-visual-a11y/legacy-desktop-1440x1000/R05-pages-skill-evolution.png",
+      "bytes": 970062,
+      "sha256": "2d1ddf56d0657d02fca8eabd1e2e660edcef324bc402006c860f0550d187931b"
+    },
+    {
+      "path": "verification/acceptance/_platform/gate-a/10-visual-a11y/legacy-desktop-1440x1000/R06-pages-knowledge-system.png",
+      "bytes": 927503,
+      "sha256": "27f4b2b23db109a3c5e5685bc622a7e8525a9a998585cbb40d9cd36b265e7d7c"
+    },
+    {
+      "path": "verification/acceptance/_platform/gate-a/10-visual-a11y/legacy-desktop-1440x1000/R07-pages-research-radar.png",
+      "bytes": 924957,
+      "sha256": "fee96114e3e24f69defec6c4bb43b8ae5a090c010202312bff53d394a2086caa"
+    },
+    {
+      "path": "verification/acceptance/_platform/gate-a/10-visual-a11y/legacy-desktop-1440x1000/R08-pages-mine-safety-radar.png",
+      "bytes": 911405,
+      "sha256": "a7a6ec843c9d5a4e928d76df8fe3c1f15e312bff1f1356564348f38f734f5272"
+    },
+    {
+      "path": "verification/acceptance/_platform/gate-a/10-visual-a11y/legacy-desktop-1440x1000/R09-pages-research-automation.png",
+      "bytes": 916659,
+      "sha256": "9a2d3d7c6e282894ae25d4e19295f13163be64e84d20f6dbd768bd0b72164d4a"
+    },
+    {
+      "path": "verification/acceptance/_platform/gate-a/10-visual-a11y/legacy-desktop-1440x1000/T01-pages-python-lab.png",
+      "bytes": 78389,
+      "sha256": "36edc7310d109bb3794b8c9b3dfb22e98526c31747cd8c61298e842c69ea656d"
+    },
+    {
+      "path": "verification/acceptance/_platform/gate-a/10-visual-a11y/legacy-desktop-1440x1000/T02-pages-daily-practice.png",
+      "bytes": 913437,
+      "sha256": "624c15387c03bdcce5cdb366643cf7b1abf33c1b9f3313a33c83bbd5798cc2dc"
+    },
+    {
+      "path": "verification/acceptance/_platform/gate-a/10-visual-a11y/legacy-desktop-1440x1000/T03-pages-project-workspace.png",
+      "bytes": 910417,
+      "sha256": "ecbe4b133f9aa51cac7ad17986ff7ab17e3eac67c3017bb94ffc36db51844223"
+    },
+    {
+      "path": "verification/acceptance/_platform/gate-a/10-visual-a11y/legacy-desktop-1440x1000/T04-pages-data-lab.png",
+      "bytes": 35833,
+      "sha256": "c3ce9e5eb3ccab0333cc889a2420b3b33798ce73f4c658c10cb2b9bbea23946b"
+    },
+    {
+      "path": "verification/acceptance/_platform/gate-a/10-visual-a11y/legacy-desktop-1440x1000/T05-pages-ai-report.png",
+      "bytes": 45490,
+      "sha256": "dbe084520a006f44edff970a5ab519fe301e5343b4e4a75532568767e8e0c11b"
+    },
+    {
+      "path": "verification/acceptance/_platform/gate-a/10-visual-a11y/legacy-desktop-1440x1000/T06-pages-python-english.png",
+      "bytes": 44424,
+      "sha256": "e6c573591201775db3c682a7b05054a276723aa8244739d29632cfbcc39e9fd6"
+    },
+    {
+      "path": "verification/acceptance/_platform/gate-a/10-visual-a11y/legacy-desktop-1440x1000/T07-pages-ai-assessment.png",
+      "bytes": 39039,
+      "sha256": "9fc5725c6d17fce2e11c48e29b1cdd816a4c703abfe147dd2092fc974380e72f"
+    },
+    {
+      "path": "verification/acceptance/_platform/gate-a/10-visual-a11y/legacy-desktop-1440x1000/T08-pages-project-submission.png",
+      "bytes": 914417,
+      "sha256": "89ff02ec1761bf078e14a9e339fc20b0b5b88d6e0a4ed666212053f3daf30bbd"
+    },
+    {
+      "path": "verification/acceptance/_platform/gate-a/10-visual-a11y/legacy-desktop-1440x1000/X01-pages-course-tools.png",
+      "bytes": 921536,
+      "sha256": "6761e96a14554c357f6bb4f62889ad38449aace116816b4f943843b4dbd79843"
+    },
+    {
+      "path": "verification/acceptance/_platform/gate-a/10-visual-a11y/legacy-dom-fields.json",
+      "bytes": 104153,
+      "sha256": "79143a3191fe766b5aa713b12692374342d255c34a27518a9ea20eba1a31bc0d"
+    },
+    {
+      "path": "verification/acceptance/_platform/gate-a/10-visual-a11y/VISUAL_AND_INTERACTION_BASELINE.md",
+      "bytes": 4670,
+      "sha256": "d8495e2384f45add5a4a7390b7ea18310dbfba8710c9b1d496cdee29a5de433e"
+    },
+    {
+      "path": "verification/acceptance/_platform/gate-a/10-visual-a11y/visual-manifest.json",
+      "bytes": 12515,
+      "sha256": "9ba8525ce05a098039eb7a7dbf0a44218e15cbdcea83c257250e9aaa24c94693"
+    },
+    {
+      "path": "verification/acceptance/_platform/gate-a/11-security-recovery/THREAT_MODEL.md",
+      "bytes": 5240,
+      "sha256": "32627b7189320ada994633284c41103897c795192906d4c165eacfb2f01210aa"
+    },
+    {
+      "path": "verification/acceptance/_platform/gate-a/12-supply-chain-license/backend-go-modules.cdx.json",
+      "bytes": 3185,
+      "sha256": "86074202229f2ac0f06f81693a1bc018da7d3d504541c76f17dfbb5bd9ad867b"
+    },
+    {
+      "path": "verification/acceptance/_platform/gate-a/12-supply-chain-license/backend-python-requirements.cdx.json",
+      "bytes": 888,
+      "sha256": "fa495f963d2ab19250df3d864ef86a1357b412f0c1e81045490bdb63bcd9afbb"
+    },
+    {
+      "path": "verification/acceptance/_platform/gate-a/12-supply-chain-license/REFERENCE_SELECTION.md",
+      "bytes": 4655,
+      "sha256": "b70556596f51480c60a14935e6b426797a46a6fd6e9b694a81fa075272669b53"
+    },
+    {
+      "path": "verification/acceptance/_platform/gate-a/12-supply-chain-license/source-documents.json",
+      "bytes": 1416,
+      "sha256": "f2a0fa5aed4b548b0d3bb9d05257f38dbd1333547abb3ba8cca80a50368ac651"
+    },
+    {
+      "path": "verification/acceptance/_platform/gate-a/12-supply-chain-license/THIRD_PARTY_LOCK_REGISTER.md",
+      "bytes": 6566,
+      "sha256": "8b4ca58e40a19f3059fa16c7cf9e93aab1dba22a0993302c40e217e78f988c37"
+    },
+    {
+      "path": "verification/acceptance/_platform/gate-a/12-supply-chain-license/web-react-npm.cdx.json",
+      "bytes": 347505,
+      "sha256": "66f25246790c7934e41e95364f71d85ea2405442d7146828fa8540b3d9997119"
+    },
+    {
+      "path": "verification/build-gate-a-deliverable-manifest.mjs",
+      "bytes": 2164,
+      "sha256": "0578dd313a14976eea4f81d7b73caedc496246171cd18608794fc6ff8902a936"
+    },
+    {
+      "path": "verification/build-legacy-dom-inventory.mjs",
+      "bytes": 3957,
+      "sha256": "e9d0788a74fe8cad3c4aa1e6bd66e34bed31ad41ed31f5d97b78c4ffc049e82b"
+    },
+    {
+      "path": "verification/build-legacy-visual-manifest.mjs",
+      "bytes": 1831,
+      "sha256": "6ef70c294eacd02b29744b4fc663ab23d7a41b010e9ffcce4324368cf43813c9"
+    },
+    {
+      "path": "verification/build-source-sboms.mjs",
+      "bytes": 3003,
+      "sha256": "40ada389641bdcab417ad45f45431ac718444327e0e41cf44dbb4c9430ad5bd4"
+    },
+    {
+      "path": "verification/validate-gate-a.mjs",
+      "bytes": 7082,
+      "sha256": "dc29f111f45ee483c4fc78c243189ece8edcbcc4dd3b34ee4d5ae65c604c770a"
+    },
+    {
+      "path": "verification/verify-card-baseline.ps1",
+      "bytes": 4398,
+      "sha256": "d0f6fff8b9009e79c6baf6539c0d00dff006c718d2072c826ad416df81fb059f"
+    },
+    {
+      "path": "verification/verify-gate-a.ps1",
+      "bytes": 1536,
+      "sha256": "10996ae423ea68363d5f66314f4c3ad6fcde2f3620954cb4e2d55e0c2557a12d"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "command": "node --test",
+  "exitCode": 0,
+  "tests": 109,
+  "passed": 109,
+  "failed": 0
+}

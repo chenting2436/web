@@ -1,0 +1,4153 @@
+[
+  {
+    "id": "N01",
+    "oldPath": "index.html",
+    "assets": [
+      {
+        "attribute": "href",
+        "reference": "data:image/svg+xml,%3Csvg xmlns=",
+        "external": true,
+        "exists": null
+      },
+      {
+        "attribute": "href",
+        "reference": "assets/styles/card.css?v=20260809-professional-ui",
+        "external": false,
+        "path": "assets/styles/card.css",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "index.html",
+        "external": false,
+        "path": "index.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "assets/images/skyviewlab-logo.png",
+        "external": false,
+        "path": "assets/images/skyviewlab-logo.png",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "index.html",
+        "external": false,
+        "path": "index.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "pages/research.html",
+        "external": false,
+        "path": "pages/research.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "pages/engineering.html",
+        "external": false,
+        "path": "pages/engineering.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "pages/teaching.html",
+        "external": false,
+        "path": "pages/teaching.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "pages/team.html",
+        "external": false,
+        "path": "pages/team.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "pages/profile.html",
+        "external": false,
+        "path": "pages/profile.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "assets/images/pic.png",
+        "external": false,
+        "path": "assets/images/pic.png",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "pages/profile.html",
+        "external": false,
+        "path": "pages/profile.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "assets/images/earth-clock-stars.jpg",
+        "external": false,
+        "path": "assets/images/earth-clock-stars.jpg",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "pages/login.html",
+        "external": false,
+        "path": "pages/login.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "assets/images/earth-clock-daymap.jpg",
+        "external": false,
+        "path": "assets/images/earth-clock-daymap.jpg",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "pages/research.html",
+        "external": false,
+        "path": "pages/research.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "pages/research.html",
+        "external": false,
+        "path": "pages/research.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "assets/images/pic.png",
+        "external": false,
+        "path": "assets/images/pic.png",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "pages/research.html",
+        "external": false,
+        "path": "pages/research.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "pages/engineering.html",
+        "external": false,
+        "path": "pages/engineering.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "assets/images/earth-clock-stars.jpg",
+        "external": false,
+        "path": "assets/images/earth-clock-stars.jpg",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "pages/engineering.html",
+        "external": false,
+        "path": "pages/engineering.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "pages/teaching.html",
+        "external": false,
+        "path": "pages/teaching.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "assets/images/earth-clock-daymap.jpg",
+        "external": false,
+        "path": "assets/images/earth-clock-daymap.jpg",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "pages/teaching.html",
+        "external": false,
+        "path": "pages/teaching.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "pages/team.html",
+        "external": false,
+        "path": "pages/team.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "assets/images/earth-clock-clouds.jpg",
+        "external": false,
+        "path": "assets/images/earth-clock-clouds.jpg",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "pages/team.html",
+        "external": false,
+        "path": "pages/team.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "pages/profile.html",
+        "external": false,
+        "path": "pages/profile.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "assets/scripts/language.js?v=20260722-package",
+        "external": false,
+        "path": "assets/scripts/language.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "assets/scripts/earth-clock-3d.js",
+        "external": false,
+        "path": "assets/scripts/earth-clock-3d.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "assets/scripts/earth-clock-file-fallback.js",
+        "external": false,
+        "path": "assets/scripts/earth-clock-file-fallback.js",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "id": "N02",
+    "oldPath": "pages/research.html",
+    "assets": [
+      {
+        "attribute": "href",
+        "reference": "../assets/styles/card.css?v=20260809-professional-ui",
+        "external": false,
+        "path": "assets/styles/card.css",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "../index.html",
+        "external": false,
+        "path": "index.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/images/skyviewlab-logo.png",
+        "external": false,
+        "path": "assets/images/skyviewlab-logo.png",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "../index.html",
+        "external": false,
+        "path": "index.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "research.html",
+        "external": false,
+        "path": "pages/research.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "engineering.html",
+        "external": false,
+        "path": "pages/engineering.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "teaching.html",
+        "external": false,
+        "path": "pages/teaching.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "team.html",
+        "external": false,
+        "path": "pages/team.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "profile.html",
+        "external": false,
+        "path": "pages/profile.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/images/pic.png",
+        "external": false,
+        "path": "assets/images/pic.png",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "paper-writing.html",
+        "external": false,
+        "path": "pages/paper-writing.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/images/pic.png",
+        "external": false,
+        "path": "assets/images/pic.png",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "disaster-remote-sensing.html",
+        "external": false,
+        "path": "pages/disaster-remote-sensing.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/images/pic.png",
+        "external": false,
+        "path": "assets/images/pic.png",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "seismic-physics.html",
+        "external": false,
+        "path": "pages/seismic-physics.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/images/pic.png",
+        "external": false,
+        "path": "assets/images/pic.png",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "patent-transfer.html",
+        "external": false,
+        "path": "pages/patent-transfer.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/images/pic.png",
+        "external": false,
+        "path": "assets/images/pic.png",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "skill-evolution.html",
+        "external": false,
+        "path": "pages/skill-evolution.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/images/pic.png",
+        "external": false,
+        "path": "assets/images/pic.png",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "research-automation.html",
+        "external": false,
+        "path": "pages/research-automation.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/images/pic.png",
+        "external": false,
+        "path": "assets/images/pic.png",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "paper-writing.html",
+        "external": false,
+        "path": "pages/paper-writing.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/images/pic.png",
+        "external": false,
+        "path": "assets/images/pic.png",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "disaster-remote-sensing.html",
+        "external": false,
+        "path": "pages/disaster-remote-sensing.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/images/pic.png",
+        "external": false,
+        "path": "assets/images/pic.png",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "seismic-physics.html",
+        "external": false,
+        "path": "pages/seismic-physics.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/images/pic.png",
+        "external": false,
+        "path": "assets/images/pic.png",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "patent-transfer.html",
+        "external": false,
+        "path": "pages/patent-transfer.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/images/pic.png",
+        "external": false,
+        "path": "assets/images/pic.png",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "knowledge-system.html",
+        "external": false,
+        "path": "pages/knowledge-system.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/images/pic.png",
+        "external": false,
+        "path": "assets/images/pic.png",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "research-radar.html",
+        "external": false,
+        "path": "pages/research-radar.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/images/pic.png",
+        "external": false,
+        "path": "assets/images/pic.png",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "mine-safety-radar.html",
+        "external": false,
+        "path": "pages/mine-safety-radar.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/images/pic.png",
+        "external": false,
+        "path": "assets/images/pic.png",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "disaster-remote-sensing.html",
+        "external": false,
+        "path": "pages/disaster-remote-sensing.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/images/pic.png",
+        "external": false,
+        "path": "assets/images/pic.png",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "patent-transfer.html",
+        "external": false,
+        "path": "pages/patent-transfer.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/images/pic.png",
+        "external": false,
+        "path": "assets/images/pic.png",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "disaster-remote-sensing.html",
+        "external": false,
+        "path": "pages/disaster-remote-sensing.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/images/pic.png",
+        "external": false,
+        "path": "assets/images/pic.png",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "seismic-physics.html",
+        "external": false,
+        "path": "pages/seismic-physics.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/images/pic.png",
+        "external": false,
+        "path": "assets/images/pic.png",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "paper-writing.html",
+        "external": false,
+        "path": "pages/paper-writing.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/images/pic.png",
+        "external": false,
+        "path": "assets/images/pic.png",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "patent-transfer.html",
+        "external": false,
+        "path": "pages/patent-transfer.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/images/pic.png",
+        "external": false,
+        "path": "assets/images/pic.png",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/language.js?v=20260722-package",
+        "external": false,
+        "path": "assets/scripts/language.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/paid-gate.js",
+        "external": false,
+        "path": "assets/scripts/paid-gate.js",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "id": "N03",
+    "oldPath": "pages/engineering.html",
+    "assets": [
+      {
+        "attribute": "href",
+        "reference": "../assets/styles/card.css?v=20260809-professional-ui",
+        "external": false,
+        "path": "assets/styles/card.css",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "../index.html",
+        "external": false,
+        "path": "index.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/images/skyviewlab-logo.png",
+        "external": false,
+        "path": "assets/images/skyviewlab-logo.png",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "../index.html",
+        "external": false,
+        "path": "index.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "research.html",
+        "external": false,
+        "path": "pages/research.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "engineering.html",
+        "external": false,
+        "path": "pages/engineering.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "teaching.html",
+        "external": false,
+        "path": "pages/teaching.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "team.html",
+        "external": false,
+        "path": "pages/team.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "profile.html",
+        "external": false,
+        "path": "pages/profile.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/images/pic.png",
+        "external": false,
+        "path": "assets/images/pic.png",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "data-gateway.html",
+        "external": false,
+        "path": "pages/data-gateway.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/images/pic.png",
+        "external": false,
+        "path": "assets/images/pic.png",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "https://www.baidu.com",
+        "external": true,
+        "exists": null
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/images/pic.png",
+        "external": false,
+        "path": "assets/images/pic.png",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "https://www.baidu.com",
+        "external": true,
+        "exists": null
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/images/pic.png",
+        "external": false,
+        "path": "assets/images/pic.png",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "https://www.baidu.com",
+        "external": true,
+        "exists": null
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/images/pic.png",
+        "external": false,
+        "path": "assets/images/pic.png",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "https://www.baidu.com",
+        "external": true,
+        "exists": null
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/images/pic.png",
+        "external": false,
+        "path": "assets/images/pic.png",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "https://www.baidu.com",
+        "external": true,
+        "exists": null
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/images/pic.png",
+        "external": false,
+        "path": "assets/images/pic.png",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "https://www.baidu.com",
+        "external": true,
+        "exists": null
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/images/pic.png",
+        "external": false,
+        "path": "assets/images/pic.png",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "https://www.baidu.com",
+        "external": true,
+        "exists": null
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/images/pic.png",
+        "external": false,
+        "path": "assets/images/pic.png",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "https://www.baidu.com",
+        "external": true,
+        "exists": null
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/images/pic.png",
+        "external": false,
+        "path": "assets/images/pic.png",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "ambient-noise-imaging.html",
+        "external": false,
+        "path": "pages/ambient-noise-imaging.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/images/pic.png",
+        "external": false,
+        "path": "assets/images/pic.png",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "https://www.baidu.com",
+        "external": true,
+        "exists": null
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/images/pic.png",
+        "external": false,
+        "path": "assets/images/pic.png",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "ai-patent-disclosure.html",
+        "external": false,
+        "path": "pages/ai-patent-disclosure.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/images/pic.png",
+        "external": false,
+        "path": "assets/images/pic.png",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/language.js?v=20260722-package",
+        "external": false,
+        "path": "assets/scripts/language.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/paid-gate.js",
+        "external": false,
+        "path": "assets/scripts/paid-gate.js",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "id": "N04",
+    "oldPath": "pages/teaching.html",
+    "assets": [
+      {
+        "attribute": "href",
+        "reference": "../assets/styles/card.css?v=20260809-professional-ui",
+        "external": false,
+        "path": "assets/styles/card.css",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "../index.html",
+        "external": false,
+        "path": "index.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/images/skyviewlab-logo.png",
+        "external": false,
+        "path": "assets/images/skyviewlab-logo.png",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "../index.html",
+        "external": false,
+        "path": "index.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "research.html",
+        "external": false,
+        "path": "pages/research.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "engineering.html",
+        "external": false,
+        "path": "pages/engineering.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "teaching.html",
+        "external": false,
+        "path": "pages/teaching.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "team.html",
+        "external": false,
+        "path": "pages/team.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "profile.html",
+        "external": false,
+        "path": "pages/profile.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/images/pic.png",
+        "external": false,
+        "path": "assets/images/pic.png",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "python-lab.html",
+        "external": false,
+        "path": "pages/python-lab.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/images/pic.png",
+        "external": false,
+        "path": "assets/images/pic.png",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "daily-practice.html",
+        "external": false,
+        "path": "pages/daily-practice.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/images/pic.png",
+        "external": false,
+        "path": "assets/images/pic.png",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "project-workspace.html",
+        "external": false,
+        "path": "pages/project-workspace.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/images/pic.png",
+        "external": false,
+        "path": "assets/images/pic.png",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "data-lab.html",
+        "external": false,
+        "path": "pages/data-lab.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/images/pic.png",
+        "external": false,
+        "path": "assets/images/pic.png",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "ai-report.html",
+        "external": false,
+        "path": "pages/ai-report.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/images/pic.png",
+        "external": false,
+        "path": "assets/images/pic.png",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "python-english.html",
+        "external": false,
+        "path": "pages/python-english.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/images/pic.png",
+        "external": false,
+        "path": "assets/images/pic.png",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "ai-assessment.html",
+        "external": false,
+        "path": "pages/ai-assessment.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/images/pic.png",
+        "external": false,
+        "path": "assets/images/pic.png",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "project-submission.html",
+        "external": false,
+        "path": "pages/project-submission.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/images/pic.png",
+        "external": false,
+        "path": "assets/images/pic.png",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/language.js?v=20260722-package",
+        "external": false,
+        "path": "assets/scripts/language.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/paid-gate.js",
+        "external": false,
+        "path": "assets/scripts/paid-gate.js",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "id": "N05",
+    "oldPath": "pages/team.html",
+    "assets": [
+      {
+        "attribute": "href",
+        "reference": "../assets/styles/card.css?v=20260809-professional-ui",
+        "external": false,
+        "path": "assets/styles/card.css",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "../index.html",
+        "external": false,
+        "path": "index.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/images/skyviewlab-logo.png",
+        "external": false,
+        "path": "assets/images/skyviewlab-logo.png",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "../index.html",
+        "external": false,
+        "path": "index.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "research.html",
+        "external": false,
+        "path": "pages/research.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "engineering.html",
+        "external": false,
+        "path": "pages/engineering.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "teaching.html",
+        "external": false,
+        "path": "pages/teaching.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "team.html",
+        "external": false,
+        "path": "pages/team.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "profile.html",
+        "external": false,
+        "path": "pages/profile.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/images/pic.png",
+        "external": false,
+        "path": "assets/images/pic.png",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "https://www.baidu.com",
+        "external": true,
+        "exists": null
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/images/pic.png",
+        "external": false,
+        "path": "assets/images/pic.png",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "https://www.baidu.com",
+        "external": true,
+        "exists": null
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/images/pic.png",
+        "external": false,
+        "path": "assets/images/pic.png",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "https://www.baidu.com",
+        "external": true,
+        "exists": null
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/images/pic.png",
+        "external": false,
+        "path": "assets/images/pic.png",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "https://www.baidu.com",
+        "external": true,
+        "exists": null
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/images/pic.png",
+        "external": false,
+        "path": "assets/images/pic.png",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "https://www.baidu.com",
+        "external": true,
+        "exists": null
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/images/pic.png",
+        "external": false,
+        "path": "assets/images/pic.png",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "https://www.baidu.com",
+        "external": true,
+        "exists": null
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/images/pic.png",
+        "external": false,
+        "path": "assets/images/pic.png",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "https://www.baidu.com",
+        "external": true,
+        "exists": null
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/images/pic.png",
+        "external": false,
+        "path": "assets/images/pic.png",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "https://www.baidu.com",
+        "external": true,
+        "exists": null
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/images/pic.png",
+        "external": false,
+        "path": "assets/images/pic.png",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "https://www.baidu.com",
+        "external": true,
+        "exists": null
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/images/pic.png",
+        "external": false,
+        "path": "assets/images/pic.png",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "https://www.baidu.com",
+        "external": true,
+        "exists": null
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/images/pic.png",
+        "external": false,
+        "path": "assets/images/pic.png",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "https://www.baidu.com",
+        "external": true,
+        "exists": null
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/images/pic.png",
+        "external": false,
+        "path": "assets/images/pic.png",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/language.js?v=20260722-package",
+        "external": false,
+        "path": "assets/scripts/language.js",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "id": "N06",
+    "oldPath": "pages/login.html",
+    "assets": [
+      {
+        "attribute": "href",
+        "reference": "data:image/svg+xml,%3Csvg xmlns=",
+        "external": true,
+        "exists": null
+      },
+      {
+        "attribute": "href",
+        "reference": "../assets/styles/card.css?v=20260809-professional-ui",
+        "external": false,
+        "path": "assets/styles/card.css",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "../index.html",
+        "external": false,
+        "path": "index.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/images/skyviewlab-logo.png",
+        "external": false,
+        "path": "assets/images/skyviewlab-logo.png",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "../index.html",
+        "external": false,
+        "path": "index.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "research.html",
+        "external": false,
+        "path": "pages/research.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "engineering.html",
+        "external": false,
+        "path": "pages/engineering.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "teaching.html",
+        "external": false,
+        "path": "pages/teaching.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "team.html",
+        "external": false,
+        "path": "pages/team.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "profile.html",
+        "external": false,
+        "path": "pages/profile.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/language.js?v=20260722-package",
+        "external": false,
+        "path": "assets/scripts/language.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/auth.js",
+        "external": false,
+        "path": "assets/scripts/auth.js",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "id": "N07",
+    "oldPath": "pages/profile.html",
+    "assets": [
+      {
+        "attribute": "href",
+        "reference": "data:image/svg+xml,%3Csvg xmlns=",
+        "external": true,
+        "exists": null
+      },
+      {
+        "attribute": "href",
+        "reference": "../assets/styles/card.css?v=20260809-professional-ui",
+        "external": false,
+        "path": "assets/styles/card.css",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "../index.html",
+        "external": false,
+        "path": "index.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/images/skyviewlab-logo.png",
+        "external": false,
+        "path": "assets/images/skyviewlab-logo.png",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "../index.html",
+        "external": false,
+        "path": "index.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "research.html",
+        "external": false,
+        "path": "pages/research.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "engineering.html",
+        "external": false,
+        "path": "pages/engineering.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "teaching.html",
+        "external": false,
+        "path": "pages/teaching.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "team.html",
+        "external": false,
+        "path": "pages/team.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "profile.html",
+        "external": false,
+        "path": "pages/profile.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/images/pic.png",
+        "external": false,
+        "path": "assets/images/pic.png",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "login.html",
+        "external": false,
+        "path": "pages/login.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/language.js?v=20260722-package",
+        "external": false,
+        "path": "assets/scripts/language.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/auth.js",
+        "external": false,
+        "path": "assets/scripts/auth.js",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "id": "N08",
+    "oldPath": "pages/students.html",
+    "assets": [
+      {
+        "attribute": "href",
+        "reference": "../assets/styles/card.css?v=20260809-professional-ui",
+        "external": false,
+        "path": "assets/styles/card.css",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "../index.html",
+        "external": false,
+        "path": "index.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/images/skyviewlab-logo.png",
+        "external": false,
+        "path": "assets/images/skyviewlab-logo.png",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "../index.html",
+        "external": false,
+        "path": "index.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "research.html",
+        "external": false,
+        "path": "pages/research.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "engineering.html",
+        "external": false,
+        "path": "pages/engineering.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "teaching.html",
+        "external": false,
+        "path": "pages/teaching.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "team.html",
+        "external": false,
+        "path": "pages/team.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "profile.html",
+        "external": false,
+        "path": "pages/profile.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "profile.html",
+        "external": false,
+        "path": "pages/profile.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/language.js?v=20260722-package",
+        "external": false,
+        "path": "assets/scripts/language.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/student-management.js",
+        "external": false,
+        "path": "assets/scripts/student-management.js",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "id": "N09",
+    "oldPath": "pages/paid-features.html",
+    "assets": [
+      {
+        "attribute": "href",
+        "reference": "../assets/styles/card.css?v=20260809-professional-ui",
+        "external": false,
+        "path": "assets/styles/card.css",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "../index.html",
+        "external": false,
+        "path": "index.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/images/skyviewlab-logo.png",
+        "external": false,
+        "path": "assets/images/skyviewlab-logo.png",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "../index.html",
+        "external": false,
+        "path": "index.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "research.html",
+        "external": false,
+        "path": "pages/research.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "engineering.html",
+        "external": false,
+        "path": "pages/engineering.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "teaching.html",
+        "external": false,
+        "path": "pages/teaching.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "team.html",
+        "external": false,
+        "path": "pages/team.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "profile.html",
+        "external": false,
+        "path": "pages/profile.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "profile.html",
+        "external": false,
+        "path": "pages/profile.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/language.js?v=20260722-package",
+        "external": false,
+        "path": "assets/scripts/language.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/paid-management.js",
+        "external": false,
+        "path": "assets/scripts/paid-management.js",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "id": "N10",
+    "oldPath": "pages/comments.html",
+    "assets": [
+      {
+        "attribute": "href",
+        "reference": "../assets/styles/card.css?v=20260809-professional-ui",
+        "external": false,
+        "path": "assets/styles/card.css",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "../assets/styles/collaboration-workbench.css?v=20260809-professional-ui",
+        "external": false,
+        "path": "assets/styles/collaboration-workbench.css",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "../index.html",
+        "external": false,
+        "path": "index.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/images/skyviewlab-logo.png",
+        "external": false,
+        "path": "assets/images/skyviewlab-logo.png",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "../index.html",
+        "external": false,
+        "path": "index.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "research.html",
+        "external": false,
+        "path": "pages/research.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "engineering.html",
+        "external": false,
+        "path": "pages/engineering.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "teaching.html",
+        "external": false,
+        "path": "pages/teaching.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "team.html",
+        "external": false,
+        "path": "pages/team.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "profile.html",
+        "external": false,
+        "path": "pages/profile.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "profile.html",
+        "external": false,
+        "path": "pages/profile.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/language.js?v=20260722-package",
+        "external": false,
+        "path": "assets/scripts/language.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/comments-workbench.js?v=20260810-collaboration-v1",
+        "external": false,
+        "path": "assets/scripts/comments-workbench.js",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "id": "N11",
+    "oldPath": "pages/homework.html",
+    "assets": [
+      {
+        "attribute": "href",
+        "reference": "../assets/styles/card.css?v=20260809-professional-ui",
+        "external": false,
+        "path": "assets/styles/card.css",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "../assets/styles/collaboration-workbench.css?v=20260809-professional-ui",
+        "external": false,
+        "path": "assets/styles/collaboration-workbench.css",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "../index.html",
+        "external": false,
+        "path": "index.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/images/skyviewlab-logo.png",
+        "external": false,
+        "path": "assets/images/skyviewlab-logo.png",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "../index.html",
+        "external": false,
+        "path": "index.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "research.html",
+        "external": false,
+        "path": "pages/research.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "engineering.html",
+        "external": false,
+        "path": "pages/engineering.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "teaching.html",
+        "external": false,
+        "path": "pages/teaching.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "team.html",
+        "external": false,
+        "path": "pages/team.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "profile.html",
+        "external": false,
+        "path": "pages/profile.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "profile.html",
+        "external": false,
+        "path": "pages/profile.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/language.js?v=20260722-package",
+        "external": false,
+        "path": "assets/scripts/language.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/homework-workbench.js?v=20260810-collaboration-v1",
+        "external": false,
+        "path": "assets/scripts/homework-workbench.js",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "id": "T01",
+    "oldPath": "pages/python-lab.html",
+    "assets": [
+      {
+        "attribute": "href",
+        "reference": "../assets/styles/card.css?v=20260809-professional-ui",
+        "external": false,
+        "path": "assets/styles/card.css",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "../index.html",
+        "external": false,
+        "path": "index.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/images/skyviewlab-logo.png",
+        "external": false,
+        "path": "assets/images/skyviewlab-logo.png",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "../index.html",
+        "external": false,
+        "path": "index.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "research.html",
+        "external": false,
+        "path": "pages/research.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "engineering.html",
+        "external": false,
+        "path": "pages/engineering.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "teaching.html",
+        "external": false,
+        "path": "pages/teaching.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "team.html",
+        "external": false,
+        "path": "pages/team.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "profile.html",
+        "external": false,
+        "path": "pages/profile.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "teaching.html",
+        "external": false,
+        "path": "pages/teaching.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/language.js?v=20260722-package",
+        "external": false,
+        "path": "assets/scripts/language.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/paid-gate.js",
+        "external": false,
+        "path": "assets/scripts/paid-gate.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/course-storage.js?v=20260810-no-account-backup-v1",
+        "external": false,
+        "path": "assets/scripts/course-storage.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/python-lab.js?v=20260809-deep",
+        "external": false,
+        "path": "assets/scripts/python-lab.js",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "id": "T02",
+    "oldPath": "pages/daily-practice.html",
+    "assets": [
+      {
+        "attribute": "href",
+        "reference": "../assets/styles/card.css?v=20260809-professional-ui",
+        "external": false,
+        "path": "assets/styles/card.css",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "../assets/styles/daily-practice.css?v=20260810-practice-scroll-v1",
+        "external": false,
+        "path": "assets/styles/daily-practice.css",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "../index.html",
+        "external": false,
+        "path": "index.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/images/skyviewlab-logo.png",
+        "external": false,
+        "path": "assets/images/skyviewlab-logo.png",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "../index.html",
+        "external": false,
+        "path": "index.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "research.html",
+        "external": false,
+        "path": "pages/research.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "engineering.html",
+        "external": false,
+        "path": "pages/engineering.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "teaching.html",
+        "external": false,
+        "path": "pages/teaching.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "team.html",
+        "external": false,
+        "path": "pages/team.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "profile.html",
+        "external": false,
+        "path": "pages/profile.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "teaching.html",
+        "external": false,
+        "path": "pages/teaching.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/language.js?v=20260808-course-pro",
+        "external": false,
+        "path": "assets/scripts/language.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/course-tool-gate.js",
+        "external": false,
+        "path": "assets/scripts/course-tool-gate.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/paid-gate.js",
+        "external": false,
+        "path": "assets/scripts/paid-gate.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/course-storage.js?v=20260810-no-account-backup-v1",
+        "external": false,
+        "path": "assets/scripts/course-storage.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/course-tools.js?v=20260810-practice-scroll-v1",
+        "external": false,
+        "path": "assets/scripts/course-tools.js",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "id": "T03",
+    "oldPath": "pages/project-workspace.html",
+    "assets": [
+      {
+        "attribute": "href",
+        "reference": "../assets/styles/card.css?v=20260809-professional-ui",
+        "external": false,
+        "path": "assets/styles/card.css",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "../index.html",
+        "external": false,
+        "path": "index.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/images/skyviewlab-logo.png",
+        "external": false,
+        "path": "assets/images/skyviewlab-logo.png",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "../index.html",
+        "external": false,
+        "path": "index.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "research.html",
+        "external": false,
+        "path": "pages/research.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "engineering.html",
+        "external": false,
+        "path": "pages/engineering.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "teaching.html",
+        "external": false,
+        "path": "pages/teaching.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "team.html",
+        "external": false,
+        "path": "pages/team.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "profile.html",
+        "external": false,
+        "path": "pages/profile.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "teaching.html",
+        "external": false,
+        "path": "pages/teaching.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/language.js?v=20260808-course-pro",
+        "external": false,
+        "path": "assets/scripts/language.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/course-tool-gate.js",
+        "external": false,
+        "path": "assets/scripts/course-tool-gate.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/paid-gate.js",
+        "external": false,
+        "path": "assets/scripts/paid-gate.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/course-storage.js?v=20260810-no-account-backup-v1",
+        "external": false,
+        "path": "assets/scripts/course-storage.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/course-tools.js?v=20260810-no-account-backup-v1",
+        "external": false,
+        "path": "assets/scripts/course-tools.js",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "id": "T04",
+    "oldPath": "pages/data-lab.html",
+    "assets": [
+      {
+        "attribute": "href",
+        "reference": "../assets/styles/card.css?v=20260809-professional-ui",
+        "external": false,
+        "path": "assets/styles/card.css",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "../assets/styles/openrefine-workbench.css?v=20260810-openrefine-v1",
+        "external": false,
+        "path": "assets/styles/openrefine-workbench.css",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "../index.html",
+        "external": false,
+        "path": "index.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/images/skyviewlab-logo.png",
+        "external": false,
+        "path": "assets/images/skyviewlab-logo.png",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "../index.html",
+        "external": false,
+        "path": "index.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "research.html",
+        "external": false,
+        "path": "pages/research.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "engineering.html",
+        "external": false,
+        "path": "pages/engineering.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "teaching.html",
+        "external": false,
+        "path": "pages/teaching.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "team.html",
+        "external": false,
+        "path": "pages/team.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "profile.html",
+        "external": false,
+        "path": "pages/profile.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "teaching.html",
+        "external": false,
+        "path": "pages/teaching.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/language.js?v=20260810-openrefine-v1",
+        "external": false,
+        "path": "assets/scripts/language.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/course-storage.js?v=20260810-no-account-backup-v1",
+        "external": false,
+        "path": "assets/scripts/course-storage.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../vendor/papaparse/papaparse.min.js?v=5.5.4",
+        "external": false,
+        "path": "vendor/papaparse/papaparse.min.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../vendor/sheetjs/xlsx.full.min.js?v=0.20.3",
+        "external": false,
+        "path": "vendor/sheetjs/xlsx.full.min.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../vendor/jszip/jszip.min.js?v=3.10.1",
+        "external": false,
+        "path": "vendor/jszip/jszip.min.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/data-refine-engine.js?v=20260810-openrefine-v1",
+        "external": false,
+        "path": "assets/scripts/data-refine-engine.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/data-refine-pro.js?v=20260810-no-account-backup-v1",
+        "external": false,
+        "path": "assets/scripts/data-refine-pro.js",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "id": "T05",
+    "oldPath": "pages/ai-report.html",
+    "assets": [
+      {
+        "attribute": "href",
+        "reference": "../assets/styles/card.css?v=20260809-professional-ui",
+        "external": false,
+        "path": "assets/styles/card.css",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "../assets/styles/webllm-report.css?v=20260810-webllm-report-v1",
+        "external": false,
+        "path": "assets/styles/webllm-report.css",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "../index.html",
+        "external": false,
+        "path": "index.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/images/skyviewlab-logo.png",
+        "external": false,
+        "path": "assets/images/skyviewlab-logo.png",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "../index.html",
+        "external": false,
+        "path": "index.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "research.html",
+        "external": false,
+        "path": "pages/research.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "engineering.html",
+        "external": false,
+        "path": "pages/engineering.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "teaching.html",
+        "external": false,
+        "path": "pages/teaching.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "team.html",
+        "external": false,
+        "path": "pages/team.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "profile.html",
+        "external": false,
+        "path": "pages/profile.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "teaching.html",
+        "external": false,
+        "path": "pages/teaching.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/language.js?v=20260810-webllm-report-v1",
+        "external": false,
+        "path": "assets/scripts/language.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/course-storage.js?v=20260810-no-account-backup-v1",
+        "external": false,
+        "path": "assets/scripts/course-storage.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../vendor/jszip/jszip.min.js?v=3.10.1",
+        "external": false,
+        "path": "vendor/jszip/jszip.min.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../vendor/mammoth/mammoth.browser.min.js",
+        "external": false,
+        "path": "vendor/mammoth/mammoth.browser.min.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../vendor/sheetjs/xlsx.full.min.js",
+        "external": false,
+        "path": "vendor/sheetjs/xlsx.full.min.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/webllm-report-engine.js?v=20260810-webllm-report-v1",
+        "external": false,
+        "path": "assets/scripts/webllm-report-engine.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/webllm-report-app.js?v=20260810-webllm-report-v1",
+        "external": false,
+        "path": "assets/scripts/webllm-report-app.js",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "id": "T06",
+    "oldPath": "pages/python-english.html",
+    "assets": [
+      {
+        "attribute": "href",
+        "reference": "../assets/styles/card.css?v=20260809-professional-ui",
+        "external": false,
+        "path": "assets/styles/card.css",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "../assets/styles/twoez-python.css?v=20260810-2ez-python-v1",
+        "external": false,
+        "path": "assets/styles/twoez-python.css",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "../index.html",
+        "external": false,
+        "path": "index.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/images/skyviewlab-logo.png",
+        "external": false,
+        "path": "assets/images/skyviewlab-logo.png",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "../index.html",
+        "external": false,
+        "path": "index.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "research.html",
+        "external": false,
+        "path": "pages/research.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "engineering.html",
+        "external": false,
+        "path": "pages/engineering.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "teaching.html",
+        "external": false,
+        "path": "pages/teaching.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "team.html",
+        "external": false,
+        "path": "pages/team.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "profile.html",
+        "external": false,
+        "path": "pages/profile.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "teaching.html",
+        "external": false,
+        "path": "pages/teaching.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/language.js?v=20260810-2ez-python-v1",
+        "external": false,
+        "path": "assets/scripts/language.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/course-storage.js?v=20260810-no-account-backup-v1",
+        "external": false,
+        "path": "assets/scripts/course-storage.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/twoez-python-content.js?v=20260810-2ez-python-v1",
+        "external": false,
+        "path": "assets/scripts/twoez-python-content.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/twoez-python-engine.js?v=20260810-2ez-python-v1",
+        "external": false,
+        "path": "assets/scripts/twoez-python-engine.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/twoez-python-app.js?v=20260810-2ez-python-v1",
+        "external": false,
+        "path": "assets/scripts/twoez-python-app.js",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "id": "T07",
+    "oldPath": "pages/ai-assessment.html",
+    "assets": [
+      {
+        "attribute": "href",
+        "reference": "../assets/styles/card.css?v=20260809-professional-ui",
+        "external": false,
+        "path": "assets/styles/card.css",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "../assets/styles/judge0-assessment.css?v=20260810-judge0-v1",
+        "external": false,
+        "path": "assets/styles/judge0-assessment.css",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "../index.html",
+        "external": false,
+        "path": "index.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/images/skyviewlab-logo.png",
+        "external": false,
+        "path": "assets/images/skyviewlab-logo.png",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "../index.html",
+        "external": false,
+        "path": "index.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "research.html",
+        "external": false,
+        "path": "pages/research.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "engineering.html",
+        "external": false,
+        "path": "pages/engineering.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "teaching.html",
+        "external": false,
+        "path": "pages/teaching.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "team.html",
+        "external": false,
+        "path": "pages/team.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "profile.html",
+        "external": false,
+        "path": "pages/profile.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "teaching.html",
+        "external": false,
+        "path": "pages/teaching.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/language.js?v=20260810-judge0-v1",
+        "external": false,
+        "path": "assets/scripts/language.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/course-storage.js?v=20260810-judge0-v1",
+        "external": false,
+        "path": "assets/scripts/course-storage.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../vendor/monaco-editor-0.44.0/min/vs/loader.js",
+        "external": false,
+        "path": "vendor/monaco-editor-0.44.0/min/vs/loader.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../vendor/monaco-editor-0.44.0/min/vs/editor/editor.main.nls.js",
+        "external": false,
+        "path": "vendor/monaco-editor-0.44.0/min/vs/editor/editor.main.nls.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../vendor/monaco-editor-0.44.0/min/vs/editor/editor.main.js",
+        "external": false,
+        "path": "vendor/monaco-editor-0.44.0/min/vs/editor/editor.main.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/judge0-assessment-engine.js?v=20260810-judge0-v1",
+        "external": false,
+        "path": "assets/scripts/judge0-assessment-engine.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/judge0-assessment-catalog.js?v=20260810-judge0-v1",
+        "external": false,
+        "path": "assets/scripts/judge0-assessment-catalog.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/judge0-assessment-app.js?v=20260810-judge0-v1",
+        "external": false,
+        "path": "assets/scripts/judge0-assessment-app.js",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "id": "T08",
+    "oldPath": "pages/project-submission.html",
+    "assets": [
+      {
+        "attribute": "href",
+        "reference": "../assets/styles/card.css?v=20260809-professional-ui",
+        "external": false,
+        "path": "assets/styles/card.css",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "../index.html",
+        "external": false,
+        "path": "index.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/images/skyviewlab-logo.png",
+        "external": false,
+        "path": "assets/images/skyviewlab-logo.png",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "../index.html",
+        "external": false,
+        "path": "index.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "research.html",
+        "external": false,
+        "path": "pages/research.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "engineering.html",
+        "external": false,
+        "path": "pages/engineering.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "teaching.html",
+        "external": false,
+        "path": "pages/teaching.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "team.html",
+        "external": false,
+        "path": "pages/team.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "profile.html",
+        "external": false,
+        "path": "pages/profile.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "teaching.html",
+        "external": false,
+        "path": "pages/teaching.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/language.js?v=20260808-course-pro",
+        "external": false,
+        "path": "assets/scripts/language.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/course-tool-gate.js",
+        "external": false,
+        "path": "assets/scripts/course-tool-gate.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/paid-gate.js",
+        "external": false,
+        "path": "assets/scripts/paid-gate.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/course-storage.js?v=20260810-no-account-backup-v1",
+        "external": false,
+        "path": "assets/scripts/course-storage.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../vendor/jszip/jszip.min.js",
+        "external": false,
+        "path": "vendor/jszip/jszip.min.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/course-tools.js?v=20260810-no-account-backup-v1",
+        "external": false,
+        "path": "assets/scripts/course-tools.js",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "id": "R01",
+    "oldPath": "pages/paper-writing.html",
+    "assets": [
+      {
+        "attribute": "href",
+        "reference": "../assets/styles/card.css?v=20260809-professional-ui",
+        "external": false,
+        "path": "assets/styles/card.css",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "../assets/styles/ars-paper.css?v=20260810-ars-paper-v1",
+        "external": false,
+        "path": "assets/styles/ars-paper.css",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "../index.html",
+        "external": false,
+        "path": "index.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/images/skyviewlab-logo.png",
+        "external": false,
+        "path": "assets/images/skyviewlab-logo.png",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "../index.html",
+        "external": false,
+        "path": "index.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "research.html",
+        "external": false,
+        "path": "pages/research.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "engineering.html",
+        "external": false,
+        "path": "pages/engineering.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "teaching.html",
+        "external": false,
+        "path": "pages/teaching.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "team.html",
+        "external": false,
+        "path": "pages/team.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "profile.html",
+        "external": false,
+        "path": "pages/profile.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "research.html",
+        "external": false,
+        "path": "pages/research.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/language.js?v=20260810-ars-paper-v1",
+        "external": false,
+        "path": "assets/scripts/language.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/course-storage.js?v=20260810-no-account-backup-v1",
+        "external": false,
+        "path": "assets/scripts/course-storage.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../vendor/jszip/jszip.min.js?v=3.10.1",
+        "external": false,
+        "path": "vendor/jszip/jszip.min.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/ars-paper-engine.js?v=20260810-ars-paper-v1",
+        "external": false,
+        "path": "assets/scripts/ars-paper-engine.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/ars-paper-app.js?v=20260810-ars-paper-v1",
+        "external": false,
+        "path": "assets/scripts/ars-paper-app.js",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "id": "R02",
+    "oldPath": "pages/disaster-remote-sensing.html",
+    "assets": [
+      {
+        "attribute": "href",
+        "reference": "../assets/styles/card.css?v=20260809-professional-ui",
+        "external": false,
+        "path": "assets/styles/card.css",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "../assets/styles/resq-sentinel.css?v=20260810-resq-sentinel-v1",
+        "external": false,
+        "path": "assets/styles/resq-sentinel.css",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "../index.html",
+        "external": false,
+        "path": "index.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/images/skyviewlab-logo.png",
+        "external": false,
+        "path": "assets/images/skyviewlab-logo.png",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "../index.html",
+        "external": false,
+        "path": "index.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "research.html",
+        "external": false,
+        "path": "pages/research.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "engineering.html",
+        "external": false,
+        "path": "pages/engineering.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "teaching.html",
+        "external": false,
+        "path": "pages/teaching.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "team.html",
+        "external": false,
+        "path": "pages/team.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "profile.html",
+        "external": false,
+        "path": "pages/profile.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "research.html",
+        "external": false,
+        "path": "pages/research.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/language.js?v=20260810-resq-sentinel-v1",
+        "external": false,
+        "path": "assets/scripts/language.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/paid-gate.js",
+        "external": false,
+        "path": "assets/scripts/paid-gate.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/course-storage.js?v=20260810-no-account-backup-v1",
+        "external": false,
+        "path": "assets/scripts/course-storage.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../vendor/geotiff/geotiff.js?v=3.0.5",
+        "external": false,
+        "path": "vendor/geotiff/geotiff.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../vendor/jszip/jszip.min.js?v=3.10.1",
+        "external": false,
+        "path": "vendor/jszip/jszip.min.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/remote-sensing-engine.js?v=20260810-resq-sentinel-v1",
+        "external": false,
+        "path": "assets/scripts/remote-sensing-engine.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/remote-sensing-pro.js?v=20260810-resq-sentinel-v1",
+        "external": false,
+        "path": "assets/scripts/remote-sensing-pro.js",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "id": "R03",
+    "oldPath": "pages/seismic-physics.html",
+    "assets": [
+      {
+        "attribute": "href",
+        "reference": "../assets/styles/card.css?v=20260809-professional-ui",
+        "external": false,
+        "path": "assets/styles/card.css",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "../index.html",
+        "external": false,
+        "path": "index.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/images/skyviewlab-logo.png",
+        "external": false,
+        "path": "assets/images/skyviewlab-logo.png",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "../index.html",
+        "external": false,
+        "path": "index.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "research.html",
+        "external": false,
+        "path": "pages/research.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "engineering.html",
+        "external": false,
+        "path": "pages/engineering.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "teaching.html",
+        "external": false,
+        "path": "pages/teaching.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "team.html",
+        "external": false,
+        "path": "pages/team.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "profile.html",
+        "external": false,
+        "path": "pages/profile.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "research.html",
+        "external": false,
+        "path": "pages/research.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/language.js?v=20260809-seismic-pro",
+        "external": false,
+        "path": "assets/scripts/language.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/paid-gate.js",
+        "external": false,
+        "path": "assets/scripts/paid-gate.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/course-storage.js?v=20260810-no-account-backup-v1",
+        "external": false,
+        "path": "assets/scripts/course-storage.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../vendor/jszip/jszip.min.js?v=3.10.1",
+        "external": false,
+        "path": "vendor/jszip/jszip.min.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/seismic-physics-engine.js?v=20260809-seismic-pro",
+        "external": false,
+        "path": "assets/scripts/seismic-physics-engine.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/seismic-physics-pro.js?v=20260809-seismic-pro",
+        "external": false,
+        "path": "assets/scripts/seismic-physics-pro.js",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "id": "R04",
+    "oldPath": "pages/patent-transfer.html",
+    "assets": [
+      {
+        "attribute": "href",
+        "reference": "../assets/styles/card.css?v=20260809-professional-ui",
+        "external": false,
+        "path": "assets/styles/card.css",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "../index.html",
+        "external": false,
+        "path": "index.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/images/skyviewlab-logo.png",
+        "external": false,
+        "path": "assets/images/skyviewlab-logo.png",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "../index.html",
+        "external": false,
+        "path": "index.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "research.html",
+        "external": false,
+        "path": "pages/research.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "engineering.html",
+        "external": false,
+        "path": "pages/engineering.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "teaching.html",
+        "external": false,
+        "path": "pages/teaching.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "team.html",
+        "external": false,
+        "path": "pages/team.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "profile.html",
+        "external": false,
+        "path": "pages/profile.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "research.html",
+        "external": false,
+        "path": "pages/research.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/language.js?v=20260809-patent-pro",
+        "external": false,
+        "path": "assets/scripts/language.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/paid-gate.js",
+        "external": false,
+        "path": "assets/scripts/paid-gate.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/course-storage.js?v=20260810-no-account-backup-v1",
+        "external": false,
+        "path": "assets/scripts/course-storage.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../vendor/jszip/jszip.min.js?v=3.10.1",
+        "external": false,
+        "path": "vendor/jszip/jszip.min.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/patent-transfer-engine.js?v=20260809-patent-pro",
+        "external": false,
+        "path": "assets/scripts/patent-transfer-engine.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/patent-transfer-pro.js?v=20260810-no-account-backup-v1",
+        "external": false,
+        "path": "assets/scripts/patent-transfer-pro.js",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "id": "R05",
+    "oldPath": "pages/skill-evolution.html",
+    "assets": [
+      {
+        "attribute": "href",
+        "reference": "../assets/styles/card.css?v=20260809-professional-ui",
+        "external": false,
+        "path": "assets/styles/card.css",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "../index.html",
+        "external": false,
+        "path": "index.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/images/skyviewlab-logo.png",
+        "external": false,
+        "path": "assets/images/skyviewlab-logo.png",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "../index.html",
+        "external": false,
+        "path": "index.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "research.html",
+        "external": false,
+        "path": "pages/research.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "engineering.html",
+        "external": false,
+        "path": "pages/engineering.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "teaching.html",
+        "external": false,
+        "path": "pages/teaching.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "team.html",
+        "external": false,
+        "path": "pages/team.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "profile.html",
+        "external": false,
+        "path": "pages/profile.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "research.html",
+        "external": false,
+        "path": "pages/research.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/language.js?v=20260809-skill-pro",
+        "external": false,
+        "path": "assets/scripts/language.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/paid-gate.js",
+        "external": false,
+        "path": "assets/scripts/paid-gate.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/course-storage.js?v=20260810-no-account-backup-v1",
+        "external": false,
+        "path": "assets/scripts/course-storage.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../vendor/jszip/jszip.min.js?v=3.10.1",
+        "external": false,
+        "path": "vendor/jszip/jszip.min.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/skill-evolution-engine.js?v=20260809-skill-pro",
+        "external": false,
+        "path": "assets/scripts/skill-evolution-engine.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/skill-evolution-pro.js?v=20260809-skill-pro",
+        "external": false,
+        "path": "assets/scripts/skill-evolution-pro.js",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "id": "R06",
+    "oldPath": "pages/knowledge-system.html",
+    "assets": [
+      {
+        "attribute": "href",
+        "reference": "../assets/styles/card.css?v=20260809-professional-ui",
+        "external": false,
+        "path": "assets/styles/card.css",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "../assets/styles/knowledge-system.css?v=20260809-professional-ui",
+        "external": false,
+        "path": "assets/styles/knowledge-system.css",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "../index.html",
+        "external": false,
+        "path": "index.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/images/skyviewlab-logo.png",
+        "external": false,
+        "path": "assets/images/skyviewlab-logo.png",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "../index.html",
+        "external": false,
+        "path": "index.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "research.html",
+        "external": false,
+        "path": "pages/research.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "engineering.html",
+        "external": false,
+        "path": "pages/engineering.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "teaching.html",
+        "external": false,
+        "path": "pages/teaching.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "team.html",
+        "external": false,
+        "path": "pages/team.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "profile.html",
+        "external": false,
+        "path": "pages/profile.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "research.html",
+        "external": false,
+        "path": "pages/research.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/language.js?v=20260809-knowledge-pro",
+        "external": false,
+        "path": "assets/scripts/language.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/paid-gate.js?v=20260809-knowledge-pro",
+        "external": false,
+        "path": "assets/scripts/paid-gate.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/course-storage.js?v=20260810-no-account-backup-v1",
+        "external": false,
+        "path": "assets/scripts/course-storage.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../vendor/jszip/jszip.min.js?v=3.10.1",
+        "external": false,
+        "path": "vendor/jszip/jszip.min.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../vendor/papaparse/papaparse.min.js?v=5.5.4",
+        "external": false,
+        "path": "vendor/papaparse/papaparse.min.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../vendor/mammoth/mammoth.browser.min.js?v=1.12.0",
+        "external": false,
+        "path": "vendor/mammoth/mammoth.browser.min.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../vendor/minisearch/minisearch.js?v=7.2.0",
+        "external": false,
+        "path": "vendor/minisearch/minisearch.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/knowledge-system-engine.js?v=20260809-knowledge-pro",
+        "external": false,
+        "path": "assets/scripts/knowledge-system-engine.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/knowledge-system-db.js?v=20260809-knowledge-pro",
+        "external": false,
+        "path": "assets/scripts/knowledge-system-db.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/knowledge-system-parser.js?v=20260809-knowledge-pro",
+        "external": false,
+        "path": "assets/scripts/knowledge-system-parser.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/knowledge-system-pro.js?v=20260809-knowledge-pro",
+        "external": false,
+        "path": "assets/scripts/knowledge-system-pro.js",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "id": "R07",
+    "oldPath": "pages/research-radar.html",
+    "assets": [
+      {
+        "attribute": "href",
+        "reference": "../assets/styles/card.css?v=20260809-professional-ui",
+        "external": false,
+        "path": "assets/styles/card.css",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "../assets/styles/research-radar.css?v=20260809-professional-ui",
+        "external": false,
+        "path": "assets/styles/research-radar.css",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "../index.html",
+        "external": false,
+        "path": "index.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/images/skyviewlab-logo.png",
+        "external": false,
+        "path": "assets/images/skyviewlab-logo.png",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "../index.html",
+        "external": false,
+        "path": "index.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "research.html",
+        "external": false,
+        "path": "pages/research.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "engineering.html",
+        "external": false,
+        "path": "pages/engineering.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "teaching.html",
+        "external": false,
+        "path": "pages/teaching.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "team.html",
+        "external": false,
+        "path": "pages/team.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "profile.html",
+        "external": false,
+        "path": "pages/profile.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "research.html",
+        "external": false,
+        "path": "pages/research.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/language.js?v=20260809-radar-pro",
+        "external": false,
+        "path": "assets/scripts/language.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/paid-gate.js?v=20260809-radar-pro",
+        "external": false,
+        "path": "assets/scripts/paid-gate.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/course-storage.js?v=20260810-no-account-backup-v1",
+        "external": false,
+        "path": "assets/scripts/course-storage.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/research-radar-engine.js?v=20260809-radar-pro",
+        "external": false,
+        "path": "assets/scripts/research-radar-engine.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/research-radar-pro.js?v=20260810-no-account-backup-v1",
+        "external": false,
+        "path": "assets/scripts/research-radar-pro.js",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "id": "R08",
+    "oldPath": "pages/mine-safety-radar.html",
+    "assets": [
+      {
+        "attribute": "href",
+        "reference": "../assets/styles/card.css?v=20260809-professional-ui",
+        "external": false,
+        "path": "assets/styles/card.css",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "../assets/styles/research-radar.css?v=20260809-professional-ui",
+        "external": false,
+        "path": "assets/styles/research-radar.css",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "../index.html",
+        "external": false,
+        "path": "index.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/images/skyviewlab-logo.png",
+        "external": false,
+        "path": "assets/images/skyviewlab-logo.png",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "../index.html",
+        "external": false,
+        "path": "index.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "research.html",
+        "external": false,
+        "path": "pages/research.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "engineering.html",
+        "external": false,
+        "path": "pages/engineering.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "teaching.html",
+        "external": false,
+        "path": "pages/teaching.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "team.html",
+        "external": false,
+        "path": "pages/team.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "profile.html",
+        "external": false,
+        "path": "pages/profile.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "research.html",
+        "external": false,
+        "path": "pages/research.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/language.js?v=20260809-radar-pro",
+        "external": false,
+        "path": "assets/scripts/language.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/paid-gate.js?v=20260809-radar-pro",
+        "external": false,
+        "path": "assets/scripts/paid-gate.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/course-storage.js?v=20260810-no-account-backup-v1",
+        "external": false,
+        "path": "assets/scripts/course-storage.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/research-radar-engine.js?v=20260809-radar-pro",
+        "external": false,
+        "path": "assets/scripts/research-radar-engine.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/research-radar-pro.js?v=20260810-no-account-backup-v1",
+        "external": false,
+        "path": "assets/scripts/research-radar-pro.js",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "id": "R09",
+    "oldPath": "pages/research-automation.html",
+    "assets": [
+      {
+        "attribute": "href",
+        "reference": "../assets/styles/card.css?v=20260809-professional-ui",
+        "external": false,
+        "path": "assets/styles/card.css",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "../index.html",
+        "external": false,
+        "path": "index.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/images/skyviewlab-logo.png",
+        "external": false,
+        "path": "assets/images/skyviewlab-logo.png",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "../index.html",
+        "external": false,
+        "path": "index.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "research.html",
+        "external": false,
+        "path": "pages/research.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "engineering.html",
+        "external": false,
+        "path": "pages/engineering.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "teaching.html",
+        "external": false,
+        "path": "pages/teaching.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "team.html",
+        "external": false,
+        "path": "pages/team.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "profile.html",
+        "external": false,
+        "path": "pages/profile.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "research.html",
+        "external": false,
+        "path": "pages/research.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/language.js?v=20260808-course-pro",
+        "external": false,
+        "path": "assets/scripts/language.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/paid-gate.js",
+        "external": false,
+        "path": "assets/scripts/paid-gate.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/course-storage.js?v=20260810-no-account-backup-v1",
+        "external": false,
+        "path": "assets/scripts/course-storage.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/research-tools.js?v=20260810-no-account-backup-v1",
+        "external": false,
+        "path": "assets/scripts/research-tools.js",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "id": "E01",
+    "oldPath": "pages/data-gateway.html",
+    "assets": [
+      {
+        "attribute": "href",
+        "reference": "../assets/styles/card.css?v=20260809-professional-ui",
+        "external": false,
+        "path": "assets/styles/card.css",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "../assets/styles/nifi-dataflow.css?v=20260810-nifi-ui-fix2",
+        "external": false,
+        "path": "assets/styles/nifi-dataflow.css",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "../index.html",
+        "external": false,
+        "path": "index.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/images/skyviewlab-logo.png",
+        "external": false,
+        "path": "assets/images/skyviewlab-logo.png",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "engineering.html",
+        "external": false,
+        "path": "pages/engineering.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "profile.html",
+        "external": false,
+        "path": "pages/profile.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/language.js?v=20260809-engineering-pro",
+        "external": false,
+        "path": "assets/scripts/language.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/course-storage.js?v=20260810-no-account-backup-v1",
+        "external": false,
+        "path": "assets/scripts/course-storage.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/data-gateway-engine.js?v=20260810-nifi-ui-fix1",
+        "external": false,
+        "path": "assets/scripts/data-gateway-engine.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/data-gateway-pro.js?v=20260810-nifi-ui-fix1",
+        "external": false,
+        "path": "assets/scripts/data-gateway-pro.js",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "id": "E02",
+    "oldPath": "pages/ambient-noise-imaging.html",
+    "assets": [
+      {
+        "attribute": "href",
+        "reference": "../assets/styles/card.css?v=20260809-professional-ui",
+        "external": false,
+        "path": "assets/styles/card.css",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "../assets/styles/engineering-workbenches.css?v=20260809-professional-ui",
+        "external": false,
+        "path": "assets/styles/engineering-workbenches.css",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "../index.html",
+        "external": false,
+        "path": "index.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/images/skyviewlab-logo.png",
+        "external": false,
+        "path": "assets/images/skyviewlab-logo.png",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "../index.html",
+        "external": false,
+        "path": "index.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "research.html",
+        "external": false,
+        "path": "pages/research.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "engineering.html",
+        "external": false,
+        "path": "pages/engineering.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "teaching.html",
+        "external": false,
+        "path": "pages/teaching.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "team.html",
+        "external": false,
+        "path": "pages/team.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "profile.html",
+        "external": false,
+        "path": "pages/profile.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "engineering.html",
+        "external": false,
+        "path": "pages/engineering.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/language.js?v=20260809-engineering-pro",
+        "external": false,
+        "path": "assets/scripts/language.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/course-storage.js?v=20260810-no-account-backup-v1",
+        "external": false,
+        "path": "assets/scripts/course-storage.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/ambient-noise-engine.js?v=20260809-engineering-pro",
+        "external": false,
+        "path": "assets/scripts/ambient-noise-engine.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/ambient-noise-pro.js?v=20260809-engineering-pro",
+        "external": false,
+        "path": "assets/scripts/ambient-noise-pro.js",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "id": "E03",
+    "oldPath": "pages/ai-patent-disclosure.html",
+    "assets": [
+      {
+        "attribute": "href",
+        "reference": "../assets/styles/patent-assistant.css?v=20260809-professional-ui",
+        "external": false,
+        "path": "assets/styles/patent-assistant.css",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "engineering.html",
+        "external": false,
+        "path": "pages/engineering.html",
+        "exists": true
+      },
+      {
+        "attribute": "href",
+        "reference": "engineering.html",
+        "external": false,
+        "path": "pages/engineering.html",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/course-storage.js?v=20260810-no-account-backup-v1",
+        "external": false,
+        "path": "assets/scripts/course-storage.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../vendor/jszip/jszip.min.js?v=20260810-patent-assistant",
+        "external": false,
+        "path": "vendor/jszip/jszip.min.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/patent-assistant-engine.js?v=20260810-patent-assistant",
+        "external": false,
+        "path": "assets/scripts/patent-assistant-engine.js",
+        "exists": true
+      },
+      {
+        "attribute": "src",
+        "reference": "../assets/scripts/patent-assistant-app.js?v=20260810-patent-assistant",
+        "external": false,
+        "path": "assets/scripts/patent-assistant-app.js",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "id": "X01",
+    "oldPath": "pages/course-tools.html",
+    "assets": []
+  }
+]

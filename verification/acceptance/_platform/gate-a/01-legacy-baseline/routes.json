@@ -1,0 +1,194 @@
+[
+  {
+    "id": "N01",
+    "oldPath": "index.html",
+    "reactPath": "/",
+    "kind": "home"
+  },
+  {
+    "id": "N02",
+    "oldPath": "pages/research.html",
+    "reactPath": "/research",
+    "kind": "overview"
+  },
+  {
+    "id": "N03",
+    "oldPath": "pages/engineering.html",
+    "reactPath": "/engineering",
+    "kind": "overview"
+  },
+  {
+    "id": "N04",
+    "oldPath": "pages/teaching.html",
+    "reactPath": "/teaching",
+    "kind": "overview"
+  },
+  {
+    "id": "N05",
+    "oldPath": "pages/team.html",
+    "reactPath": "/team",
+    "kind": "core"
+  },
+  {
+    "id": "N06",
+    "oldPath": "pages/login.html",
+    "reactPath": "/login",
+    "kind": "core"
+  },
+  {
+    "id": "N07",
+    "oldPath": "pages/profile.html",
+    "reactPath": "/profile",
+    "kind": "core"
+  },
+  {
+    "id": "N08",
+    "oldPath": "pages/students.html",
+    "reactPath": "/students",
+    "kind": "core"
+  },
+  {
+    "id": "N09",
+    "oldPath": "pages/paid-features.html",
+    "reactPath": "/paid-features",
+    "kind": "core"
+  },
+  {
+    "id": "N10",
+    "oldPath": "pages/comments.html",
+    "reactPath": "/comments",
+    "kind": "core"
+  },
+  {
+    "id": "N11",
+    "oldPath": "pages/homework.html",
+    "reactPath": "/homework",
+    "kind": "core"
+  },
+  {
+    "id": "T01",
+    "oldPath": "pages/python-lab.html",
+    "reactPath": "/python-lab",
+    "kind": "teaching-workbench"
+  },
+  {
+    "id": "T02",
+    "oldPath": "pages/daily-practice.html",
+    "reactPath": "/daily-practice",
+    "kind": "teaching-workbench"
+  },
+  {
+    "id": "T03",
+    "oldPath": "pages/project-workspace.html",
+    "reactPath": "/project-workspace",
+    "kind": "teaching-workbench"
+  },
+  {
+    "id": "T04",
+    "oldPath": "pages/data-lab.html",
+    "reactPath": "/data-lab",
+    "kind": "teaching-workbench"
+  },
+  {
+    "id": "T05",
+    "oldPath": "pages/ai-report.html",
+    "reactPath": "/ai-report",
+    "kind": "teaching-workbench"
+  },
+  {
+    "id": "T06",
+    "oldPath": "pages/python-english.html",
+    "reactPath": "/python-english",
+    "kind": "teaching-workbench"
+  },
+  {
+    "id": "T07",
+    "oldPath": "pages/ai-assessment.html",
+    "reactPath": "/ai-assessment",
+    "kind": "teaching-workbench"
+  },
+  {
+    "id": "T08",
+    "oldPath": "pages/project-submission.html",
+    "reactPath": "/project-submission",
+    "kind": "teaching-workbench"
+  },
+  {
+    "id": "R01",
+    "oldPath": "pages/paper-writing.html",
+    "reactPath": "/paper-writing",
+    "kind": "research-workbench"
+  },
+  {
+    "id": "R02",
+    "oldPath": "pages/disaster-remote-sensing.html",
+    "reactPath": "/disaster-remote-sensing",
+    "kind": "research-workbench"
+  },
+  {
+    "id": "R03",
+    "oldPath": "pages/seismic-physics.html",
+    "reactPath": "/seismic-physics",
+    "kind": "research-workbench"
+  },
+  {
+    "id": "R04",
+    "oldPath": "pages/patent-transfer.html",
+    "reactPath": "/patent-transfer",
+    "kind": "research-workbench"
+  },
+  {
+    "id": "R05",
+    "oldPath": "pages/skill-evolution.html",
+    "reactPath": "/skill-evolution",
+    "kind": "research-workbench"
+  },
+  {
+    "id": "R06",
+    "oldPath": "pages/knowledge-system.html",
+    "reactPath": "/knowledge-system",
+    "kind": "research-workbench"
+  },
+  {
+    "id": "R07",
+    "oldPath": "pages/research-radar.html",
+    "reactPath": "/research-radar",
+    "kind": "research-workbench"
+  },
+  {
+    "id": "R08",
+    "oldPath": "pages/mine-safety-radar.html",
+    "reactPath": "/mine-safety-radar",
+    "kind": "research-workbench"
+  },
+  {
+    "id": "R09",
+    "oldPath": "pages/research-automation.html",
+    "reactPath": "/research-automation",
+    "kind": "research-workbench"
+  },
+  {
+    "id": "E01",
+    "oldPath": "pages/data-gateway.html",
+    "reactPath": "/data-gateway",
+    "kind": "engineering-workbench"
+  },
+  {
+    "id": "E02",
+    "oldPath": "pages/ambient-noise-imaging.html",
+    "reactPath": "/ambient-noise-imaging",
+    "kind": "engineering-workbench"
+  },
+  {
+    "id": "E03",
+    "oldPath": "pages/ai-patent-disclosure.html",
+    "reactPath": "/ai-patent-disclosure",
+    "kind": "engineering-workbench"
+  },
+  {
+    "id": "X01",
+    "oldPath": "pages/course-tools.html",
+    "reactPath": "/teaching",
+    "kind": "compatibility-redirect"
+  }
+]

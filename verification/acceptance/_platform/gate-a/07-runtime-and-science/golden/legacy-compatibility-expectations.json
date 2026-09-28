@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "baselineCommit": "8a754dcdb8ab97c7a90ca588693a17b21ee1f41b",
+  "classification": "deterministic-legacy-compatibility-not-production-scientific-validation",
+  "cases": [
+    {
+      "id": "E01-DATAFLOW-BUILTIN",
+      "sourceTest": "tests/data-gateway-engine.test.js",
+      "expected": {"received": 24, "published": 23, "rejected": 1, "queued": 0, "warningTopic": 3, "provenanceEvents": 5}
+    },
+    {
+      "id": "E02-AMBIENT-SEED-42",
+      "sourceTest": "tests/ambient-noise-engine.test.js",
+      "input": {"samples": 420, "sampleRateHz": 5, "seed": 42, "tomographyNx": 8, "tomographyNy": 6, "iterations": 80},
+      "expected": {"stationPairs": 10, "tomographyCells": 48, "checkerboardCells": 48}
+    },
+    {
+      "id": "R02-REMOTE-SYNTHETIC-160X120",
+      "sourceTest": "tests/remote-sensing-engine.test.js",
+      "input": {"width": 160, "height": 120, "zonesX": 4, "zonesY": 4},
+      "expected": {"zones": 16, "assessmentFormula": "60% change signal + 40% zonal impact", "resultType": "rule-screening-candidate"}
+    },
+    {
+      "id": "T04-REFINE-PROFILE",
+      "sourceTest": "tests/data-refine-engine.test.js",
+      "expected": {"rows": 13, "columns": 2, "duplicateRows": 1, "numericMissing": 1, "numericOutliers": 2}
+    },
+    {
+      "id": "T07-JUDGE-CATALOG",
+      "sourceTest": "tests/judge0-assessment-engine.test.js",
+      "expected": {"taskCount": 15, "acceptedStatusId": 3, "wrongAnswerStatusId": 4},
+      "secrecy": "Only catalog cardinality and public protocol invariants are frozen here; hidden cases are server-only."
+    },
+    {
+      "id": "R01-PAPER-WORKFLOW",
+      "sourceTest": "tests/ars-paper-engine.test.js",
+      "expected": {"stages": 10, "ruleReviewers": 5, "failureModes": 7}
+    },
+    {
+      "id": "E03-DISCLOSURE",
+      "sourceTest": "tests/patent-assistant-engine.test.js",
+      "expected": {"chapters": 10, "mandatoryChapters": 9, "structuredMode": "local-structured"}
+    },
+    {
+      "id": "T06-PYTHON-ENGLISH",
+      "sourceTest": "tests/twoez-python-ui.test.js",
+      "expected": {"vocabularySets": 8, "vocabularyWords": 64, "exams": 4, "examQuestions": 32, "references": 8}
+    }
+  ]
+}

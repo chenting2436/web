@@ -1,0 +1,95 @@
+name: skyviewlab-local-backend
+
+# This stack is an explicit single-machine development adapter. It deliberately
+# uses SQLite, development identities and the local authorization fallback.
+# Production deployments use infra/ plus managed secrets and the PostgreSQL,
+# OIDC and OpenFGA contracts documented in BACKEND.md.
+services:
+  python-compute:
+    build:
+      context: ./backend_python
+    environment:
+      PYTHON_HOST: 0.0.0.0
+      PYTHON_PORT: 8000
+      APP_ENV: development
+      TRUSTED_SERVICE_ID: go-control-plane
+      SERVICE_HMAC_SECRET: ${SERVICE_HMAC_SECRET:?set a random value of at least 32 characters}
+      ALLOW_UNSIGNED_DEV_REQUESTS: "false"
+      ALLOW_UNSAFE_LOCAL_CODE_EXECUTION: "false"
+    expose: ["8000"]
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/ready')"]
+      interval: 5s
+      timeout: 3s
+      retries: 12
+      start_period: 5s
+    networks: [backend]
+    security_opt: [no-new-privileges:true]
+    restart: unless-stopped
+
+  go-api:
+    build:
+      context: ./backend_go
+    depends_on:
+      python-compute:
+        condition: service_healthy
+    environment:
+      GO_API_ADDRESS: 0.0.0.0:8080
+      DEV_MODE: "true"
+      DEV_AUTHORIZATION_FALLBACK: "true"
+      DEV_TENANT_ID: ${DEV_TENANT_ID:-tenant-local}
+      DEV_WORKSPACE_ID: ${DEV_WORKSPACE_ID:-workspace-local}
+      CORS_ORIGINS: ${CORS_ORIGINS:-http://localhost:4182,http://127.0.0.1:4182}
+      PYTHON_SERVICE_URL: http://python-compute:8000
+      PYTHON_ALLOW_INSECURE_HTTP: "true"
+      PYTHON_REQUEST_TIMEOUT: ${PYTHON_REQUEST_TIMEOUT:-30s}
+      JOB_TERMINAL_PERSIST_TIMEOUT: ${JOB_TERMINAL_PERSIST_TIMEOUT:-30s}
+      PYTHON_SERVICE_ID: go-control-plane
+      SERVICE_HMAC_SECRET: ${SERVICE_HMAC_SECRET:?set a random value of at least 32 characters}
+      WORKER_TOKEN: ${WORKER_TOKEN:?set a random value of at least 32 characters}
+      WORKER_ID: ${WORKER_ID:-local-worker-1}
+      WORKER_CAPABILITIES_JSON: ${WORKER_CAPABILITIES_JSON:?set exact per-slug development capabilities as JSON}
+      DEMO_ACCOUNT: ${DEV_ADMIN_ACCOUNT:?set an explicit local development account}
+      DEMO_PASSWORD: ${DEV_ADMIN_PASSWORD:?set an explicit local development password}
+      STUDENT_ACCOUNT: ${DEV_STUDENT_ACCOUNT:-}
+      STUDENT_PASSWORD: ${DEV_STUDENT_PASSWORD:-}
+      COOKIE_SECURE: "false"
+      DATABASE_ADAPTER: sqlite-development
+      DATABASE_FILE: /app/data/skyviewlab.db
+      DATABASE_MIGRATE: "false"
+    ports:
+      - "127.0.0.1:8080:8080"
+    volumes:
+      - go-data:/app/data
+    healthcheck:
+      test: ["CMD", "wget", "-q", "-O", "-", "http://127.0.0.1:8080/api/v1/health"]
+      interval: 5s
+      timeout: 3s
+      retries: 12
+      start_period: 5s
+    networks: [backend]
+    security_opt: [no-new-privileges:true]
+    restart: unless-stopped
+
+  go-worker:
+    build:
+      context: ./backend_go
+    entrypoint: ["/skyviewlab-worker"]
+    depends_on:
+      go-api:
+        condition: service_healthy
+    environment:
+      DEV_MODE: "true"
+      GO_CONTROL_PLANE_URL: http://go-api:8080
+      WORKER_TOKEN: ${WORKER_TOKEN:?set a random value of at least 32 characters}
+      WORKER_ID: ${WORKER_ID:-local-worker-1}
+    networks: [backend]
+    security_opt: [no-new-privileges:true]
+    restart: unless-stopped
+
+networks:
+  backend:
+    internal: true
+
+volumes:
+  go-data:
