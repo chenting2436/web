@@ -1,5 +1,10 @@
 # SkyViewLab 分离式后端
 
+从 GitHub 干净克隆后的完整本地启动流程见 [`START-WEBSITE.md`](START-WEBSITE.md)。
+推荐直接运行 `pwsh -File .\verification\start-local-website.ps1`；脚本会创建
+Python 虚拟环境、恢复依赖、从当前源码构建 Go API/Worker、启动 React，并在
+报告成功前执行端到端冒烟验收。
+
 当前后端分为三个独立进程：
 
 - `backend_go/cmd/server`：浏览器唯一访问的 Go Control Plane，负责开发会话、租户作用域、项目、审计和作业状态。
@@ -35,7 +40,7 @@ docker compose --env-file .env.backend -f backend-compose.yml up --build
 
 浏览器会话的写操作必须携带精确匹配 `CORS_ORIGINS` 的 `Origin`。开发环境只允许 `http://localhost[:port]` 或 `http://127.0.0.1[:port]`；生产至少配置一个规范化 HTTPS origin，禁止通配符、路径、凭据、查询和片段。恶意 Origin 以及携带会话 Cookie 但缺失 Origin 的写请求都会在认证/业务处理前返回 403；无 Cookie 的 Worker Bearer 与受控 CLI 请求保持兼容。
 
-依次启动：
+如需分别调试各进程，可手动依次启动：
 
 ```powershell
 # backend_python

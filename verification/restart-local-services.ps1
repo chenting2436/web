@@ -39,27 +39,18 @@ if (($StudentAccount -and -not $StudentPassword) -or ($StudentPassword -and -not
 $workspace = (Resolve-Path -LiteralPath $WorkspaceRoot).Path
 $pythonRoot = (Resolve-Path -LiteralPath (Join-Path $workspace 'backend_python')).Path
 $goRoot = (Resolve-Path -LiteralPath (Join-Path $workspace 'backend_go')).Path
-$pythonExe = (Resolve-Path -LiteralPath (Join-Path $pythonRoot '.venv\Scripts\python.exe')).Path
-$apiExe = (Resolve-Path -LiteralPath (Join-Path $goRoot 'bin\skyviewlab-api-20260915-ai-report.exe')).Path
-$workerExe = (Resolve-Path -LiteralPath (Join-Path $goRoot 'bin\skyviewlab-worker-20260915-ai-report.exe')).Path
-$dataLabApiExe = (Resolve-Path -LiteralPath (Join-Path $goRoot 'bin\skyviewlab-api-20260914-data-lab.exe')).Path
-$dataLabWorkerExe = (Resolve-Path -LiteralPath (Join-Path $goRoot 'bin\skyviewlab-worker-20260914-data-lab.exe')).Path
-$scientificApiExe = (Resolve-Path -LiteralPath (Join-Path $goRoot 'bin\skyviewlab-api-20260911-scientific-animation.exe')).Path
-$scientificWorkerExe = (Resolve-Path -LiteralPath (Join-Path $goRoot 'bin\skyviewlab-worker-20260911-scientific-animation.exe')).Path
-$projectApiExe = (Resolve-Path -LiteralPath (Join-Path $goRoot 'bin\skyviewlab-api-20260911-project-workspace.exe')).Path
-$projectWorkerExe = (Resolve-Path -LiteralPath (Join-Path $goRoot 'bin\skyviewlab-worker-20260911-project-workspace.exe')).Path
-$previousApiExe = (Resolve-Path -LiteralPath (Join-Path $goRoot 'bin\skyviewlab-api-20260910-emergency.exe')).Path
-$previousWorkerExe = (Resolve-Path -LiteralPath (Join-Path $goRoot 'bin\skyviewlab-worker-20260910-emergency.exe')).Path
-$olderApiExe = (Resolve-Path -LiteralPath (Join-Path $goRoot 'bin\skyviewlab-api-20260910-capability-hotfix.exe')).Path
-$olderWorkerExe = (Resolve-Path -LiteralPath (Join-Path $goRoot 'bin\skyviewlab-worker-20260910-capability-hotfix.exe')).Path
-$oldestApiExe = (Resolve-Path -LiteralPath (Join-Path $goRoot 'bin\skyviewlab-api-20260910-fusion.exe')).Path
-$oldestWorkerExe = (Resolve-Path -LiteralPath (Join-Path $goRoot 'bin\skyviewlab-worker-20260910-fusion.exe')).Path
-$historicApiExe = (Resolve-Path -LiteralPath (Join-Path $goRoot 'bin\skyviewlab-api-20260910-uav.exe')).Path
-$historicWorkerExe = (Resolve-Path -LiteralPath (Join-Path $goRoot 'bin\skyviewlab-worker-20260910-uav.exe')).Path
-$archivalApiExe = (Resolve-Path -LiteralPath (Join-Path $goRoot 'bin\skyviewlab-api-20260910.exe')).Path
-$archivalWorkerExe = (Resolve-Path -LiteralPath (Join-Path $goRoot 'bin\skyviewlab-worker-20260910.exe')).Path
-$legacyApiExe = (Resolve-Path -LiteralPath (Join-Path $goRoot 'bin\skyviewlab-api-20260908-final.exe')).Path
-$legacyWorkerExe = (Resolve-Path -LiteralPath (Join-Path $goRoot 'bin\skyviewlab-worker-20260908-final.exe')).Path
+$pythonExe = Join-Path $pythonRoot '.venv\Scripts\python.exe'
+$binRoot = Join-Path $goRoot 'bin'
+$apiExe = Join-Path $binRoot 'skyviewlab-api.exe'
+$workerExe = Join-Path $binRoot 'skyviewlab-worker.exe'
+$apiExecutables = @($apiExe) + @(
+    Get-ChildItem -LiteralPath $binRoot -File -Filter 'skyviewlab-api*.exe' -ErrorAction SilentlyContinue |
+        Select-Object -ExpandProperty FullName
+)
+$workerExecutables = @($workerExe) + @(
+    Get-ChildItem -LiteralPath $binRoot -File -Filter 'skyviewlab-worker*.exe' -ErrorAction SilentlyContinue |
+        Select-Object -ExpandProperty FullName
+)
 
 function Stop-WorkspaceListener {
     param([int]$Port, [string[]]$AllowedExecutables, [string[]]$AllowedCommandPrefixes = @())
@@ -94,20 +85,13 @@ function Stop-WorkspaceListener {
 }
 
 Stop-WorkspaceListener -Port 8000 -AllowedExecutables @($pythonExe) -AllowedCommandPrefixes @($pythonExe)
-Stop-WorkspaceListener -Port 8080 -AllowedExecutables @($apiExe, $dataLabApiExe, $scientificApiExe, $projectApiExe, $previousApiExe, $olderApiExe, $oldestApiExe, $historicApiExe, $archivalApiExe, $legacyApiExe)
+Stop-WorkspaceListener -Port 8080 -AllowedExecutables $apiExecutables
 Get-CimInstance Win32_Process | Where-Object {
-    $_.ExecutablePath -and (
-        ([System.IO.Path]::GetFullPath($_.ExecutablePath)).Equals($workerExe, [System.StringComparison]::OrdinalIgnoreCase) -or
-        ([System.IO.Path]::GetFullPath($_.ExecutablePath)).Equals($dataLabWorkerExe, [System.StringComparison]::OrdinalIgnoreCase) -or
-        ([System.IO.Path]::GetFullPath($_.ExecutablePath)).Equals($scientificWorkerExe, [System.StringComparison]::OrdinalIgnoreCase) -or
-        ([System.IO.Path]::GetFullPath($_.ExecutablePath)).Equals($projectWorkerExe, [System.StringComparison]::OrdinalIgnoreCase) -or
-        ([System.IO.Path]::GetFullPath($_.ExecutablePath)).Equals($previousWorkerExe, [System.StringComparison]::OrdinalIgnoreCase) -or
-        ([System.IO.Path]::GetFullPath($_.ExecutablePath)).Equals($olderWorkerExe, [System.StringComparison]::OrdinalIgnoreCase) -or
-        ([System.IO.Path]::GetFullPath($_.ExecutablePath)).Equals($oldestWorkerExe, [System.StringComparison]::OrdinalIgnoreCase) -or
-        ([System.IO.Path]::GetFullPath($_.ExecutablePath)).Equals($historicWorkerExe, [System.StringComparison]::OrdinalIgnoreCase) -or
-        ([System.IO.Path]::GetFullPath($_.ExecutablePath)).Equals($archivalWorkerExe, [System.StringComparison]::OrdinalIgnoreCase) -or
-        ([System.IO.Path]::GetFullPath($_.ExecutablePath)).Equals($legacyWorkerExe, [System.StringComparison]::OrdinalIgnoreCase)
-    )
+    if (-not $_.ExecutablePath) { return $false }
+    $actual = [System.IO.Path]::GetFullPath($_.ExecutablePath)
+    return $null -ne ($workerExecutables | Where-Object {
+        $actual.Equals([System.IO.Path]::GetFullPath($_), [System.StringComparison]::OrdinalIgnoreCase)
+    } | Select-Object -First 1)
 } | ForEach-Object { Stop-Process -Id $_.ProcessId -Force }
 
 $deadline = [DateTime]::UtcNow.AddSeconds(8)
@@ -117,6 +101,28 @@ do {
     Start-Sleep -Milliseconds 250
 } while ([DateTime]::UtcNow -lt $deadline)
 if ($occupied) { throw 'Backend ports did not close cleanly.' }
+
+$pythonCommand = Get-Command python -ErrorAction Stop
+$goCommand = Get-Command go -ErrorAction Stop
+if (-not (Test-Path -LiteralPath $pythonExe)) {
+    & $pythonCommand.Source -m venv (Join-Path $pythonRoot '.venv')
+    if ($LASTEXITCODE -ne 0) { throw 'Failed to create the Python virtual environment.' }
+}
+$pythonExe = (Resolve-Path -LiteralPath $pythonExe).Path
+& $pythonExe -m pip install --disable-pip-version-check -r (Join-Path $pythonRoot 'requirements.txt')
+if ($LASTEXITCODE -ne 0) { throw 'Failed to install Python runtime dependencies.' }
+
+New-Item -ItemType Directory -Path $binRoot -Force | Out-Null
+Push-Location $goRoot
+try {
+    & $goCommand.Source build -o $apiExe ./cmd/server
+    if ($LASTEXITCODE -ne 0) { throw 'Failed to build the Go API.' }
+    & $goCommand.Source build -o $workerExe ./cmd/worker
+    if ($LASTEXITCODE -ne 0) { throw 'Failed to build the Go worker.' }
+}
+finally {
+    Pop-Location
+}
 
 $serviceSecret = [Convert]::ToBase64String([Security.Cryptography.RandomNumberGenerator]::GetBytes(48))
 $workerToken = [Convert]::ToBase64String([Security.Cryptography.RandomNumberGenerator]::GetBytes(48))

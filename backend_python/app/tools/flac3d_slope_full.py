@@ -19,7 +19,7 @@ from app.tools.common import ToolError
 
 
 SCHEMA = "skyview-open-slope-workspace"
-REFERENCE_DIRECTORY = "20260908FLAC3D边坡计算测试"
+PACKAGED_REFERENCE_DIRECTORY = Path(__file__).resolve().parents[1] / "assets" / "flac3d"
 MAX_IMPORTED_ROWS = 100_000
 
 DEFAULT_MODEL: dict[str, Any] = {
@@ -142,7 +142,7 @@ def _reference_root() -> Path:
     configured = os.getenv("FLAC3D_BENCHMARK_DIRECTORY", "").strip()
     if configured:
         return Path(configured).expanduser().resolve()
-    return Path(__file__).resolve().parents[3] / REFERENCE_DIRECTORY
+    return PACKAGED_REFERENCE_DIRECTORY
 
 
 def _sha256(path: Path) -> str:
